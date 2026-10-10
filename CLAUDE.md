@@ -1,5 +1,15 @@
 # Theme notes
 
+## How changes reach the store
+
+- All Online Store (theme) edits go through git: commit to the theme files
+  and push. Never push theme changes with the Shopify CLI or Admin API.
+- Only things git can't do (uploading images to Shopify Files, creating or
+  editing products) go through the Shopify Admin API, using the
+  `SHOPIFY_STORE` and `SHOPIFY_ADMIN_TOKEN` environment variables. After
+  uploading an image, reference it from the template in git as
+  `shopify://shop_images/<filename>`.
+
 ## Editable port
 
 "Do an editable port of `<source>` into `<target>`" means: move all the copy
