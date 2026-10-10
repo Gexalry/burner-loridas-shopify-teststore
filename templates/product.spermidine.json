@@ -3429,6 +3429,7 @@
       "blocks": {
         "subtitle_uCL1mH": {
           "type": "subtitle",
+          "disabled": true,
           "settings": {
             "subtitle_text": "The tug test guarantee",
             "subtitle_size": 1.5,
@@ -3596,6 +3597,7 @@
       "blocks": {
         "subtitle_FnIiU7": {
           "type": "subtitle",
+          "disabled": true,
           "settings": {
             "subtitle": "<p>The clock is already running</p>"
           }
