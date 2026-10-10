@@ -34,7 +34,10 @@ not just one that can hold the words:
   image-with-text, which has an eyebrow block and spaced paragraphs. Don't
   cram it into a statistics column subtitle; that subtitle has no paragraph
   spacing, so keep it to one short paragraph.
-- Charts become coded chart images (rendered with matplotlib from
+- Parallel short items (fix cards, feature claims) go in a store-features
+  card grid, not a narrow list.
+- Alternate image sides between consecutive image-with-text sections.
+- Charts and simple visuals (seals, badges) become coded chart images (rendered with matplotlib from
   `chart-images/` sources, transparent PNG, theme orange `#ff5801` for the key
   value, grays for comparisons). They go in a section's existing image slot,
   e.g. the statistics column with image on the right and below on mobile.

@@ -126,3 +126,41 @@ ax.text(14.3, 0.3, 'Spermidine +14%', ha='left', va='center', fontsize=12, color
 ax.set_xlim(-16, 26); ax.set_ylim(-0.3, 1.4)
 clean(ax)
 save(fig, 'glp1-chart-trial')
+
+# 5. What the wrong answers cost (listed prices)
+fig = plt.figure(figsize=(6.4, 5.4))
+gs = fig.add_gridspec(2, 1, height_ratios=[0.9, 3.2], hspace=0.35)
+ax = fig.add_subplot(gs[0])
+ax.text(0, 1.55, 'The shot itself', ha='left', fontsize=13, fontweight='semibold', color=INK)
+ax.barh(0.7, 800, left=200, height=0.75, color=ACCENT)
+ax.barh(0.7, 200, left=0, height=0.75, color=ACCENT, alpha=0.25)
+ax.text(1010, 0.7, '$200–1,000+\nper month', ha='left', va='center', fontsize=12.5, fontweight='bold', color=INK)
+ax.set_xlim(0, 1400); ax.set_ylim(0.1, 1.9)
+clean(ax)
+ax = fig.add_subplot(gs[1])
+ax.text(-38, 5.75, 'Listed prices', ha='left', fontsize=13, fontweight='semibold', color=INK)
+rows = [('Nutrafol 45+', 88, '$88', 'nutrient gap'), ('IM8', 78, '$78', 'nutrient gap'),
+        ('Viviscal', 47, '$47', 'nutrient gap'), ('WEEM gummies', 34.95, '$34.95', 'nutrient gap'),
+        ('Biotin', 8.59, '$8.59', 'biotin')]
+for i, (lab, v, txt, tag) in enumerate(rows):
+    y = 4.6 - i
+    ax.barh(y, v, height=0.62, color=CONTEXT)
+    ax.text(-2, y, lab, ha='right', va='center', fontsize=12, color=MUTED)
+    ax.text(v + 2, y + 0.1, txt, ha='left', va='center', fontsize=13, fontweight='bold', color=INK)
+    ax.text(v + 2, y - 0.25, tag, ha='left', va='center', fontsize=10, color=MUTED)
+ax.plot([0, 0], [0.2, 5.0], color='#cfcfcf', lw=1)
+ax.set_xlim(-38, 120); ax.set_ylim(0.1, 6.1)
+clean(ax)
+save(fig, 'glp1-chart-price')
+
+# 6. Tug Test guarantee seal
+fig, ax = plt.subplots(figsize=(4, 4))
+from matplotlib.patches import Circle
+ax.add_patch(Circle((0, 0), 1.0, fc=ACCENT, ec='none'))
+ax.add_patch(Circle((0, 0), 0.86, fc='none', ec='white', lw=2.5, ls=(0, (2, 2.2))))
+ax.text(0, 0.12, 'Tug Test', ha='center', va='center', fontsize=34, fontweight='bold', color='white')
+ax.text(0, -0.3, 'MONEY-BACK\nGUARANTEE', ha='center', va='center', fontsize=12.5, fontweight='semibold',
+        color='white', linespacing=1.3)
+ax.set_xlim(-1.05, 1.05); ax.set_ylim(-1.05, 1.05); ax.set_aspect('equal')
+clean(ax)
+save(fig, 'glp1-guarantee-seal')
