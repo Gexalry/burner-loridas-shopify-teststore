@@ -23,4 +23,22 @@ editability.
 - Validate every setting/block id against the section `{% schema %}` before
   pushing.
 
-Charts become stat blocks or text, since the theme has no chart section.
+## Prebuilt only
+
+"Prebuilt only" means: no custom Liquid of any kind (no new or edited
+`.liquid` sections/blocks, no custom-liquid blocks). Use only the theme's
+existing sections, and pick the one whose layout suits the content visually,
+not just one that can hold the words:
+
+- Long story text (eyebrow + heading + several paragraphs) goes in
+  image-with-text, which has an eyebrow block and spaced paragraphs. Don't
+  cram it into a statistics column subtitle; that subtitle has no paragraph
+  spacing, so keep it to one short paragraph.
+- Charts become coded chart images (rendered with matplotlib from
+  `chart-images/` sources, transparent PNG, theme orange `#ff5801` for the key
+  value, grays for comparisons). They go in a section's existing image slot,
+  e.g. the statistics column with image on the right and below on mobile.
+  Keep chart text to values and axis labels; titles and sources stay in
+  editable settings.
+- Image pickers only accept files from Shopify Files, so new images are
+  committed to `chart-images/` and uploaded by the user in the theme editor.
