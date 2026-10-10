@@ -1678,6 +1678,7 @@
       "blocks": {
         "subtitle_u8jzPd": {
           "type": "subtitle",
+          "disabled": true,
           "settings": {
             "subtitle_text": "Why GLP-1 hair falls out",
             "subtitle_size": 1.5,
