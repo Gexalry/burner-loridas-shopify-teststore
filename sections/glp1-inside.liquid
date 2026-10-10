@@ -1,0 +1,36 @@
+{%- render 'glp1-assets' -%}
+<div class="g1 g1-soft">
+  <section class="g1-sec">
+    <div class="g1-wrap">
+      <div class="g1-center">
+        <div class="g1-eyebrow">Inside every capsule</div>
+        <h2 class="g1-h2">1 molecule. 1 job: keep the follicle growing.</h2>
+        <p class="g1-lede">Spermidine. <span class="g1-gap">[GAP: mg per serving]</span> <span class="g1-gap">[GAP: source, wheat germ or synthetic]</span>. It's a polyamine, not a vitamin. Every cell in the body makes it. Levels fall with age. It shows up in wheat germ, natto, aged cheese, and mushrooms.</p>
+      </div>
+      <div class="g1-split" style="margin-top:44px;align-items:stretch">
+        {%- if section.settings.image != blank -%}
+          <div style="min-height:380px">{{ section.settings.image | image_url: width: 1200 | image_tag: class: 'g1-img', loading: 'lazy' }}</div>
+        {%- else -%}
+          <div class="g1-ph" style="min-height:380px"><span>Image: the bottle with wheat germ, aged cheese, and mushrooms around it</span></div>
+        {%- endif -%}
+        <div class="g1-ing-grid">
+          <div class="g1-card g1-ing"><h3>Keeps the hair root dividing</h3><p>The cells at the base of a growing hair are some of the fastest-dividing cells in the body. They depend on polyamines to keep going. Spermidine keeps them dividing and pushes back the day the follicle quits growing.</p></div>
+          <div class="g1-card g1-ing"><h3>Switches on eIF5A</h3><p>eIF5A is a protein that fast-dividing cells use to keep building. It only turns on with spermidine. No other molecule can do it.</p></div>
+          <div class="g1-card g1-ing"><h3>The molecule of lean times</h3><p>When the body fasts, it raises its own spermidine. Researchers found fasting's cell-cleanup benefit doesn't happen without it.</p></div>
+          <div class="g1-card g1-ing"><h3>Works on the measure that matters</h3><p>In human scalp follicles grown in the lab, spermidine kept more of them in the growth phase. Then the placebo trial confirmed it in people: 52% more growth-phase hairs at 90 days.</p></div>
+        </div>
+      </div>
+      <div class="g1-center" style="margin-top:32px;font-size:15.5px"><b>What's not inside:</b> no biotin megadose, no saw palmetto, no pumpkin seed, and no hormones. <span class="g1-gap">[GAP: full ingredient list]</span> &nbsp; <b>How to take it:</b> <span class="g1-gap">[GAP: capsules per day, timing]</span></div>
+    </div>
+  </section>
+</div>
+
+{% schema %}
+{
+  "name": "GLP-1 What's inside",
+  "settings": [
+    { "type": "image_picker", "id": "image", "label": "Image", "info": "Bottle with wheat germ, aged cheese, and mushrooms around it" }
+  ],
+  "presets": [{ "name": "GLP-1 What's inside" }]
+}
+{% endschema %}
