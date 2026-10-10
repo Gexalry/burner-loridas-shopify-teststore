@@ -2151,6 +2151,7 @@
         "statistic_VJIqVL",
         "statistic_B5Lzxo"
       ],
+      "disabled": true,
       "name": "Statistics Column",
       "settings": {
         "use_theme_colors": false,
@@ -2288,7 +2289,7 @@
       "settings": {
         "use_theme_colors": false,
         "override_theme_section_background": false,
-        "heading": "100 adults. 90 days. A placebo group.",
+        "heading": "Proof spermidine works",
         "heading_accent": "",
         "subtitle": "<p><strong>The trial.</strong> Nobody has run a spermidine trial on GLP-1 users yet. Here's what was tested: the exact thing the Famine Shed breaks. Researchers counted how many hairs were still in the active growth phase, then ran it into autumn, the season the body sheds on its own.</p>",
         "header_margin_bottom": 48,
