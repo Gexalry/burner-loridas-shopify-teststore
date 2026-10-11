@@ -1,0 +1,67 @@
+{%- render 'glp1-assets' -%}
+<div class="g1 g1-soft2">
+  <section class="g1-sec">
+    <div class="g1-wrap">
+      <div class="g1-center">
+        <div class="g1-eyebrow">The trial</div>
+        <h2 class="g1-h2">100 adults. 90 days. A placebo group.</h2>
+        <p class="g1-lede">Nobody has run a spermidine trial on GLP-1 users yet. Here's what was tested: the exact thing the Famine Shed breaks. Researchers counted how many hairs were still in the active growth phase, then ran it into autumn, the season the body sheds on its own.</p>
+      </div>
+
+      <div class="g1-split" style="margin-top:36px">
+        <figure class="g1-fig">
+          <div class="g1-vt">The growth phase</div>
+          <h4>Spermidine: up 52%. Placebo: down 21%.</h4>
+          <div class="g1-legend"><span><i class="g1-sw-g"></i>Day 1</span><span><i class="g1-sw-a"></i>Day 90, spermidine</span><span><i class="g1-sw-d"></i>Day 90, placebo</span></div>
+          <div class="g1-vbars" style="height:220px" role="img" aria-label="Growth-phase hairs per 100 plucked. Spermidine-based supplement: 24.6 on day 1, 37.4 on day 90. Placebo: 25.5 on day 1, 20.2 on day 90.">
+            <div class="g1-vbar" title="Spermidine, day 1: 24.6"><div class="g1-val g1-sm">24.6</div><div class="g1-bar g1-sw-g" style="height:54.7%"></div></div>
+            <div class="g1-vbar" title="Spermidine, day 90: 37.4"><div class="g1-val g1-sm">37.4 <span style="color:var(--g1-accent)">+52%</span></div><div class="g1-bar g1-sw-a" style="height:83.1%"></div></div>
+            <div class="g1-vbar" title="Placebo, day 1: 25.5"><div class="g1-val g1-sm">25.5</div><div class="g1-bar g1-sw-g" style="height:56.7%"></div></div>
+            <div class="g1-vbar" title="Placebo, day 90: 20.2"><div class="g1-val g1-sm">20.2 &#8722;21%</div><div class="g1-bar g1-sw-d" style="height:44.9%"></div></div>
+          </div>
+          <div class="g1-vlabels"><div style="flex:2 1 0">Spermidine-based supplement</div><div style="flex:2 1 0">Placebo</div></div>
+          <p class="g1-cap">Hairs in the active growth phase, per 100 plucked. Source: Rinaldi et al., Dermatology Practical &amp; Conceptual, 2017. Randomized, double-blind, placebo-controlled, 100 adults.</p>
+        </figure>
+
+        <figure class="g1-fig">
+          <div class="g1-vt">The pull test at 6 months</div>
+          <h4>0 out of 50 had hair come loose. On placebo: 34 out of 50.</h4>
+          <div class="g1-legend"><span><i class="g1-sw-a" style="border-radius:50%"></i>Hair came loose on a firm tug</span><span><i style="background:#e6dbe0;border-radius:50%"></i>Hair held</span></div>
+          <div class="g1-dotgrid">
+            <div role="img" aria-label="Spermidine group: 0 of 50 people had hair come loose.">
+              <h5>Spermidine-based supplement</h5>
+              <div class="g1-big5" style="color:var(--g1-accent)">0 of 50</div>
+              <div class="g1-dots">{%- for i in (1..50) -%}<span class="g1-dot g1-kept"></span>{%- endfor -%}</div>
+            </div>
+            <div role="img" aria-label="Placebo group: 34 of 50 people had hair come loose.">
+              <h5>Placebo</h5>
+              <div class="g1-big5">34 of 50</div>
+              <div class="g1-dots">{%- for i in (1..50) -%}<span class="g1-dot {% if i <= 34 %}g1-lost{% else %}g1-kept{% endif %}"></span>{%- endfor -%}</div>
+            </div>
+          </div>
+          <div class="g1-m3"><span>Month 3: 2% vs 28%</span><span>Month 6: 0% vs 68%, 3 months after the last dose</span></div>
+          <p class="g1-cap">Positive pull test, autumn shedding season. Source: Rinaldi et al., 2017.</p>
+        </figure>
+      </div>
+
+      <figure class="g1-fig" style="margin-top:28px;max-width:760px;margin-left:auto;margin-right:auto">
+        <div class="g1-vt">The root</div>
+        <h4>The roots on spermidine sped up. The roots on placebo slowed down.</h4>
+        <div class="g1-div" role="img" aria-label="Change in cell division at the hair root after 90 days. Spermidine-based supplement: plus 14 percent. Placebo: minus 5 percent.">
+          <div class="g1-l"><span class="g1-tt">Placebo &#8722;5%</span><div class="g1-b" style="width:26%;background:var(--g1-gray);border-radius:4px 0 0 4px"></div></div>
+          <div class="g1-zero"></div>
+          <div class="g1-r"><div class="g1-b g1-sw-a" style="width:72%;border-radius:0 4px 4px 0"></div><span class="g1-tt">Spermidine +14%</span></div>
+        </div>
+        <p class="g1-cap">Cell division at the hair root (Ki-67 marker), change after 90 days. Source: Rinaldi et al., 2017.</p>
+      </figure>
+    </div>
+  </section>
+</div>
+
+{% schema %}
+{
+  "name": "GLP-1 Trial proof",
+  "settings": [],
+  "presets": [{ "name": "GLP-1 Trial proof" }]
+}
+{% endschema %}

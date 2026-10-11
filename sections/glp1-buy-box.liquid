@@ -1,0 +1,243 @@
+{%- render 'glp1-assets' -%}
+{%- liquid
+  assign p = section.settings.product | default: product
+  assign current_variant = p.selected_or_first_available_variant
+  assign images = p.media | where: 'media_type', 'image'
+  assign default_offer = 0
+  for block in section.blocks
+    if block.settings.selected
+      assign default_offer = forloop.index0
+    endif
+  endfor
+-%}
+
+<div class="g1" id="g1-buy-{{ section.id }}">
+  <section class="g1-hero" id="offer">
+    <div class="g1-wrap">
+      <div class="g1-hero-grid">
+        <div class="g1-gal">
+          <div class="g1-gal-main">
+            {%- if images.size > 0 -%}
+              {%- for media in images limit: 8 -%}
+                {%- assign alt = media.alt | default: p.title -%}
+                <div class="g1-slide{% if forloop.first %} g1-on{% endif %}" data-g1-slide="{{ forloop.index0 }}">
+                  {{ media | image_url: width: 1200 | image_tag: loading: 'eager', sizes: '(min-width: 990px) 560px, 100vw', alt: alt }}
+                </div>
+              {%- endfor -%}
+            {%- else -%}
+              {%- assign labels = 'Product image: bottle front|Image: capsules in her palm|Image: part line, month 1 vs month 3|Image: supplement facts panel|Image: woman with a full ponytail, GLP-1 pen on the counter' | split: '|' -%}
+              {%- for label in labels -%}
+                <div class="g1-ph g1-slide{% if forloop.first %} g1-on{% endif %}" data-g1-slide="{{ forloop.index0 }}"><span>{{ label }}</span></div>
+              {%- endfor -%}
+            {%- endif -%}
+          </div>
+          <div class="g1-thumbs">
+            {%- if images.size > 1 -%}
+              {%- for media in images limit: 8 -%}
+                <button type="button" class="g1-thumb g1-has-img{% if forloop.first %} g1-on{% endif %}" data-g1-thumb="{{ forloop.index0 }}" aria-label="Show image {{ forloop.index }}">
+                  {{ media | image_url: width: 200 | image_tag: loading: 'lazy', alt: '' }}
+                </button>
+              {%- endfor -%}
+            {%- elsif images.size == 0 -%}
+              {%- assign shorts = 'Bottle|Capsules|Part line|Facts|Ponytail' | split: '|' -%}
+              {%- for s in shorts -%}
+                <button type="button" class="g1-thumb{% if forloop.first %} g1-on{% endif %}" data-g1-thumb="{{ forloop.index0 }}" aria-label="{{ s }}">{{ s }}</button>
+              {%- endfor -%}
+            {%- endif -%}
+          </div>
+        </div>
+
+        <div class="g1-buy">
+          <div class="g1-rate"><span class="g1-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span><span><span class="g1-gap">[GAP: rating and review count]</span></span></div>
+          <div class="g1-eyebrow">For hair loss on Ozempic, Wegovy, Mounjaro, and Zepbound</div>
+          <h1>[BRAND] Spermidine: The Growth-Phase Formula For GLP-1 Hair Loss</h1>
+          <p class="g1-sub">Keeps follicles in the growth phase while the weight comes off. 1 molecule. No hormones. No DHT blockers. The shot stays.</p>
+          <ul class="g1-ticks">
+            <li>Stops the Famine Shed at the source: keeps follicles in the growth phase</li>
+            <li>The molecule behind a placebo trial with 52% more growth-phase hairs at 90 days</li>
+            <li>No DHT blockers, no hormones, and no prescription</li>
+            <li>The shot stays. The hair stays.</li>
+          </ul>
+          <div class="g1-proofchip"><b>0 of 50</b> people on a spermidine-based supplement had hair come loose on the pull test at 6 months. On placebo: 34 of 50.</div>
+
+          {%- if p != blank -%}
+            <form method="post" action="{{ routes.cart_add_url }}" accept-charset="UTF-8" enctype="multipart/form-data" data-g1-form>
+              <input type="hidden" name="form_type" value="product">
+              <input type="hidden" name="utf8" value="✓">
+              <input type="hidden" name="quantity" value="{{ section.blocks[default_offer].settings.quantity | default: 1 }}" data-g1-qty>
+
+              {%- if p.has_only_default_variant -%}
+                <input type="hidden" name="id" value="{{ current_variant.id }}" data-g1-variant>
+              {%- else -%}
+                <div class="g1-variant">
+                  <label for="g1-variant-{{ section.id }}">{{ p.options | join: ' / ' }}</label>
+                  <select id="g1-variant-{{ section.id }}" name="id" data-g1-variant>
+                    {%- for v in p.variants -%}
+                      <option value="{{ v.id }}"{% if v.id == current_variant.id %} selected{% endif %}{% unless v.available %} disabled{% endunless %}>
+                        {{ v.title }}{% unless v.available %} (sold out){% endunless %}
+                      </option>
+                    {%- endfor -%}
+                  </select>
+                </div>
+              {%- endif -%}
+
+              <div class="g1-offers" role="radiogroup" aria-label="Choose your supply">
+                {%- for block in section.blocks -%}
+                  {%- assign qty = block.settings.quantity | default: 1 -%}
+                  <button type="button" role="radio" class="g1-offer{% if forloop.index0 == default_offer %} g1-on{% endif %}" aria-checked="{% if forloop.index0 == default_offer %}true{% else %}false{% endif %}" data-g1-offer data-qty="{{ qty }}" {{ block.shopify_attributes }}>
+                    {%- if block.settings.tag != blank -%}<span class="g1-tag">{{ block.settings.tag }}</span>{%- endif -%}
+                    <span class="g1-ot">{{ block.settings.title }}</span>
+                    <span class="g1-ol">{{ block.settings.label }}</span>
+                    {%- if block.settings.sub != blank -%}<span class="g1-os">{{ block.settings.sub }}</span>{%- endif -%}
+                    {%- for v in p.variants -%}
+                      <span data-g1-price-for="{{ v.id }}"{% unless v.id == current_variant.id %} hidden{% endunless %}>
+                        <span class="g1-op">{{ v.price | times: qty | money }}</span>
+                        {%- if v.compare_at_price > v.price -%}<span class="g1-oc">{{ v.compare_at_price | times: qty | money }}</span>{%- endif -%}
+                      </span>
+                    {%- endfor -%}
+                  </button>
+                {%- endfor -%}
+              </div>
+
+              <button type="button" class="g1-btn" data-g1-atc{% unless current_variant.available %} disabled{% endunless %}>
+                {%- if current_variant.available -%}Keep My Hair Growing{%- else -%}Sold out{%- endif -%}
+                <small><span class="g1-gap">[GAP: guarantee length]</span> money-back guarantee &middot; <span class="g1-gap">[GAP: shipping terms]</span></small>
+              </button>
+              <p class="g1-err" role="alert" data-g1-err></p>
+            </form>
+          {%- else -%}
+            <a href="#offer" class="g1-btn">Keep My Hair Growing<small>Select a product for this section in the theme editor</small></a>
+          {%- endif -%}
+
+          <div class="g1-micro"><span><span class="g1-gap">[GAP: mg]</span> mg spermidine per serving</span><span><span class="g1-gap">[GAP: number]</span> capsule(s) a day</span><span>1 active molecule</span><span>No DHT blockers or hormones</span></div>
+          <div class="g1-pay"><span>VISA</span><span>MASTERCARD</span><span>AMEX</span><span>PAYPAL</span><span>SHOP PAY</span><span>APPLE PAY</span><span>G PAY</span></div>
+          <div class="g1-urg"><b>The clock is running.</b> Every week of shedding sends more follicles to rest. What starts today shows up in the brush in 2 to 3 months.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<script>
+  (function () {
+    var root = document.getElementById('g1-buy-{{ section.id }}');
+    if (!root) return;
+
+    // Gallery
+    var slides = root.querySelectorAll('[data-g1-slide]');
+    var thumbs = root.querySelectorAll('[data-g1-thumb]');
+    thumbs.forEach(function (t) {
+      t.addEventListener('click', function () {
+        var i = t.getAttribute('data-g1-thumb');
+        slides.forEach(function (s) { s.classList.toggle('g1-on', s.getAttribute('data-g1-slide') === i); });
+        thumbs.forEach(function (x) { x.classList.toggle('g1-on', x === t); });
+      });
+    });
+
+    var form = root.querySelector('[data-g1-form]');
+    if (!form) return;
+    var qtyInput = form.querySelector('[data-g1-qty]');
+    var variantInput = form.querySelector('[data-g1-variant]');
+    var offers = form.querySelectorAll('[data-g1-offer]');
+    var atc = form.querySelector('[data-g1-atc]');
+    var err = form.querySelector('[data-g1-err]');
+
+    // Offers -> quantity
+    offers.forEach(function (o) {
+      o.addEventListener('click', function () {
+        offers.forEach(function (x) {
+          x.classList.toggle('g1-on', x === o);
+          x.setAttribute('aria-checked', x === o ? 'true' : 'false');
+        });
+        qtyInput.value = o.getAttribute('data-qty');
+      });
+    });
+
+    // Variant -> prices shown on offers
+    if (variantInput && variantInput.tagName === 'SELECT') {
+      variantInput.addEventListener('change', function () {
+        var id = variantInput.value;
+        form.querySelectorAll('[data-g1-price-for]').forEach(function (el) {
+          el.hidden = el.getAttribute('data-g1-price-for') !== id;
+        });
+      });
+    }
+
+    // Add to cart -> theme cart drawer (falls back to the cart page)
+    atc.addEventListener('click', function () {
+      err.style.display = 'none';
+      atc.setAttribute('aria-busy', 'true');
+      var cart = document.querySelector('cart-drawer') || document.querySelector('cart-notification');
+      var fd = new FormData(form);
+      if (cart && typeof cart.getSectionsToRender === 'function') {
+        fd.append('sections', cart.getSectionsToRender().map(function (s) { return s.id; }));
+        fd.append('sections_url', window.location.pathname);
+        if (typeof cart.setActiveElement === 'function') cart.setActiveElement(atc);
+      }
+      fetch('{{ routes.cart_add_url }}', {
+        method: 'POST',
+        headers: { 'X-Requested-With': 'XMLHttpRequest', Accept: 'application/javascript' },
+        body: fd
+      })
+        .then(function (r) { return r.json(); })
+        .then(function (data) {
+          if (data.status) {
+            err.textContent = data.description || data.message || 'Could not add to cart.';
+            err.style.display = 'block';
+            return;
+          }
+          if (!cart || typeof cart.renderContents !== 'function') {
+            window.location = '{{ routes.cart_url }}';
+            return;
+          }
+          if (typeof publish === 'function' && typeof PUB_SUB_EVENTS !== 'undefined') {
+            publish(PUB_SUB_EVENTS.cartUpdate, { source: 'glp1-buy-box', productVariantId: fd.get('id'), cartData: data });
+          }
+          cart.classList.remove('is-empty');
+          cart.renderContents(data);
+        })
+        .catch(function () { form.submit(); })
+        .finally(function () { atc.removeAttribute('aria-busy'); });
+    });
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "GLP-1 Buy box",
+  "class": "g1-section",
+  "settings": [
+    {
+      "type": "product",
+      "id": "product",
+      "label": "Product",
+      "info": "Leave empty to use the product this template is assigned to"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "offer",
+      "name": "Offer",
+      "limit": 4,
+      "settings": [
+        { "type": "text", "id": "title", "label": "Title", "default": "1 Bottle" },
+        { "type": "text", "id": "label", "label": "Label", "default": "Try It" },
+        { "type": "text", "id": "sub", "label": "Small text", "default": "[GAP: supply]" },
+        { "type": "text", "id": "tag", "label": "Badge (optional)" },
+        { "type": "range", "id": "quantity", "label": "Quantity added to cart", "min": 1, "max": 10, "step": 1, "default": 1 },
+        { "type": "checkbox", "id": "selected", "label": "Selected by default", "default": false }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "GLP-1 Buy box",
+      "blocks": [
+        { "type": "offer", "settings": { "title": "1 Bottle", "label": "Try It", "sub": "[GAP: supply]", "quantity": 1 } },
+        { "type": "offer", "settings": { "title": "2 Bottles", "label": "Most Popular", "sub": "[GAP: supply]", "tag": "Most Popular", "quantity": 2 } },
+        { "type": "offer", "settings": { "title": "3 Bottles", "label": "The Full 90 Days", "sub": "The trial ran 90 days", "tag": "Best Value", "quantity": 3, "selected": true } }
+      ]
+    }
+  ]
+}
+{% endschema %}

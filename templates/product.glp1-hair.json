@@ -1,0 +1,41 @@
+{
+  "sections": {
+    "buy_box": {
+      "type": "glp1-buy-box",
+      "blocks": {
+        "offer_1": { "type": "offer", "settings": { "title": "1 Bottle", "label": "Try It", "sub": "[GAP: supply]", "tag": "", "quantity": 1, "selected": false } },
+        "offer_2": { "type": "offer", "settings": { "title": "2 Bottles", "label": "Most Popular", "sub": "[GAP: supply]", "tag": "Most Popular", "quantity": 2, "selected": false } },
+        "offer_3": { "type": "offer", "settings": { "title": "3 Bottles", "label": "The Full 90 Days", "sub": "The trial ran 90 days", "tag": "Best Value", "quantity": 3, "selected": true } }
+      },
+      "block_order": ["offer_1", "offer_2", "offer_3"],
+      "settings": {}
+    },
+    "trust_strip": { "type": "glp1-trust-strip", "settings": {} },
+    "problem": { "type": "glp1-problem", "settings": {} },
+    "on_record": { "type": "glp1-on-record", "settings": {} },
+    "trial": { "type": "glp1-trial", "settings": {} },
+    "other_fixes": { "type": "glp1-other-fixes", "settings": {} },
+    "inside": { "type": "glp1-inside", "settings": {} },
+    "timeline": { "type": "glp1-timeline", "settings": {} },
+    "reviews": { "type": "glp1-reviews", "settings": {} },
+    "guarantee": { "type": "glp1-guarantee", "settings": {} },
+    "why_now": { "type": "glp1-why-now", "settings": {} },
+    "faq": { "type": "glp1-faq", "settings": {} },
+    "final_cta": { "type": "glp1-final-cta", "settings": {} }
+  },
+  "order": [
+    "buy_box",
+    "trust_strip",
+    "problem",
+    "on_record",
+    "trial",
+    "other_fixes",
+    "inside",
+    "timeline",
+    "reviews",
+    "guarantee",
+    "why_now",
+    "faq",
+    "final_cta"
+  ]
+}
