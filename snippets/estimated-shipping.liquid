@@ -20,9 +20,9 @@
       {% endif %}
     </div>
   {% endunless %}
-  <div
+  <div 
     class="estimated-shipping__text"
-    data-dynamic-date="true"
+    data-dynamic-date='true'
     data-text="{{ block.settings.message }}"
     data-min-days="{{ block.settings.min_shipping_days }}"
     data-max-days="{{ block.settings.max_shipping_days }}"
@@ -30,3 +30,4 @@
     {{ block.settings.message | replace: '[start_date]', '-' | replace: '[end_date]', '-' }}
   </div>
 </dynamic-dates>
+

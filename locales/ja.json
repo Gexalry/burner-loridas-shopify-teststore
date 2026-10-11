@@ -1,5 +1,4 @@
 {
-  "SAVE": "節約",
   "general": {
     "password_page": {
       "login_form_heading": "パスワードを入力してストアにアクセスする。",
@@ -14,11 +13,11 @@
     "social": {
       "alt_text": {
         "share_on_facebook": "Facebookでシェアする",
-        "share_on_twitter": "Xで共有する",
+        "share_on_twitter": "Twitterにツイートする",
         "share_on_pinterest": "Pinterestでピンする"
       },
       "links": {
-        "twitter": "X (Twitter)",
+        "twitter": "Twitter",
         "facebook": "Facebook",
         "pinterest": "Pinterest",
         "instagram": "Instagram",
@@ -43,12 +42,7 @@
     "cart": {
       "view": "カートを見る ({{ count }})",
       "item_added": "カートにアイテムが追加されました",
-      "view_empty_cart": "カートを見る",
-      "free": "無料",
-      "free_gift": {
-        "one": "無料ギフト",
-        "other": "無料ギフト{{ count }}個"
-      }
+      "view_empty_cart": "カートを見る"
     },
     "share": {
       "copy_to_clipboard": "リンクをコピー",
@@ -124,10 +118,7 @@
         "minimum_of": "最小{{ quantity }}",
         "maximum_of": "最大{{ quantity }}",
         "multiples_of": "{{ quantity }}の増分",
-        "in_cart_html": "カートに<span class=\"quantity-cart\">{{ quantity }}</span>",
-        "note": "数量ルールを見る",
-        "min_of": "最小：{{ quantity }}",
-        "max_of": "最大： {{ quantity }}"
+        "in_cart_html": "カートに<span class=\"quantity-cart\">{{ quantity }}</span>"
       },
       "price": {
         "from_price_html": "{{ price }}から",
@@ -162,6 +153,7 @@
         "image_available": "ギャラリービューで画像 ({{ index }}) が利用できるようになりました"
       },
       "view_full_details": "詳細を表示する",
+      "include_taxes": "税込",
       "shipping_policy_html": "<a href=\"{{ link }}\">配送料</a>はチェックアウト時に計算されます。",
       "choose_options": "オプションを選択",
       "choose_product_options": "{{ product_name }}のオプションを選択する",
@@ -173,26 +165,10 @@
       "inventory_low_stock_show_count": "低在庫：残り{{ quantity }}個",
       "inventory_out_of_stock": "在庫切れ",
       "inventory_out_of_stock_continue_selling": "在庫あり",
-      "sku": "SKU",
-      "volume_pricing": {
-        "title": "量による価格",
-        "note": "量による価格が利用可能",
-        "minimum": "{{ quantity }}個以上",
-        "price_range": "{{ minimum }}～{{ maximum }}",
-        "price_at_each_html": "{{ price }}/ユニットで"
-      },
-      "taxes_included": "税込。",
-      "duties_included": "関税込。",
-      "duties_and_taxes_included": "関税と税金が含まれます。"
+      "sku": "SKU"
     },
     "modal": {
       "label": "メディアギャラリー"
-    },
-    "kit": {
-      "item_count": {
-        "one": "({{ count }} 点)",
-        "other": "({{ count }} 点)"
-      }
     },
     "facets": {
       "apply": "適用",
@@ -222,17 +198,7 @@
       "clear_filter": "絞り込みを削除する",
       "filter_selected_accessibility": "{{ type }} ({{ count }}件のフィルターを選択済み)",
       "show_more": "さらに表示する",
-      "show_less": "表示を減らす",
-      "filter_and_operator_subtitle": "すべて一致"
-    }
-  },
-  "theme": {
-    "progress_bar": {
-      "you_earned_free_shipping": "You've earned free shipping!",
-      "you_earned_free_product": "You've earned a free product!",
-      "amount_away_free_shipping": "You're just {{ amount }} away from free shipping!",
-      "amount_away_free_product": "You're just {{ amount }} away from a free product!",
-      "free_shipping": "Free Shipping"
+      "show_less": "表示を減らす"
     }
   },
   "templates": {
@@ -298,12 +264,17 @@
       "title": "あなたのカート",
       "caption": "カートアイテム",
       "remove_title": "{{ title }}を削除する",
+      "subtotal": "小計",
+      "new_subtotal": "新しい小計",
       "note": "注文に関する特別な指示・備考",
-      "checkout": "購入手続きに進む",
-      "empty": "カートの中身が空です",
-      "items_total": "Total: {{ item_count }} Items",
+      "checkout": "ご購入手続きへ",
+      "empty": "カートは空です",
       "cart_error": "カートをアップデートするときにエラーが発生しました。もう一度お試しください。",
       "cart_quantity_error_html": "このアイテムは{{ quantity }}個しかカートに追加することができません。",
+      "taxes_and_shipping_policy_at_checkout_html": "税と<a href=\"{{ link }}\">配送料</a>は購入手続き時に計算されます",
+      "taxes_included_but_shipping_at_checkout": "税込みで、配送料は購入手続き時に計算されます",
+      "taxes_included_and_shipping_policy_html": "税込<a href=\"{{ link }}\">配送料</a>は購入手続き時に計算されます。",
+      "taxes_and_shipping_at_checkout": "税と配送料は購入手続き時に計算されます",
       "headings": {
         "product": "商品",
         "price": "価格",
@@ -315,17 +286,7 @@
       "login": {
         "title": "アカウントをお持ちですか?",
         "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">ログイン</a>することで、チェックアウトがスピーディーに行えます。"
-      },
-      "estimated_total": "見積もり合計",
-      "new_estimated_total": "新たな推定総額",
-      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "関税と税金が含まれます。ディスカウントと<a href=\"{{ link }}\">配送料</a>はチェックアウト時に計算されます。",
-      "duties_and_taxes_included_shipping_at_checkout_without_policy": "関税と税金が含まれます。ディスカウントと配送料はチェックアウト時に計算されます。",
-      "taxes_included_shipping_at_checkout_with_policy_html": "税込。ディスカウントと<a href=\"{{ link }}\">配送料</a>はチェックアウト時に計算されます。",
-      "taxes_included_shipping_at_checkout_without_policy": "税込。ディスカウントと配送料はチェックアウト時に計算されます。",
-      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "関税込。税、ディスカウント、および<a href=\"{{ link }}\">配送料</a>はチェックアウト時に計算されます。",
-      "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "関税込。税、ディスカウント、および配送料はチェックアウト時に計算されます。",
-      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "税、ディスカウント、および<a href=\"{{ link }}\">配送料</a>はチェックアウト時に計算されます。",
-      "taxes_at_checkout_shipping_at_checkout_without_policy": "税、ディスカウント、および配送料はチェックアウト時に計算されます。"
+      }
     },
     "footer": {
       "payment": "決済方法"
@@ -361,48 +322,13 @@
     },
     "page": {
       "title": "ページタイトル"
-    },
-    "announcements": {
-      "previous_announcement": "前回のお知らせ",
-      "next_announcement": "次回のお知らせ",
-      "carousel": "カルーセル",
-      "announcement": "お知らせ",
-      "announcement_bar": "お知らせバー"
-    },
-    "quick_order_list": {
-      "product_total": "商品の小計",
-      "view_cart": "カートを見る",
-      "each": "{{ money }}/ユニット",
-      "product": "商品",
-      "variant": "バリエーション",
-      "variant_total": "バリエーションの合計額",
-      "items_added": {
-        "one": "{{ quantity }}個のアイテムが追加されました",
-        "other": "{{ quantity }}個のアイテムが追加されました"
-      },
-      "items_removed": {
-        "one": "{{ quantity }}個のアイテムが削除されました",
-        "other": "{{ quantity }}個のアイテムが削除されました"
-      },
-      "product_variants": "商品バリエーション",
-      "total_items": "アイテムの総数",
-      "remove_all_items_confirmation": "カートから{{ quantity }}個のアイテムすべてを削除しますか？",
-      "remove_all": "すべてを削除",
-      "cancel": "キャンセル",
-      "remove_all_single_item_confirmation": "カートからアイテムを1個削除しますか？",
-      "min_error": "このアイテムの最小値は{{ min }}です",
-      "max_error": "このアイテムの最大値は{{ max }}です",
-      "step_error": "このアイテムは、{{ step }}の増分でのみ追加できます"
     }
   },
   "localization": {
     "country_label": "国/地域",
     "language_label": "言語",
     "update_language": "言語を更新する",
-    "update_country": "国/地域を更新する",
-    "search": "検索",
-    "popular_countries_regions": "人気のある国/地域",
-    "country_results_count": "{{ count }}の国/地域が見つかりました"
+    "update_country": "国/地域を更新する"
   },
   "customer": {
     "account": {
@@ -455,8 +381,7 @@
       "password": "パスワード",
       "title": "ログイン",
       "sign_in": "ログイン",
-      "submit": "送信",
-      "alternate_provider_separator": "または"
+      "submit": "送信"
     },
     "orders": {
       "title": "注文履歴",
@@ -517,41 +442,17 @@
   },
   "gift_cards": {
     "issued": {
-      "title": "{{ shop }}で利用可能な{{ value }}のギフトカードの残高です。",
+      "title": "{{ shop }}で利用可能な{{ value }}のギフトカードです。",
       "subtext": "あなたのギフトカード",
       "gift_card_code": "ギフトカードコード",
-      "shop_link": "オンラインストアにアクセスする",
+      "shop_link": "買い物を続ける",
+      "remaining_html": "残高: {{ balance }}",
       "add_to_apple_wallet": "Apple Walletに追加する",
       "qr_image_alt": "QRコード: スキャンしてギフトカードにクーポンを使う",
-      "copy_code": "ギフトカードコードをコピーする",
+      "copy_code": "コードをコピーする",
       "expired": "期限切れ",
       "copy_code_success": "コードは正常にコピーされました",
-      "how_to_use_gift_card": "オンラインではギフトカードコード、実店舗ではQRコードを使用する",
-      "expiration_date": "{{ expires_on }}に期限が切れます"
+      "print_gift_card": "印刷する"
     }
-  },
-  "recipient": {
-    "form": {
-      "checkbox": "ギフトとしてこれを送る",
-      "email_label": "受信者のメール",
-      "email": "メール",
-      "name_label": "受信者の名前 (任意）",
-      "name": "名前",
-      "message_label": "メッセージ (任意)",
-      "message": "メッセージ",
-      "max_characters": "最大{{ max_chars }}文字",
-      "email_label_optional_for_no_js_behavior": "受信者のメール (任意）",
-      "send_on": "YYYY-MM-DD",
-      "send_on_label": "送信日 (任意)",
-      "expanded": "ギフトカードカードの受取人フォームを展開しました",
-      "collapsed": "ギフトカードカードの受取人フォームを折りたたみました"
-    }
-  },
-  "progress_bar": {
-    "you_earned_free_shipping": "<strong>送料無料</strong>を獲得しました",
-    "you_earned_free_product": "<strong>{{ product_title }}</strong>を獲得しました",
-    "amount_away_free_shipping": "<strong>送料無料</strong>まであと{{ amount }}です",
-    "amount_away_free_product": "<strong>{{ product_title }}</strong>まであと{{ amount }}です",
-    "free_shipping": "送料無料"
   }
 }

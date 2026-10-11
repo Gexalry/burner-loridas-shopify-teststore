@@ -1,319 +1,387 @@
-{{ 'announcement-bar.css' | asset_url | stylesheet_tag }}
-
-<style>
-  .announcement-text strong,
-  .announcement-text b {
-    font-weight: 700 !important;
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
-</style>
 
-<div class="section-announcement">
-  <div class="announcement-bar{% unless section.settings.hide_shine_effect %} shine-active{% endunless %}" style="
-    {% case section.settings.background_type %}
-      {% when 'solid' %}
-        background: {% if section.settings.use_theme_colors %}{{ settings.global_section_accent_1_color }}{% else %}{{ section.settings.solid_bg_color }}{% endif %};
-      {% when 'static_gradient' %}
-        background: {% if section.settings.use_theme_colors %}linear-gradient(-45deg, {{ settings.global_section_accent_2_color }}, {{ settings.global_section_accent_1_color }}){% else %}{{ section.settings.static_gradient_value }}{% endif %};
-      {% when 'animated_gradient' %}
-        background: linear-gradient(
-          -45deg,
-          {% if section.settings.use_theme_colors %}
-            {{ settings.global_section_accent_2_color }},
-            {{ settings.global_section_accent_1_color }},
-            {{ settings.global_section_accent_2_color }},
-            {{ settings.global_section_accent_1_color }}
-          {% else %}
-            {{ section.settings.gradient_color_1 }},
-            {{ section.settings.gradient_color_2 }},
-            {{ section.settings.gradient_color_3 }},
-            {{ section.settings.gradient_color_4 }}
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+
+  .announcement-bar-{{ section.id }}.color-custom {
+    --color-background: {{ section.settings.custom_colors_background.red }}, {{ section.settings.custom_colors_background.green }}, {{ section.settings.custom_colors_background.blue }};
+    --gradient-background: {% if section.settings.custom_gradient_background != blank %}{{ section.settings.custom_gradient_background }}{% else %}{{ section.settings.custom_colors_background }}{% endif %};
+    --color-foreground: {{ section.settings.custom_colors_text.red }}, {{ section.settings.custom_colors_text.green }}, {{ section.settings.custom_colors_text.blue }};
+  }
+{%- endstyle -%}
+
+{% liquid
+  assign has_mobile_slider = false
+  assign has_desktop_slider = false
+  if section.settings.slider_mobile and section.settings.columns_mobile > 0
+    assign has_mobile_slider = true
+  endif
+  if section.settings.slider_desktop and section.settings.columns_desktop > 0
+    assign has_desktop_slider = true
+  endif
+
+  assign displayed = true
+  if section.settings.hidden_products != blank
+    assign hidden_handles = section.settings.hidden_products | split: ','
+    for hidden_handle in hidden_handles
+      assign handle_strip = hidden_handle | strip
+      if handle_strip == product.handle
+        assign displayed = false
+        break
+      endif
+    endfor
+  endif
+  if section.settings.enable_specific_display and section.settings.displayed_products != blank
+    assign displayed_handles = section.settings.displayed_products | split: ','
+    assign displayed = false
+    for displayed_handle in displayed_handles
+      assign handle_strip = displayed_handle | strip
+      if handle_strip == product.handle
+        assign displayed = true
+        break
+      endif
+    endfor
+  endif
+%}
+
+{% if displayed %}
+  <{% if section.settings.sticky_type != 'none' %}sticky-announcement data-sticky-type="{{ section.settings.sticky_type }}"{% else %}div{% endif %}>
+    <div
+      class="announcement-bar announcement-bar-{{ section.id }} section-{{ section.id }}-padding color-{{ section.settings.color_scheme }} gradient {{ section.settings.visibility }}"
+      role="region"
+      style="--columns-desktop: {{ section.settings.columns_desktop }};--columns-mobile: {{ section.settings.columns_mobile }};--gap-desktop:{{ section.settings.desktop_spacing | divided_by: 10.0 }}rem;--gap-mobile:{{ section.settings.mobile_spacing | divided_by: 10.0 }}rem;"
+    >
+    <div class="page-width">
+      {% if has_mobile_slider or has_desktop_slider %}
+        <splide-component
+          data-type="{{ section.settings.type }}"
+          data-autoplay="{{ section.settings.autoplay }}"
+          data-autoplay-speed="{{ section.settings.autoplay_speed }}"
+          data-slides-desktop="{{ section.settings.columns_desktop }}"
+          data-slides-mobile="{{ section.settings.columns_mobile }}"
+          data-gap-desktop="{{ section.settings.desktop_spacing }}"
+          data-gap-mobile="{{ section.settings.mobile_spacing }}"
+          data-arrows="false"
+          data-pagination="false"
+          {% if has_desktop_slider == false %}
+            data-destroy-desktop="true"
+          {% elsif has_mobile_slider == false %}
+            data-destroy-mobile="true"
           {% endif %}
-        );
-        background-size: 400% 400%;
-        animation: gradientAnimation 15s ease infinite;
-    {% endcase %}
-  ">
-    <div class="announcement-text" style="color: {% if section.settings.use_theme_colors %}{{ settings.global_section_background_color }}{% else %}{{ section.settings.text_color }}{% endif %};">
-      {{ section.settings.announcement_text }}
-    </div>
-    <div class="countdown">
-      {% if section.settings.show_days %}
-      <div class="countdown-item" style="padding: 3px 1px; background-color: {% if section.settings.use_theme_colors %}{{ settings.global_section_background_color }}{% else %}{{ section.settings.timer_bg_color }}{% endif %};">
-        <span class="time days" style="color: {% if section.settings.use_theme_colors %}{{ settings.global_section_text_color }}{% else %}{{ section.settings.timer_text_color }}{% endif %};">00</span>
-        <span class="label label-smaller" style="margin-top: 1px; color: {% if section.settings.use_theme_colors %}{{ settings.global_section_accent_1_color }}{% else %}{{ section.settings.label_text_color }}{% endif %};">{{ section.settings.days_label }}</span>
-      </div>
-      <span class="separator" style="color: {% if section.settings.use_theme_colors %}{{ settings.global_section_background_color }}{% else %}{{ section.settings.text_color }}{% endif %};">:</span>
+        >
       {% endif %}
-      <div class="countdown-item" style="padding: 3px 1px; background-color: {% if section.settings.use_theme_colors %}{{ settings.global_section_background_color }}{% else %}{{ section.settings.timer_bg_color }}{% endif %};">
-        <span class="time hours" style="color: {% if section.settings.use_theme_colors %}{{ settings.global_section_text_color }}{% else %}{{ section.settings.timer_text_color }}{% endif %};">24</span>
-        <span class="label label-smaller" style="margin-top: 1px; color: {% if section.settings.use_theme_colors %}{{ settings.global_section_accent_1_color }}{% else %}{{ section.settings.label_text_color }}{% endif %};">{{ section.settings.hours_label }}</span>
+      <div class="splide splide--vertically-centered{% if has_desktop_slider %} splide--precalc-width-desktop{% endif %}{% if has_mobile_slider %} splide--precalc-width-mobile{% endif %}">
+        <div class="splide__track">
+          <ul
+            class="splide__list{% if has_desktop_slider == false %} announcement-bar__desktop-grid{% endif %}{% if has_mobile_slider == false %} announcement-bar__mobile-grid{% endif %}"
+            data-columns-desktop="{{ section.settings.columns_desktop }}"
+            data-columns-mobile="{{ section.settings.columns_mobile }}"
+          >
+            {% content_for 'blocks' %}
+          </ul>
+        </div>
       </div>
-      <span class="separator" style="color: {% if section.settings.use_theme_colors %}{{ settings.global_section_background_color }}{% else %}{{ section.settings.text_color }}{% endif %};">:</span>
-      <div class="countdown-item" style="padding: 3px 1px; background-color: {% if section.settings.use_theme_colors %}{{ settings.global_section_background_color }}{% else %}{{ section.settings.timer_bg_color }}{% endif %};">
-        <span class="time minutes" style="color: {% if section.settings.use_theme_colors %}{{ settings.global_section_text_color }}{% else %}{{ section.settings.timer_text_color }}{% endif %};">00</span>
-        <span class="label" style="margin-top: 1px; color: {% if section.settings.use_theme_colors %}{{ settings.global_section_accent_1_color }}{% else %}{{ section.settings.label_text_color }}{% endif %};">{{ section.settings.minutes_label }}</span>
-      </div>
-      <span class="separator" style="color: {% if section.settings.use_theme_colors %}{{ settings.global_section_background_color }}{% else %}{{ section.settings.text_color }}{% endif %};">:</span>
-      <div class="countdown-item" style="padding: 3px 1px; background-color: {% if section.settings.use_theme_colors %}{{ settings.global_section_background_color }}{% else %}{{ section.settings.timer_bg_color }}{% endif %};">
-        <span class="time seconds" style="color: {% if section.settings.use_theme_colors %}{{ settings.global_section_text_color }}{% else %}{{ section.settings.timer_text_color }}{% endif %};">00</span>
-        <span class="label" style="margin-top: 1px; color: {% if section.settings.use_theme_colors %}{{ settings.global_section_accent_1_color }}{% else %}{{ section.settings.label_text_color }}{% endif %};">{{ section.settings.seconds_label }}</span>
-      </div>
+      {% if has_mobile_slider or has_desktop_slider %}
+        </splide-component>
+      {% endif %}
     </div>
   </div>
-</div>
+  </{% if section.settings.sticky_type != 'none' %}sticky-announcement{% else %}div{% endif %}>
+{% endif %}
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  function getTimezoneMidnight() {
-    const timezone = '{{ section.settings.timezone | default: "America/New_York" }}';
-    const now = new Date();
-    const localTime = new Date(now.toLocaleString('en-US', { timeZone: timezone }));
-    const midnight = new Date(localTime);
-    midnight.setHours(24, 0, 0, 0);
-    return midnight;
+  function copyCode(e) {
+    const btn = e.currentTarget;
+    navigator.clipboard.writeText(btn.dataset.code.trim());
+    btn.classList.add('success');
+    setTimeout(() => {
+      btn.classList.remove('success');
+    }, 2000);
   }
-
-  function calculateTimeLeft() {
-    const timezone = '{{ section.settings.timezone | default: "America/New_York" }}';
-    const now = new Date();
-    const localTime = new Date(now.toLocaleString('en-US', { timeZone: timezone }));
-    
-    {% if section.settings.custom_date %}
-    // Use custom end date if set
-    const endDate = new Date('{{ section.settings.end_date }}');
-    let diff = endDate - now;
-    {% else %}
-    // Otherwise use midnight in selected timezone
-    const midnight = getTimezoneMidnight();
-    let diff = midnight - localTime;
-    
-    // If we're past midnight, get next midnight
-    if (diff < 0) {
-      midnight.setDate(midnight.getDate() + 1);
-      diff = midnight - localTime;
-    }
-    {% endif %}
-
-    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
-    const seconds = Math.floor((diff % (1000 * 60)) / 1000);
-
-    return { days, hours, minutes, seconds };
-  }
-
-  function updateDisplay() {
-    const timeLeft = calculateTimeLeft();
-    
-    {% if section.settings.show_days %}
-    document.querySelector('.days').textContent = timeLeft.days.toString().padStart(2, '0');
-    {% endif %}
-    document.querySelector('.hours').textContent = timeLeft.hours.toString().padStart(2, '0');
-    document.querySelector('.minutes').textContent = timeLeft.minutes.toString().padStart(2, '0');
-    document.querySelector('.seconds').textContent = timeLeft.seconds.toString().padStart(2, '0');
-  }
-
-  // Update immediately and then every second
-  updateDisplay();
-  const timer = setInterval(updateDisplay, 1000);
-
-  // Cleanup on section unload to avoid memory leaks
-  document.addEventListener('shopify:section:unload', function() {
-    clearInterval(timer);
-  });
-});
 </script>
 
 {% schema %}
 {
-  "name": "Countdown Banner",
-  "tag": "section",
+  "name": "Announcement bar",
+  "max_blocks": 12,
+  "class": "announcement-bar-section",
   "settings": [
     {
-      "type": "checkbox",
-      "id": "use_theme_colors",
-      "label": "Use Theme Colors",
-      "default": true,
-      "info": "Apply the global theme colors to this section"
+      "type": "select",
+      "id": "visibility",
+      "options": [
+        {
+          "value": "desktop-hidden",
+          "label": "Mobile only"
+        },
+        {
+          "value": "mobile-hidden",
+          "label": "Desktop only"
+        },
+        {
+          "value": "always-display",
+          "label": "All devices"
+        }
+      ],
+      "label": "Display on",
+      "default": "always-display"
     },
     {
-      "type": "checkbox",
-      "id": "sticky_with_header",
-      "label": "Stick with Header",
-      "default": false,
-      "info": "Makes the announcement bar sticky and scroll with the site header"
-    },    {
+      "type": "select",
+      "id": "sticky_type",
+      "options": [
+        {
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "on-scroll-up",
+          "label": "On scroll up"
+        },
+        {
+          "value": "always",
+          "label": "Always"
+        }
+      ],
+      "default": "none",
+      "label": "Sticky behavior",
+      "info": "Works with other sticky elements in the header group."
+    },
+    {
       "type": "header",
-      "content": "Content"
+      "content": "Layout"
     },
     {
-      "type": "inline_richtext",
-      "id": "announcement_text",
-      "label": "Announcement Text",
-      "default": "HOLIDAY SALE ENDS IN",
-      "info": "You can use bold and italic formatting in your announcement text"
+      "type": "range",
+      "id": "columns_desktop",
+      "label": "Columns desktop",
+      "min": 0,
+      "max": 6,
+      "step": 1,
+      "default": 1
     },
     {
-      "type": "header",
-      "content": "Timer Settings"
+      "type": "range",
+      "id": "columns_mobile",
+      "label": "Columns mobile",
+      "min": 0,
+      "max": 3,
+      "step": 1,
+      "default": 1
+    },
+    {
+      "type": "paragraph",
+      "content": "NOTE: Set number of columns to 0 to autofit all blocks in the center."
+    },
+    {
+      "type": "range",
+      "id": "desktop_spacing",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Desktop spacing",
+      "default": 28
+    },
+    {
+      "type": "range",
+      "id": "mobile_spacing",
+      "min": 0,
+      "max": 50,
+      "step": 2,
+      "unit": "px",
+      "label": "Mobile spacing",
+      "default": 16
     },
     {
       "type": "checkbox",
-      "id": "show_days",
-      "label": "Show Days",
+      "id": "show_separator",
+      "label": "Show separator between blocks",
       "default": false
     },
     {
-      "type": "checkbox",
-      "id": "custom_date",
-      "label": "Use Custom End Date",
-      "default": false,
-      "info": "If unchecked, countdown will be to next midnight EST"
-    },
-    {
-      "type": "text",
-      "id": "end_date",
-      "label": "End Date (YYYY-MM-DD HH:MM:SS)",
-      "default": "2023-12-31 23:59:59",
-      "info": "Format: YYYY-MM-DD HH:MM:SS"
-    },
-    {
       "type": "select",
-      "id": "timezone",
-      "label": "Timezone for Midnight Reset",
+      "id": "color_scheme",
       "options": [
-        { "value": "America/New_York", "label": "Eastern Time (EST/EDT)" },
-        { "value": "America/Chicago", "label": "Central Time (CST/CDT)" },
-        { "value": "America/Denver", "label": "Mountain Time (MST/MDT)" },
-        { "value": "America/Los_Angeles", "label": "Pacific Time (PST/PDT)" },
-        { "value": "America/Anchorage", "label": "Alaska Time (AKST/AKDT)" },
-        { "value": "Pacific/Honolulu", "label": "Hawaii Time (HST)" },
-        { "value": "Europe/London", "label": "GMT/BST (London)" },
-        { "value": "Europe/Paris", "label": "CET/CEST (Paris)" },
-        { "value": "Europe/Berlin", "label": "CET/CEST (Berlin)" },
-        { "value": "Asia/Tokyo", "label": "JST (Tokyo)" },
-        { "value": "Asia/Shanghai", "label": "CST (Shanghai)" },
-        { "value": "Australia/Sydney", "label": "AEST/AEDT (Sydney)" }
+        {
+          "value": "accent-1",
+          "label": "Accent 1"
+        },
+        {
+          "value": "accent-2",
+          "label": "Accent 2"
+        },
+        {
+          "value": "background-1",
+          "label": "Background 1"
+        },
+        {
+          "value": "background-2",
+          "label": "Background 2"
+        },
+        {
+          "value": "inverse",
+          "label": "Inverse"
+        },
+        {
+          "value": "custom",
+          "label": "Custom"
+        }
       ],
-      "default": "America/New_York",
-      "info": "Choose the timezone for when the daily countdown resets at midnight"
-    },    {
-      "type": "text",
-      "id": "days_label",
-      "label": "Days Label",
-      "default": "DAYS"
-    },
-    {
-      "type": "text",
-      "id": "hours_label",
-      "label": "Hours Label",
-      "default": "HRS"
-    },
-    {
-      "type": "text",
-      "id": "minutes_label",
-      "label": "Minutes Label",
-      "default": "MIN"
-    },
-    {
-      "type": "text",
-      "id": "seconds_label",
-      "label": "Seconds Label",
-      "default": "SEC"
-    },
-    {
-      "type": "header",
-      "content": "Style"
+      "default": "accent-1",
+      "label": "Color scheme"
     },
     {
       "type": "color",
-      "id": "text_color",
-      "label": "Text Color",
-      "default": "#000000"
-    },
-    {
-      "type": "color",
-      "id": "timer_bg_color",
-      "label": "Timer Background Color",
-      "default": "#000000"
-    },
-    {
-      "type": "color",
-      "id": "timer_text_color",
-      "label": "Timer Text Color",
-      "default": "#FFFFFF"
-    },
-    {
-      "type": "color",
-      "id": "label_text_color",
-      "label": "Label Text Color",
-      "default": "#FFFFFF"
-    },
-    {
-      "type": "select",
-      "id": "background_type",
-      "label": "Section Background Type",
-      "options": [
-        { "value": "animated_gradient", "label": "Animated Gradient" },
-        { "value": "static_gradient", "label": "Static Gradient" },
-        { "value": "solid", "label": "Solid Color" }
-      ],
-      "default": "animated_gradient"
-    },
-    {
-      "type": "checkbox",
-      "id": "hide_shine_effect",
-      "label": "Hide Shine Effect",
-      "default": false,
-      "info": "Remove the animated shine/shimmer effect on the background"
+      "id": "custom_colors_background",
+      "default": "#dd1d1d",
+      "label": "Custom background color",
+      "visible_if": "{{ section.settings.color_scheme == 'custom' }}"
     },
     {
       "type": "color_background",
-      "id": "static_gradient_value",
-      "label": "Static Gradient",
-      "default": "linear-gradient(135deg, #FFF5EA, #FF99A9)",
-      "visible_if": "{{ section.settings.background_type == 'static_gradient' }}"
+      "id": "custom_gradient_background",
+      "label": "Custom gradient background",
+      "info": "If added, replaces Background color when applicable.",
+      "visible_if": "{{ section.settings.color_scheme == 'custom' }}"
     },
     {
       "type": "color",
-      "id": "solid_bg_color",
-      "label": "Solid Background Color",
-      "default": "#FF99A9",
-      "visible_if": "{{ section.settings.background_type == 'solid' }}"
+      "id": "custom_colors_text",
+      "default": "#FFFFFF",
+      "label": "Custom text color",
+      "visible_if": "{{ section.settings.color_scheme == 'custom' }}"
     },
     {
-      "type": "color",
-      "id": "gradient_color_1",
-      "label": "Gradient Color 1",
-      "default": "#FFF5EA",
-      "visible_if": "{{ section.settings.background_type == 'animated_gradient' }}"
+      "type": "header",
+      "content": "Slider"
     },
     {
-      "type": "color",
-      "id": "gradient_color_2",
-      "label": "Gradient Color 2",
-      "default": "#FFDAE0",
-      "visible_if": "{{ section.settings.background_type == 'animated_gradient' }}"
+      "type": "checkbox",
+      "id": "slider_mobile",
+      "label": "Enable mobile slider",
+      "default": true
     },
     {
-      "type": "color",
-      "id": "gradient_color_3",
-      "label": "Gradient Color 3",
-      "default": "#FDFFE7",
-      "visible_if": "{{ section.settings.background_type == 'animated_gradient' }}"
+      "type": "checkbox",
+      "id": "slider_desktop",
+      "label": "Enable desktop slider",
+      "default": false
     },
     {
-      "type": "color",
-      "id": "gradient_color_4",
-      "label": "Gradient Color 4",
-      "default": "#FF99A9",
-      "visible_if": "{{ section.settings.background_type == 'animated_gradient' }}"
+      "type": "select",
+      "id": "type",
+      "options": [
+        {
+          "value": "slide",
+          "label": "Classic"
+        },
+        {
+          "value": "loop",
+          "label": "Infinite"
+        },
+        {
+          "value": "fade",
+          "label": "Fade"
+        }
+      ],
+      "default": "loop",
+      "label": "Type"
+    },
+    {
+      "type": "checkbox",
+      "id": "autoplay",
+      "label": "Enable autoplay",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "autoplay_speed",
+      "min": 1,
+      "max": 15,
+      "step": 0.5,
+      "default": 3,
+      "unit": "sec",
+      "label": "Autoplay speed"
+    },
+    {
+      "type": "header",
+      "content": "Visibility",
+      "info": "Use this if you want to display/hide this section on certain product page(s)."
+    },
+    {
+      "type": "text",
+      "id": "hidden_products",
+      "label": "Product pages to hide the section on",
+      "info": "Handles of products to hide the section on, split with a comma."
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_specific_display",
+      "label": "Display the section on specific product pages only",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "displayed_products",
+      "label": "Specific product pages to display the section on",
+      "info": "Applied if the checkbox above is checked. Handles of products to only display the section on, split with a comma."
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 16
     }
+  ],
+  "blocks": [
+    {
+      "type": "announcement"
+    },
+    {
+      "type": "countdown-timer"
+    },
+    {
+      "type": "discount"
+    },
+    {
+      "type": "socials"
+    },
   ],
   "presets": [
     {
-      "name": "Countdown Banner",
-      "category": "Promotional"
+      "name": "Announcement bar",
+      "blocks": [
+        {
+          "type": "announcement"
+        }
+      ]
     }
   ]
 }

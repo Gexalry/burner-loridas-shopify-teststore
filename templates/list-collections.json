@@ -1,1 +1,100 @@
-{"sections":{"main":{"type":"main-list-collections","disabled":true,"settings":{"title":"Collections","sort":"alphabetical","image_ratio":"square","columns_desktop":3,"columns_mobile":"2"}},"featured_collection_list_eyVerg":{"type":"featured-collection-list","blocks":{"collection_9cHf6M":{"type":"collection","settings":{"collection":"active-fit","custom_label":"","button_text":"Shop Now"}},"collection_hRJYdL":{"type":"collection","settings":{"collection":"clothing","custom_label":"","button_text":"Shop Now"}},"collection_h63ThQ":{"type":"collection","settings":{"collection":"frontpage","custom_label":"","button_text":"Shop Now"}}},"block_order":["collection_9cHf6M","collection_hRJYdL","collection_h63ThQ"],"name":"Featured Collections","settings":{"title":"Popular Categories","title_alignment":"left","subtitle":"Discover our curated selection","subtitle_size":16,"hide_divider_line":false,"header_margin_bottom":12,"subtitle_margin_bottom":20,"use_theme_colors":true,"background_color":"#ffffff","heading_color":"#000000","subtitle_color":"#666666","show_labels":true,"center_labels":false,"label_above_button":false,"label_color":"#ffffff","label_font_size":20,"remove_label_shadow":false,"show_button":false,"button_bottom_spacing":14,"button_background":"#ffffff","button_text_color":"#000000","button_hover_background":"#f0f0f0","button_hover_text_color":"#000000","button_font_size":14,"button_font_weight":"bold","button_padding_x":16,"button_padding_y":8,"button_border_radius":4,"button_border_width":0,"button_border_color":"#000000","remove_button_shadow":false,"max_width":1220,"columns_desktop":3,"columns_tablet":2,"columns_mobile":"1","card_gap":18,"card_aspect_ratio":"16_10","use_fixed_height":false,"card_height_desktop":420,"card_height_mobile":300,"enable_custom_border":false,"border_color":"#e0e0e0","border_width":1,"border_style":"solid","border_radius":8,"overlay_color":"#000000","overlay_opacity_strong":75,"overlay_opacity_mid":45,"overlay_opacity_light":15}}},"order":["main","featured_collection_list_eyVerg"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-list-collections",
+      "settings": {
+        "title": "Collections",
+        "title_highlight_color": "#6D388B",
+        "sort": "alphabetical",
+        "image_ratio": "square",
+        "custon_styling": false,
+        "card_style": "standard",
+        "cards_color_scheme": "background-1",
+        "card_text_alignment": "left",
+        "cards_corner_radius": 10,
+        "card_title_limited_lines": "unlimited",
+        "card_title_position": "over-bottom",
+        "cards_title_overlay_color": "#000000",
+        "cards_title_overlay_opacity": 40,
+        "cards_title_over_color": "#ffffff",
+        "cards_desktop_title_size": 24,
+        "cards_mobile_title_size": 16,
+        "cards_show_arrow": true,
+        "cards_cta_label": "",
+        "cards_cta_style": "secondary",
+        "cards_cta_full_width": false,
+        "cards_cta_color": "#6D388B",
+        "cards_desktop_cta_size": 16,
+        "cards_mobile_cta_size": 14,
+        "cards_cta_height": 220,
+        "cards_cta_padding": 200,
+        "cards_cta_top_margin": 100,
+        "desktop_page_width": "normal",
+        "columns_desktop": 3,
+        "desktop_spacing": 40,
+        "mobile_full_page": false,
+        "columns_mobile": "2",
+        "mobile_spacing": 15,
+        "padding_top": 48,
+        "padding_bottom": 36
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "Subscribe to our emails",
+            "title_highlight_color": "#6D388B",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Join our email list for exclusive offers and the latest news. </p>"
+          }
+        },
+        "email-form": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email-form"
+      ],
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "button_type": "solid",
+        "button_label": "Sign up",
+        "button_style_secondary": false,
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 68,
+        "padding_bottom": 52,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2E2A39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "newsletter"
+  ]
+}
