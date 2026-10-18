@@ -1,0 +1,236 @@
+{
+  "sections": {
+    "goodwell": {
+      "type": "goodwell-product",
+      "settings": {
+        "ink": "#2C3E50",
+        "background": "#F9F6F0",
+        "accent": "#3498DB",
+        "soft": "#e9eff0",
+        "action": "#205b7e",
+        "eyebrow": "A simple addition to your shared routine",
+        "headline": "Support the cellular maintenance that supports your life together.",
+        "subheadline": "You've planned for the future. Now, add a daily habit grounded in the science of cellular recycling. Goodwell delivers 10mg of Spermidine 3HCL to support your body's natural maintenance processes.",
+        "benefits": "<ul><li>Formulated for daily cellular support</li><li>10mg Spermidine 3HCL per serving</li><li>A transparent, two-capsule daily habit</li></ul>",
+        "formula": "10 mg Spermidine 3HCL per serving",
+        "facts": "<ul><li>10 mg Spermidine 3HCL per serving</li><li>2 capsules per daily serving</li><li>60 capsules per bottle (30-day supply)</li><li>Simple HPMC capsule and rice flour base</li></ul>",
+        "offer_heading": "Start your shared routine today.",
+        "offer_body": "Choose the supply that fits your household. Each bottle contains 60 capsules (a 30-day supply for one person).",
+        "faq_heading": "Frequently asked questions",
+        "closing_headline": "Invest in your cellular health together.",
+        "closing_body": "You've built a life worth enjoying. Add Goodwell to your morning routine and actively support the cellular maintenance your body relies on.",
+        "closing_cta": "Choose Your Couple's Supply",
+        "disclosures": "<p>These statements have not been evaluated by the Food and Drug Administration.</p><p>This product is not intended to diagnose, treat, cure, or prevent any disease.</p><p>Consult your physician before use, especially if you have a medical condition or are taking prescription medications.</p>"
+      },
+      "blocks": {
+        "story_1": {
+          "type": "story",
+          "settings": {
+            "heading": "The best years are the everyday ones.",
+            "body": "<p>When you think about the future together, it isn&#x27;t always about grand bucket-list trips. More often, it&#x27;s about the quiet mornings over coffee, the afternoon walks, tending to the garden, and having the energy to choose how you spend your day. Preserving those ordinary, beautiful moments is why healthy aging matters. And healthy aging starts at the microscopic level—with how your body maintains its own cells.</p>",
+            "bullets": "",
+            "sources": "",
+            "presentation": "editorial"
+          }
+        },
+        "story_2": {
+          "type": "story",
+          "settings": {
+            "heading": "The biology of aging: What is Autophagy?",
+            "body": "<p>Your cells are constantly working, and over time, they accumulate wear and tear. To stay healthy, your body uses a built-in recycling program called autophagy. Think of it as a cellular cleanup crew. Autophagy breaks down damaged cellular parts and recycles them to maintain efficient function. As we get older, this natural maintenance process can slow down. That&#x27;s why scientists studying longevity are so focused on finding ways to support autophagy.</p>",
+            "bullets": "",
+            "sources": "<p><a href=\"https://pubmed.ncbi.nlm.nih.gov/19801973/\">Mechanistic model-organism and human-cell experiments ↗</a></p>",
+            "presentation": "mechanism"
+          }
+        },
+        "story_3": {
+          "type": "story",
+          "settings": {
+            "heading": "Where spermidine fits into the picture.",
+            "body": "<p>Spermidine is a naturally occurring polyamine found widely in nature and human biology. It plays an intimately researched role in how cells function and survive. In laboratory models, researchers have observed that spermidine actually induces autophagy. When the cellular recycling process was deliberately blocked in these models, the longevity benefits associated with spermidine disappeared. This tells scientists that spermidine is directly tied to the body&#x27;s cellular maintenance pathways.</p>",
+            "bullets": "",
+            "sources": "<p><a href=\"https://pubmed.ncbi.nlm.nih.gov/19801973/\">Mechanistic model-organism and human-cell experiments ↗</a></p>",
+            "presentation": "proof"
+          }
+        },
+        "story_4": {
+          "type": "story",
+          "settings": {
+            "heading": "The human dietary connection.",
+            "body": "<p>The interest in spermidine goes beyond the laboratory. A major 20-year observational study followed over 800 adults aged 45 to 84 to look at their diets. After adjusting for various lifestyle factors, researchers found that people who consumed higher amounts of spermidine through their regular food had a statistical association with lower mortality over the study period. While a dietary association doesn&#x27;t prove that taking a supplement will add years to your life, it provides a compelling human reason to pay attention to this compound.</p>",
+            "bullets": "",
+            "sources": "<p><a href=\"https://doi.org/10.1093/ajcn/nqy102\">Prospective dietary cohort, 829 people aged 45–84, followed for up to 20 years; independent cohort validation ↗</a></p>",
+            "presentation": "proof"
+          }
+        },
+        "story_5": {
+          "type": "story",
+          "settings": {
+            "heading": "The link to fasting and cellular health.",
+            "body": "<p>You may have heard that intermittent fasting is popular in longevity circles. One of the reasons researchers study fasting is because going without food triggers the body&#x27;s autophagy process. Interestingly, a 2024 study found that fasting actually raised spermidine levels in human volunteers. Furthermore, when researchers blocked the synthesis of spermidine in experimental models, the fasting-induced autophagy was impaired. Goodwell doesn&#x27;t replace a healthy diet or the physiological effects of fasting, but it provides a compound intimately involved in those same biological pathways.</p>",
+            "bullets": "",
+            "sources": "<p><a href=\"https://www.nature.com/articles/s41556-024-01468-x\">Fasting studies across organisms, human volunteers and human cells ↗</a></p>",
+            "presentation": "proof"
+          }
+        },
+        "story_6": {
+          "type": "story",
+          "settings": {
+            "heading": "Why choose Goodwell?",
+            "body": "<p>You can get spermidine from foods like aged cheese, mushrooms, and wheat germ. But getting a consistent, measurable amount every single day can be difficult to manage. Goodwell is designed for simplicity. We provide a clear, standardized serving of 10mg of Spermidine 3HCL in just two capsules. No complicated biohacking protocols, no guessing how much you&#x27;re getting—just a straightforward addition to your morning routine.</p>",
+            "bullets": "<ul><li>10mg of Spermidine 3HCL per daily serving</li><li>Simple two-capsule dose</li><li>Transparent ingredients: HPMC capsule and rice flour</li></ul>",
+            "sources": "",
+            "presentation": "product"
+          }
+        },
+        "story_7": {
+          "type": "story",
+          "settings": {
+            "heading": "A routine designed for two.",
+            "body": "<p>Healthy habits are easier to maintain when you do them together. We&#x27;ve structured our Couple&#x27;s Bundle to provide exactly enough for two people to take their daily serving for a full month. It&#x27;s one less thing to track, and one more small commitment you can make to your shared future. Of course, everyone&#x27;s body is different, and you should always check with your doctor before starting a new supplement, especially if you take medications.</p>",
+            "bullets": "",
+            "sources": "",
+            "presentation": "editorial"
+          }
+        },
+        "story_8": {
+          "type": "story",
+          "settings": {
+            "heading": "Early human research on cellular support.",
+            "body": "<p>Beyond dietary associations, researchers are beginning to study oral spermidine supplements in humans. A pilot study randomized 40 adults over 65 across spermidine and placebo groups, with 38 analyzed. The active group took a wheat-germ extract supplying 6mg per day for 13 weeks. While the trial was small and exploratory, researchers observed autophagy-related biomarker changes in certain immune cells, with some specific responses concentrated in a subgroup of participants. This early research provides a concrete bridge between oral intake and cellular biology. Goodwell offers 10mg of Spermidine 3HCL to help you actively support your cellular maintenance as part of a broader lifestyle of good nutrition and exercise.</p>",
+            "bullets": "",
+            "sources": "<p><a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC13240347/\">Randomized placebo-controlled pilot, 40 adults over 65, 6 mg/day in wheat-germ extract for 13 weeks ↗</a></p>",
+            "presentation": "proof"
+          }
+        },
+        "offer_1": {
+          "type": "offer",
+          "settings": {
+            "description": "One month of daily cellular support for two people."
+          }
+        },
+        "offer_2": {
+          "type": "offer",
+          "settings": {
+            "description": "Two months of daily cellular support for two people."
+          }
+        },
+        "faq_1": {
+          "type": "faq",
+          "settings": {
+            "question": "Will taking this make us live longer?",
+            "answer": "<p>No supplement can guarantee a longer life. The research on spermidine shows it is involved in cellular maintenance (autophagy) and dietary studies associate higher intake with lower mortality. Goodwell is designed to support cellular health, not to serve as a magic pill for lifespan extension.</p>",
+            "sources": "<p><a href=\"https://doi.org/10.1093/ajcn/nqy102\">Prospective dietary cohort, 829 people aged 45–84, followed for up to 20 years; independent cohort validation ↗</a></p>",
+            "requires_refund_policy": false
+          }
+        },
+        "faq_2": {
+          "type": "faq",
+          "settings": {
+            "question": "What exactly does 10mg Spermidine 3HCL mean?",
+            "answer": "<p>Spermidine 3HCL (trihydrochloride) is the specific form of the ingredient used in our formulation. Each two-capsule serving provides 10mg of Spermidine 3HCL.</p>",
+            "sources": "",
+            "requires_refund_policy": false
+          }
+        },
+        "faq_3": {
+          "type": "faq",
+          "settings": {
+            "question": "How long does one bottle last?",
+            "answer": "<p>One bottle contains 60 capsules. At the recommended serving size of 2 capsules per day, one bottle lasts one person for 30 days. For a couple taking it daily, you will need two bottles per month.</p>",
+            "sources": "",
+            "requires_refund_policy": false
+          }
+        },
+        "faq_4": {
+          "type": "faq",
+          "settings": {
+            "question": "Is this the same formulation used in the clinical trials?",
+            "answer": "<p>Various studies use different forms and doses of spermidine, including food extracts, synthetic salts, and high-dose animal diets. Goodwell uses Spermidine 3HCL. While the ingredient itself is heavily researched, this specific formula has not been the subject of a dedicated lifespan clinical trial.</p>",
+            "sources": "<p><a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC13240347/\">Randomized placebo-controlled pilot, 40 adults over 65, 6 mg/day in wheat-germ extract for 13 weeks ↗</a></p>",
+            "requires_refund_policy": false
+          }
+        },
+        "faq_5": {
+          "type": "faq",
+          "settings": {
+            "question": "What is autophagy?",
+            "answer": "<p>Autophagy is the body&#x27;s natural process of breaking down and recycling old, damaged cellular components. It&#x27;s a critical part of how your cells maintain themselves over time.</p>",
+            "sources": "<p><a href=\"https://pubmed.ncbi.nlm.nih.gov/19801973/\">Mechanistic model-organism and human-cell experiments ↗</a></p>",
+            "requires_refund_policy": false
+          }
+        },
+        "faq_6": {
+          "type": "faq",
+          "settings": {
+            "question": "Can we just get spermidine from food?",
+            "answer": "<p>Yes, spermidine is found in foods like wheat germ, aged cheese, soybeans, and mushrooms. Many people choose a supplement to ensure they are getting a consistent, measurable amount every single day without altering their diet.</p>",
+            "sources": "<p><a href=\"https://doi.org/10.1093/ajcn/nqy102\">Prospective dietary cohort, 829 people aged 45–84, followed for up to 20 years; independent cohort validation ↗</a></p>",
+            "requires_refund_policy": false
+          }
+        },
+        "faq_7": {
+          "type": "faq",
+          "settings": {
+            "question": "How quickly will we feel a difference?",
+            "answer": "<p>Spermidine is studied for long-term cellular maintenance, not as a quick-fix stimulant. You are unlikely to &#x27;feel&#x27; a sudden burst of energy. It is designed to be a consistent part of a long-term healthy aging routine.</p>",
+            "sources": "",
+            "requires_refund_policy": false
+          }
+        },
+        "faq_8": {
+          "type": "faq",
+          "settings": {
+            "question": "Are there any allergens in Goodwell?",
+            "answer": "<p>The capsules contain Spermidine 3HCL, an HPMC (vegetarian) capsule, and rice flour. However, you should always check the label carefully and consult your doctor if you have severe allergies.</p>",
+            "sources": "",
+            "requires_refund_policy": false
+          }
+        },
+        "faq_9": {
+          "type": "faq",
+          "settings": {
+            "question": "Should we take this with food?",
+            "answer": "<p>You can take Goodwell capsules with or without food, depending on your personal preference and how it settles in your stomach.</p>",
+            "sources": "",
+            "requires_refund_policy": false
+          }
+        },
+        "faq_10": {
+          "type": "faq",
+          "settings": {
+            "question": "Can this replace our current medications?",
+            "answer": "<p>Absolutely not. Goodwell is a dietary supplement, not a medication. It is not intended to diagnose, treat, cure, or prevent any disease. Always discuss new supplements with your healthcare provider, especially if you take prescription medications.</p>",
+            "sources": "",
+            "requires_refund_policy": false
+          }
+        }
+      },
+      "block_order": [
+        "story_1",
+        "story_2",
+        "story_3",
+        "story_4",
+        "story_5",
+        "story_6",
+        "story_7",
+        "story_8",
+        "offer_1",
+        "offer_2",
+        "faq_1",
+        "faq_2",
+        "faq_3",
+        "faq_4",
+        "faq_5",
+        "faq_6",
+        "faq_7",
+        "faq_8",
+        "faq_9",
+        "faq_10"
+      ]
+    }
+  },
+  "order": [
+    "goodwell"
+  ]
+}

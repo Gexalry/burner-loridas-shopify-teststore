@@ -1,0 +1,243 @@
+{
+  "sections": {
+    "goodwell": {
+      "type": "goodwell-product",
+      "settings": {
+        "ink": "#0F172A",
+        "background": "#F8FAFC",
+        "accent": "#3B82F6",
+        "soft": "#e9effa",
+        "action": "#1d4f91",
+        "eyebrow": "Targeted Male Cellular Health",
+        "headline": "Support the Biology Behind Your Best Moments",
+        "subheadline": "You care about confidence, consistency, and a great finish. Goodwell supplies 10mg of Spermidine 3HCL—a targeted molecule researchers are studying for its role in male reproductive cellular health.",
+        "benefits": "<ul><li>10mg of focused Spermidine 3HCL per serving</li><li>The exact polyamine studied in recent preclinical reproductive research</li><li>100% transparent formula—no proprietary blends</li></ul>",
+        "formula": "10 mg Spermidine 3HCL per serving",
+        "facts": "<ul><li>10 mg Spermidine 3HCL per serving</li><li>2 capsules per daily serving</li><li>60 capsules per bottle (30-day supply)</li><li>Simple HPMC capsule and rice flour base</li></ul>",
+        "offer_heading": "Choose Your Supply",
+        "offer_body": "Choose the package that fits your routine.",
+        "faq_heading": "Frequently asked questions",
+        "closing_headline": "Take Control of Your Cellular Health",
+        "closing_body": "Ditch the mystery blends and explore the science of polyamines with a clear, straightforward formula.",
+        "closing_cta": "Buy Goodwell Spermidine",
+        "disclosures": "<p>These statements have not been evaluated by the Food and Drug Administration.</p><p>This product is not intended to diagnose, treat, cure, or prevent any disease.</p><p>Information presented regarding biological mechanisms and preclinical studies is for educational purposes and does not guarantee a specific physiological outcome.</p>"
+      },
+      "blocks": {
+        "story_1": {
+          "type": "story",
+          "settings": {
+            "heading": "Intimacy is About Confidence and Connection",
+            "body": "<p>When it comes to the bedroom, you want to feel completely confident. You want consistency. You want an experience that is deeply satisfying for both you and your partner. That level of confidence doesn&#x27;t just happen—it relies on a complex, highly active biological system working exactly the way it should.</p>",
+            "bullets": "",
+            "sources": "",
+            "presentation": "editorial"
+          }
+        },
+        "story_2": {
+          "type": "story",
+          "settings": {
+            "heading": "The Problem with 'Mystery' Supplements",
+            "body": "<p>If you&#x27;ve looked into ways to support your intimate health, you&#x27;ve likely encountered &#x27;proprietary blends.&#x27; Many hide their actual ingredient amounts behind a single label. You don&#x27;t know exactly what you&#x27;re taking, and you certainly don&#x27;t know if the science backs it up. We believe you deserve better than guesswork.</p>",
+            "bullets": "<ul><li>No hidden ingredient dosages</li><li>No exaggerated overnight promises</li><li>No confusing &#x27;kitchen sink&#x27; formulas</li></ul>",
+            "sources": "",
+            "presentation": "editorial"
+          }
+        },
+        "story_3": {
+          "type": "story",
+          "settings": {
+            "heading": "The Science of Polyamines",
+            "body": "<p>To understand how to support this system, you have to look at what it&#x27;s actually made of. The male reproductive tract naturally contains high levels of molecules called polyamines. One of the most important polyamines is spermidine. It&#x27;s not just a building block; researchers are actively studying how it helps cells function, recycle waste, and maintain their environment.</p>",
+            "bullets": "",
+            "sources": "<p><a href=\"https://pubmed.ncbi.nlm.nih.gov/2621711/\">Observational comparison eight years after vasectomy ↗</a></p>",
+            "presentation": "mechanism"
+          }
+        },
+        "story_4": {
+          "type": "story",
+          "settings": {
+            "heading": "Protecting the Reproductive Environment",
+            "body": "<p>Your reproductive cells work incredibly hard. Like many active tissues, they utilize cellular maintenance processes—including one called autophagy, which helps recycle cellular material. Spermidine is deeply involved in this biology. Researchers are currently investigating how supporting these pathways might influence the biological environment where your intimate health begins.</p>",
+            "bullets": "",
+            "sources": "<p><a href=\"https://pubmed.ncbi.nlm.nih.gov/19801973/\">Mechanistic model-organism and human-cell experiments ↗</a></p>",
+            "presentation": "proof"
+          }
+        },
+        "story_5": {
+          "type": "story",
+          "settings": {
+            "heading": "What the Latest Research is Looking At",
+            "body": "<p>Scientific interest in spermidine and male reproduction is growing. In a recent 2026 veterinary study, researchers looked at rams experiencing heat stress. They fed the animals a dietary spermidine intervention (5 mg/kg) for 60 days. The researchers found that the spermidine group had a higher ejaculate volume on day 35, alongside changes in oxidative stress measurements. While humans aren&#x27;t sheep, and this preclinical animal lead does not guarantee human results, it highlights exactly why scientists are investigating spermidine&#x27;s role in reproductive biology.</p>",
+            "bullets": "",
+            "sources": "<p><a href=\"https://pubmed.ncbi.nlm.nih.gov/42541972/\">Spermidine and melatonin ameliorate heat stress-induced decline in sheep semen quality ↗</a></p>",
+            "presentation": "proof"
+          }
+        },
+        "story_6": {
+          "type": "story",
+          "settings": {
+            "heading": "Introducing Goodwell Spermidine",
+            "body": "<p>We created Goodwell for men who want a straightforward approach. Instead of a messy blend of twenty different herbs, we give you exactly what&#x27;s on the label: 10mg of Spermidine 3HCL in a simple, two-capsule serving. Clear ingredients, HPMC capsules, and rice flour.</p>",
+            "bullets": "<ul><li>Clear ingredient labeling</li><li>HPMC capsules with simple rice flour</li><li>Manufactured for daily consistency</li></ul>",
+            "sources": "",
+            "presentation": "product"
+          }
+        },
+        "story_7": {
+          "type": "story",
+          "settings": {
+            "heading": "A Simple Addition to Your Daily Habit",
+            "body": "<p>Supporting your cellular health shouldn&#x27;t require a complicated regimen. Just take two Goodwell capsules daily with water. It pairs perfectly with the habits you already know work—like staying properly hydrated, exercising, and maintaining a healthy diet.</p>",
+            "bullets": "",
+            "sources": "",
+            "presentation": "editorial"
+          }
+        },
+        "story_8": {
+          "type": "story",
+          "settings": {
+            "heading": "Our Commitment to Honesty",
+            "body": "<p>We don&#x27;t make impossible promises. Goodwell Spermidine is not a magic pill, and human ejaculate volume increases remain a scientific hypothesis, not an established outcome of this supplement. We respect you enough to tell you exactly what the preclinical science says—and exactly what is in our bottle.</p>",
+            "bullets": "",
+            "sources": "",
+            "presentation": "editorial"
+          }
+        },
+        "offer_1": {
+          "type": "offer",
+          "settings": {
+            "description": "Perfect for starting your new routine."
+          }
+        },
+        "offer_2": {
+          "type": "offer",
+          "settings": {
+            "description": "Save $49.98 compared to three single bottles."
+          }
+        },
+        "offer_3": {
+          "type": "offer",
+          "settings": {
+            "description": "Maximum value for dedicated daily use."
+          }
+        },
+        "faq_1": {
+          "type": "faq",
+          "settings": {
+            "question": "Will this guarantee a bigger load?",
+            "answer": "<p>No supplement can guarantee a specific volume increase. Ejaculate volume is influenced by hydration, arousal, time between orgasms, and individual biology. While a recent veterinary study showed volume changes in heat-stressed rams given dietary spermidine, a human fluid increase from oral capsules remains a hypothesis, not an established outcome.</p>",
+            "sources": "",
+            "requires_refund_policy": false
+          }
+        },
+        "faq_2": {
+          "type": "faq",
+          "settings": {
+            "question": "What exactly is in the capsules?",
+            "answer": "<p>Each two-capsule serving contains 10mg of Spermidine 3HCL, enclosed in an HPMC capsule with rice flour. There are no hidden proprietary blends.</p>",
+            "sources": "",
+            "requires_refund_policy": false
+          }
+        },
+        "faq_3": {
+          "type": "faq",
+          "settings": {
+            "question": "How is spermidine related to male reproductive health?",
+            "answer": "<p>Spermidine is a polyamine naturally found in high concentrations in seminal fluid. Researchers study it for its role in cellular maintenance (autophagy) and helping cells manage oxidative stress, which is crucial for healthy reproductive tissues.</p>",
+            "sources": "<p><a href=\"https://pubmed.ncbi.nlm.nih.gov/2621711/\">Observational comparison eight years after vasectomy ↗</a></p><p><a href=\"https://pubmed.ncbi.nlm.nih.gov/19801973/\">Mechanistic model-organism and human-cell experiments ↗</a></p>",
+            "requires_refund_policy": false
+          }
+        },
+        "faq_4": {
+          "type": "faq",
+          "settings": {
+            "question": "How long does it take to see results?",
+            "answer": "<p>Because human volume and reproductive outcomes are not established for this supplement, there is no guaranteed timeline for results. Dietary supplements are meant for long-term use alongside healthy habits like proper hydration and diet.</p>",
+            "sources": "",
+            "requires_refund_policy": false
+          }
+        },
+        "faq_5": {
+          "type": "faq",
+          "settings": {
+            "question": "Is this based on human clinical trials?",
+            "answer": "<p>While spermidine has been studied in humans for general safety and dietary associations, the specific research linking it to ejaculate volume and reproductive oxidative stress currently comes from preclinical animal models (like veterinary studies on rams). We provide this ingredient so you can access the molecule being researched.</p>",
+            "sources": "<p><a href=\"https://pubmed.ncbi.nlm.nih.gov/42541972/\">Spermidine and melatonin ameliorate heat stress-induced decline in sheep semen quality ↗</a></p>",
+            "requires_refund_policy": false
+          }
+        },
+        "faq_6": {
+          "type": "faq",
+          "settings": {
+            "question": "Can I take this with my other supplements?",
+            "answer": "<p>Goodwell Spermidine is a focused, single-ingredient formula, which makes it easy to track what you are taking. However, if you are currently taking medications or have specific health conditions, you should always consult your healthcare provider before starting any new supplement.</p>",
+            "sources": "",
+            "requires_refund_policy": false
+          }
+        },
+        "faq_7": {
+          "type": "faq",
+          "settings": {
+            "question": "Do I have to subscribe?",
+            "answer": "<p>No. All purchases are one-time orders. You can choose a single bottle or select one of our multi-bottle packages to ensure you have a steady supply.</p>",
+            "sources": "",
+            "requires_refund_policy": false
+          }
+        },
+        "faq_8": {
+          "type": "faq",
+          "settings": {
+            "question": "Why is it called spermidine?",
+            "answer": "<p>Spermidine is a polyamine naturally found in high concentrations in seminal fluid, as well as in almost all living cells, where it plays a vital role in cellular biology.</p>",
+            "sources": "",
+            "requires_refund_policy": false
+          }
+        },
+        "faq_9": {
+          "type": "faq",
+          "settings": {
+            "question": "Is this just for fertility?",
+            "answer": "<p>No. While reproductive health and fertility are linked, our product is designed for men interested in the preclinical research surrounding polyamines, the reproductive environment, and intimate experiences.</p>",
+            "sources": "",
+            "requires_refund_policy": false
+          }
+        },
+        "faq_10": {
+          "type": "faq",
+          "settings": {
+            "question": "How does this compare to zinc or lecithin?",
+            "answer": "<p>Zinc and lecithin are common supplements. Spermidine is a different molecule entirely, specifically researched for its involvement in cellular autophagy and oxidative stress pathways.</p>",
+            "sources": "",
+            "requires_refund_policy": false
+          }
+        }
+      },
+      "block_order": [
+        "story_1",
+        "story_2",
+        "story_3",
+        "story_4",
+        "story_5",
+        "story_6",
+        "story_7",
+        "story_8",
+        "offer_1",
+        "offer_2",
+        "offer_3",
+        "faq_1",
+        "faq_2",
+        "faq_3",
+        "faq_4",
+        "faq_5",
+        "faq_6",
+        "faq_7",
+        "faq_8",
+        "faq_9",
+        "faq_10"
+      ]
+    }
+  },
+  "order": [
+    "goodwell"
+  ]
+}
