@@ -3,237 +3,181 @@
     "goodwell": {
       "type": "goodwell-product",
       "settings": {
-        "ink": "#2C3E50",
-        "background": "#FAFAFA",
-        "accent": "#8B9A8B",
-        "soft": "#E0E5E0",
-        "action": "#344e3e",
-        "eyebrow": "The Cellular Approach to Aging Well",
-        "headline": "You care for your skin from the outside. Now support how your cells maintain themselves from within.",
-        "subheadline": "As we get older, changes can feel sudden even when we have a great routine. Goodwell Spermidine offers a simple, research-backed way to support your body's cellular recycling process—an inside-out addition to your daily care.",
-        "benefits": "<ul><li>Formulated with 10 mg of Spermidine 3HCL per serving</li><li>Inspired by emerging research on cellular recycling (autophagy)</li><li>A simple two-capsule daily routine</li></ul>",
-        "formula": "10 mg Spermidine 3HCL per serving",
-        "facts": "<ul><li>10 mg Spermidine 3HCL per serving</li><li>2 capsules per daily serving</li><li>60 capsules per bottle (30-day supply)</li><li>Simple HPMC capsule and rice flour base</li></ul>",
-        "offer_heading": "Start Your Cellular Support Routine",
-        "offer_body": "Choose the supply that fits your routine. Every bottle delivers 30 daily servings of our focused spermidine formula.",
-        "faq_heading": "Frequently asked questions",
-        "closing_headline": "Take an active role in your cellular health.",
-        "closing_body": "Aging is natural, but how we care for our bodies as we age is up to us. Add the science of cellular recycling to your daily routine today.",
-        "closing_cta": "Choose Your Supply",
-        "disclosures": "<p>These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.</p><p>The clinical studies referenced on this page investigated the mechanisms of spermidine and cellular autophagy in specific populations. They do not guarantee identical results for all individuals taking this dietary supplement.</p>"
+        "ink": "#432b33",
+        "background": "#fffaf7",
+        "accent": "#b98d85",
+        "soft": "#f3e8e5",
+        "action": "#713a4c",
+        "eyebrow": "For women caring for tomorrow.",
+        "headline": "Care for yourself beautifully from the inside.",
+        "subheadline": "You already care for your skin. Now add an inside-out approach inspired by cellular recycling research to your daily aging-well routine.",
+        "hero_cta": "View Purchase Options",
+        "benefits": "<ul><li>Two simple capsules each morning</li><li>Inspired by cellular maintenance research</li><li>A simple, fully transparent ingredient list</li></ul>",
+        "offer_heading": "Choose your daily supply.",
+        "offer_note": "Real one-time purchases through our secure checkout. No hidden subscriptions.",
+        "lifestyle_asset": "gw-spd-04-lifestyle.jpg",
+        "lifestyle_alt": "woman around 50 seated portrait, lightly touching neck collar",
+        "lifestyle_heading": "When the mirror feels a little unfamiliar.",
+        "lifestyle_body": "You notice the shifts in your forties. You already moisturize and protect your skin. Adding a cellular-focused supplement gives you a proactive, biological layer of care that complements your outside-in dedication.",
+        "mechanism_heading": "How cellular recycling works.",
+        "ritual_heading": "A sensible inside-out addition.",
+        "ritual_body": "Keep your favorite serums and creams. Just take two capsules daily to support your cellular biology with the same dedication you give your skin.",
+        "faq_heading": "Frequently Asked Questions",
+        "closing_headline": "Care for your biology from within.",
+        "closing_body": "Add a research-inspired cellular layer to your daily aging-well routine.",
+        "closing_cta": "View Bundle Options",
+        "disclosures": "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.",
+        "proof_label": "Randomized placebo-controlled pilot",
+        "proof_population": "40 adults over 65 randomized, 38 analyzed; active group received wheat germ extract supplying 6mg per day for 13 weeks.",
+        "proof_finding": "The active group showed increased cellular recycling activity in B immune cells.",
+        "proof_scope": "Early cellular finding, not visible skin results. Tested extract differs from Goodwell's formula.",
+        "proof_url": "https://pubmed.ncbi.nlm.nih.gov/42169618/",
+        "proof_link_label": "Read the research",
+        "ui_product_details": "Product Details",
+        "ui_one_time": "One-Time Purchase",
+        "ui_add_to_cart": "Add to Cart",
+        "ui_bottle_unit": "per bottle",
+        "ui_payment_methods": "Accepted Payments",
+        "ui_study_details": "Study Details",
+        "ui_formula_heading": "Formula",
+        "ui_serving_size": "Serving Size",
+        "ui_ingredients": "Ingredients",
+        "ui_choose_options": "Choose Options"
       },
       "blocks": {
-        "story_1": {
-          "type": "story",
+        "trust_1": {
+          "type": "trust",
           "settings": {
-            "heading": "When the mirror feels a little unfamiliar.",
-            "body": "<p>It often happens in your early forties. You catch a reflection in a different light, or look at a recent photograph, and notice that changes are happening faster than you expected. The frustrating part? You are already doing the work. You wear sunscreen, you moisturize, and you might even use advanced topical treatments. Aging is a biological process, and adding an internal layer of care can complement the dedication you already show your skin.</p>",
-            "bullets": "",
-            "sources": "",
-            "presentation": "editorial"
+            "icon": "label",
+            "label": "Clear daily dose",
+            "detail": "10 mg Spermidine 3HCL per two-capsule serving."
           }
         },
-        "story_2": {
-          "type": "story",
+        "trust_2": {
+          "type": "trust",
           "settings": {
-            "heading": "A different layer of care.",
-            "body": "<p>Creams, serums, and treatments are excellent for protecting your skin and improving its texture. But over time, the cells throughout your body have to work harder to maintain themselves. Adding an internal supplement provides an opportunity to support the biological systems that keep your cells functioning efficiently, working alongside your existing routine.</p>",
-            "bullets": "",
-            "sources": "",
-            "presentation": "editorial"
+            "icon": "ingredients",
+            "label": "Simple formula",
+            "detail": "Made with HPMC capsules and rice flour."
           }
         },
-        "story_3": {
-          "type": "story",
+        "trust_3": {
+          "type": "trust",
           "settings": {
-            "heading": "Enter Autophagy: Your body's cellular recycling system.",
-            "body": "<p>Think of your cells like a busy factory. Over time, parts wear out and debris accumulates. To stay efficient, your cells have a built-in maintenance program called autophagy. This process breaks down the old, worn-out components and recycles them to keep the cell functioning smoothly. As we age, this natural recycling process can become less efficient. Supporting this cellular maintenance is one of the most exciting areas of healthy-aging research today.</p>",
-            "bullets": "",
-            "sources": "",
-            "presentation": "mechanism"
+            "icon": "lock",
+            "label": "Secure checkout",
+            "detail": "Simple one-time orders processed safely through Shopify."
           }
         },
-        "story_4": {
-          "type": "story",
+        "fact_1": {
+          "type": "fact",
           "settings": {
-            "heading": "Why researchers are focusing on Spermidine.",
-            "body": "<p>Spermidine is a naturally occurring compound found in our bodies and in certain foods. Scientists who study aging are intensely interested in spermidine because of its role in cellular maintenance pathways. Rather than looking for a superficial &#x27;fountain of youth,&#x27; researchers are investigating how this molecule might help support the body&#x27;s own internal recycling processes.</p>",
-            "bullets": "",
-            "sources": "",
-            "presentation": "editorial"
+            "value": "10 mg",
+            "label": "Spermidine 3HCL"
           }
         },
-        "story_5": {
-          "type": "story",
+        "fact_2": {
+          "type": "fact",
           "settings": {
-            "heading": "The human evidence for cellular recycling.",
-            "body": "<p>The interest in spermidine isn&#x27;t just based on theory or animal testing. In a 2026 randomized, placebo-controlled pilot study, older adults who took a daily oral spermidine supplement showed an increase in autophagic flux—the dynamic process of cellular recycling—in specific immune cells compared to a placebo. This provides a tangible, human signal that oral supplementation can interact with our biological maintenance systems.</p>",
-            "bullets": "<ul><li>40 participants over age 65</li><li>Randomized, double-blind, placebo-controlled design</li><li>Measured dynamic cellular recycling activity</li></ul>",
-            "sources": "<p><a href=\"https://pubmed.ncbi.nlm.nih.gov/42169618/\">Spermidine Mitigates Immune Cell Senescence and Boosts Vaccine Responses in Healthy Older Adults—A Pilot Study ↗</a></p>",
-            "presentation": "proof"
+            "value": "2 capsules",
+            "label": "Daily serving size"
           }
         },
-        "story_6": {
-          "type": "story",
+        "fact_3": {
+          "type": "fact",
           "settings": {
-            "heading": "How this connects to skin biology.",
-            "body": "<p>While oral cellular studies give us the baseline mechanism, scientists are also looking directly at the skin. In a recent 2025 exploratory study, researchers applied spermidine to human epidermal cells (keratinocytes) in the laboratory. They observed changes in cell viability and proteins related to skin structure. While a laboratory cell study is not the same as taking a daily capsule for wrinkles, it explains exactly why skin-health experts consider spermidine a molecule worth watching.</p>",
-            "bullets": "",
-            "sources": "<p><a href=\"https://www.mdpi.com/2673-9488/5/4/43\">The Effects of Spermidine on Functional and Transcriptomic Markers in Human Primary Keratinocytes ↗</a></p>",
-            "presentation": "proof"
+            "value": "60 capsules",
+            "label": "Total per bottle"
           }
         },
-        "story_7": {
-          "type": "story",
+        "fact_4": {
+          "type": "fact",
           "settings": {
-            "heading": "Meet Goodwell Spermidine.",
-            "body": "<p>We created Goodwell Spermidine to give you a defined, manageable way to bring this cellular research into your own life. We offer a high-quality, straightforward ingredient designed to support your body&#x27;s normal cellular function.</p>",
-            "bullets": "<ul><li>10 mg of Spermidine 3HCL per serving</li><li>60 capsules per bottle (a full 30-day supply)</li><li>Simple ingredients: HPMC capsule and rice flour</li></ul>",
-            "sources": "",
-            "presentation": "product"
+            "value": "30 servings",
+            "label": "Full month supply"
           }
         },
-        "story_8": {
-          "type": "story",
+        "mechanism_1": {
+          "type": "mechanism",
           "settings": {
-            "heading": "A sensible addition to your daily routine.",
-            "body": "<p>You don&#x27;t need to throw away your skincare products or adopt an exhausting new lifestyle. Goodwell Spermidine is designed to be a complementary, inside-out layer of care. Just take two capsules daily. It is a proactive choice for women who want to care for their biology with the same dedication they give to the rest of their health.</p>",
-            "bullets": "",
-            "sources": "",
-            "presentation": "editorial"
+            "title": "Natural wear",
+            "text": "Over time, your cells accumulate worn components from daily biological function."
           }
         },
-        "offer_1": {
-          "type": "offer",
+        "mechanism_2": {
+          "type": "mechanism",
           "settings": {
-            "description": "Perfect for starting your new routine."
+            "title": "Cellular recycling",
+            "text": "A process called autophagy breaks down these old parts so materials can be reused."
           }
         },
-        "offer_2": {
-          "type": "offer",
+        "mechanism_3": {
+          "type": "mechanism",
           "settings": {
-            "description": "A great choice for consistent daily care."
-          }
-        },
-        "offer_3": {
-          "type": "offer",
-          "settings": {
-            "description": "The best value for dedicated long-term support."
+            "title": "Ingredient research",
+            "text": "Scientists study spermidine to understand its role in this natural cellular maintenance system."
           }
         },
         "faq_1": {
           "type": "faq",
           "settings": {
-            "question": "Will this get rid of my wrinkles?",
-            "answer": "<p>Goodwell Spermidine is designed to support cellular maintenance and healthy aging from the inside out. While it is not a cosmetic treatment and does not replace your topical skincare or sunscreen, the goal is long-term cellular support as part of your aging-well routine.</p>",
-            "sources": "",
-            "requires_refund_policy": false
+            "question": "Will this reverse my wrinkles?",
+            "answer": "No. Goodwell Spermidine supports internal cellular maintenance, not cosmetic wrinkle removal. It is designed to complement your topical skincare by adding a biological layer of care to your long-term aging-well routine."
           }
         },
         "faq_2": {
           "type": "faq",
           "settings": {
-            "question": "What exactly is autophagy?",
-            "answer": "<p>Autophagy is your body&#x27;s natural cellular recycling process. It is the mechanism cells use to break down old, damaged components and reuse the materials. Supporting this process is a major focus of current healthy-aging research.</p>",
-            "sources": "",
-            "requires_refund_policy": false
+            "question": "What exactly did the human study measure?",
+            "answer": "The featured pilot study measured increased cellular recycling activity (autophagic flux) in specific immune cells of older adults. It tested a wheat-germ extract, providing a human mechanism signal rather than a visible skin-rejuvenation outcome."
           }
         },
         "faq_3": {
           "type": "faq",
           "settings": {
-            "question": "How much spermidine is in each serving?",
-            "answer": "<p>Each two-capsule serving contains 10 mg of Spermidine 3HCL. The bottle provides a full 30-day supply (60 capsules).</p>",
-            "sources": "",
-            "requires_refund_policy": false
+            "question": "Can I take this with my current medications?",
+            "answer": "If you take prescription medications, use hormone therapy, or have a medical condition, you must consult your healthcare provider before adding any new supplement to your routine."
           }
         },
         "faq_4": {
           "type": "faq",
           "settings": {
-            "question": "Is this the exact same dose used in the clinical studies?",
-            "answer": "<p>Scientific studies use a wide variety of doses, extract types, and formulations. For example, the 2026 immune pilot study used 6 mg per day from a wheat-germ extract. Our product uses 10 mg of Spermidine 3HCL. Because formulations differ, the studies provide a scientific rationale for the ingredient&#x27;s mechanism, rather than a direct guarantee of our specific product&#x27;s outcome.</p>",
-            "sources": "<p><a href=\"https://pubmed.ncbi.nlm.nih.gov/42169618/\">Spermidine Mitigates Immune Cell Senescence and Boosts Vaccine Responses in Healthy Older Adults—A Pilot Study ↗</a></p>",
-            "requires_refund_policy": false
+            "question": "What is in the capsule?",
+            "answer": "Each two-capsule serving provides 10 mg of Spermidine 3HCL. The only other ingredients are an HPMC capsule and rice flour."
           }
         },
         "faq_5": {
           "type": "faq",
           "settings": {
-            "question": "How long will it take to notice a difference?",
-            "answer": "<p>Cellular maintenance is an ongoing, long-term biological process, much like eating well or staying active. You should not expect a sudden visible transformation. We recommend consistent daily use as part of a broader healthy-aging lifestyle.</p>",
-            "sources": "",
-            "requires_refund_policy": false
+            "question": "How many bottles should I buy?",
+            "answer": "Each bottle contains 60 capsules, a 30-day supply. We offer multi-bottle bundles if you prefer to order less frequently."
           }
         },
         "faq_6": {
           "type": "faq",
           "settings": {
-            "question": "Does this replace my moisturizer or retinoid?",
-            "answer": "<p>Absolutely not. Topical skincare targets your skin directly to protect the barrier and improve texture. Spermidine is an internal supplement focused on cellular biology. They serve as different, complementary layers of your routine.</p>",
-            "sources": "",
-            "requires_refund_policy": false
-          }
-        },
-        "faq_7": {
-          "type": "faq",
-          "settings": {
-            "question": "Is this a treatment for menopause?",
-            "answer": "<p>No. Goodwell Spermidine is a dietary supplement for cellular health support. It does not contain hormones and is not intended to diagnose, treat, or cure menopause symptoms or any medical condition. If you are experiencing difficult midlife changes, please consult your healthcare provider.</p>",
-            "sources": "",
-            "requires_refund_policy": false
-          }
-        },
-        "faq_8": {
-          "type": "faq",
-          "settings": {
-            "question": "What are the other ingredients?",
-            "answer": "<p>Aside from the active Spermidine 3HCL, the only other ingredients are an HPMC (vegetarian) capsule and rice flour used to ensure the capsule fills properly. We keep our formula simple and focused.</p>",
-            "sources": "",
-            "requires_refund_policy": false
-          }
-        },
-        "faq_9": {
-          "type": "faq",
-          "settings": {
-            "question": "Do I have to subscribe?",
-            "answer": "<p>No, all purchases are one-time orders. You can choose a single bottle to start your routine, or select one of our multi-bottle bundles for consistent daily care and the best value.</p>",
-            "sources": "",
-            "requires_refund_policy": false
-          }
-        },
-        "faq_10": {
-          "type": "faq",
-          "settings": {
-            "question": "Can I take this with my current medications or other supplements?",
-            "answer": "<p>If you are taking prescription medications, undergoing medical treatments, or have a health condition, you should always consult your doctor before adding any new dietary supplement to your routine.</p>",
-            "sources": "",
-            "requires_refund_policy": false
+            "question": "Are these one-time purchases or a subscription?",
+            "answer": "Every order is a simple, one-time purchase. We do not use automatic subscriptions. You only buy what you need, when you decide you want it, through our secure checkout."
           }
         }
       },
       "block_order": [
-        "story_1",
-        "story_2",
-        "story_3",
-        "story_4",
-        "story_5",
-        "story_6",
-        "story_7",
-        "story_8",
-        "offer_1",
-        "offer_2",
-        "offer_3",
+        "trust_1",
+        "trust_2",
+        "trust_3",
+        "fact_1",
+        "fact_2",
+        "fact_3",
+        "fact_4",
+        "mechanism_1",
+        "mechanism_2",
+        "mechanism_3",
         "faq_1",
         "faq_2",
         "faq_3",
         "faq_4",
         "faq_5",
-        "faq_6",
-        "faq_7",
-        "faq_8",
-        "faq_9",
-        "faq_10"
+        "faq_6"
       ]
     }
   },

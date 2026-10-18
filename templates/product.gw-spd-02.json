@@ -3,227 +3,181 @@
     "goodwell": {
       "type": "goodwell-product",
       "settings": {
-        "ink": "#2C3E50",
-        "background": "#F9F7F2",
-        "accent": "#4A90E2",
-        "soft": "#e8eff4",
-        "action": "#174c79",
-        "eyebrow": "Proactive Hair-Cycle Support",
-        "headline": "Keep the health progress you've worked for. Take proactive care of your hair cycle.",
-        "subheadline": "Rapid body changes can interrupt your hair's natural growing phase. Goodwell Spermidine provides a daily, research-informed ingredient selected specifically to support normal hair-cycle function from the inside.",
-        "benefits": "<ul><li>Focuses on the hair&#x27;s active growing phase (anagen)</li><li>Informed by human oral-ingredient research</li><li>A simple daily addition to your current health routine</li></ul>",
-        "formula": "10 mg Spermidine 3HCL per serving",
-        "facts": "<ul><li>10 mg Spermidine 3HCL per serving</li><li>2 capsules per daily serving</li><li>60 capsules per bottle (30-day supply)</li><li>Simple HPMC capsule and rice flour base</li></ul>",
-        "offer_heading": "Start your proactive hair-care routine today.",
-        "offer_body": "Choose the supply that fits your routine. Because hair cycles shift slowly, a multi-month supply can help you maintain a consistent daily habit.",
-        "faq_heading": "Frequently asked questions",
-        "closing_headline": "Take an active role in your hair's biology.",
-        "closing_body": "You are already making profound choices for your health. Give your hair cycle the targeted, research-informed support it deserves.",
+        "ink": "#173f3d",
+        "background": "#fbfcf8",
+        "accent": "#779c90",
+        "soft": "#e7eeea",
+        "action": "#1e504a",
+        "eyebrow": "For GLP-1 hair care routines",
+        "headline": "Keep your health progress. Care for your hair.",
+        "subheadline": "Weight loss can interrupt your hair's growing phase. Support normal hair-cycle function from the inside with a daily, research-informed ingredient.",
+        "hero_cta": "Choose Your Supply",
+        "benefits": "<ul><li>Focuses on the active growing phase</li><li>Informed by human oral-ingredient research</li><li>Simple addition to your morning routine</li></ul>",
+        "offer_heading": "Start your daily routine.",
+        "offer_note": "One-time purchase. Choose the supply that fits your current health plan.",
+        "lifestyle_asset": "gw-spd-02-lifestyle.jpg",
+        "lifestyle_alt": "adult woman gently arranging her hair at one ear",
+        "lifestyle_heading": "Familiar fullness shouldn't feel like a compromise.",
+        "lifestyle_body": "You value what your medication is doing for your body. But washing and brushing your hair shouldn't cause daily alarm. Add a considered, biological approach to your routine without pausing your health journey.",
+        "mechanism_heading": "How the hair growth cycle works",
+        "ritual_heading": "A manageable daily habit.",
+        "ritual_body": "Take two capsules daily. A simple, repeatable addition to your routine while you focus on your broader health goals.",
+        "faq_heading": "Frequently Asked Questions",
+        "closing_headline": "Take an active role in your routine.",
+        "closing_body": "Give your hair cycle targeted, research-informed support while you continue your health progress.",
         "closing_cta": "Choose Your Supply",
-        "disclosures": "<p>These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.</p><p>Consult your physician before beginning any supplement routine, especially if you have a medical condition or are taking prescription medications.</p>"
+        "disclosures": "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.",
+        "proof_label": "Randomized placebo-controlled oral trial",
+        "proof_population": "100 healthy adults over 90 days",
+        "proof_finding": "Preliminary evidence of a prolonged anagen growing phase.",
+        "proof_scope": "Tested a spermidine nutritional complex, not this formula or GLP-1 users.",
+        "proof_url": "https://pubmed.ncbi.nlm.nih.gov/29214104/",
+        "proof_link_label": "Read the study",
+        "ui_product_details": "Product Details",
+        "ui_one_time": "One-Time Purchase",
+        "ui_add_to_cart": "Add to Cart",
+        "ui_bottle_unit": "/ bottle",
+        "ui_payment_methods": "Accepted Payments",
+        "ui_study_details": "Study Details",
+        "ui_formula_heading": "Formula",
+        "ui_serving_size": "Serving Size",
+        "ui_ingredients": "Ingredients",
+        "ui_choose_options": "Choose Options"
       },
       "blocks": {
-        "story_1": {
-          "type": "story",
+        "trust_1": {
+          "type": "trust",
           "settings": {
-            "heading": "You shouldn't have to choose between your health progress and your hair.",
-            "body": "<p>It is a frustrating contradiction. You are taking steps to improve your health, managing your weight, and finally seeing the progress you have worked for. But then you notice the shower drain. The brush fills up faster. Your familiar ponytail feels noticeably thinner in your hand. You value what your medication is doing for your body, but the daily anxiety of hair shedding can make it hard to fully celebrate your success.</p>",
-            "bullets": "",
-            "sources": "",
-            "presentation": "editorial"
+            "icon": "label",
+            "label": "Clear dosage",
+            "detail": "10 mg Spermidine 3HCL per serving."
           }
         },
-        "story_2": {
-          "type": "story",
+        "trust_2": {
+          "type": "trust",
           "settings": {
-            "heading": "Why generic advice often feels like it misses the point.",
-            "body": "<p>When you mention hair thinning, the advice is usually immediate: eat more protein, take biotin, or use a new shampoo. But what if you are already hitting your protein goals? What if your lab results are normal? While nutrition is foundational, styling products and basic vitamins only address part of the picture. They don&#x27;t explain why your hair suddenly shifted its behavior. To understand that, we have to look at how hair actually grows.</p>",
-            "bullets": "",
-            "sources": "",
-            "presentation": "editorial"
+            "icon": "ingredients",
+            "label": "Simple formula",
+            "detail": "Just the ingredient, HPMC capsule, and rice flour."
           }
         },
-        "story_3": {
-          "type": "story",
+        "trust_3": {
+          "type": "trust",
           "settings": {
-            "heading": "The biological shift: Why your hair cycle matters.",
-            "body": "<p>Your hair doesn&#x27;t just grow continuously; it operates in cycles. The most important part of this cycle is the &#x27;anagen&#x27; phase—the period when a follicle is actively producing a hair strand. When your body experiences a major shift, such as rapid weight loss or metabolic changes, it can react by pushing a large number of follicles out of this growing phase and into a resting or shedding phase. To support familiar fullness, the biological goal is to help follicles maintain their active growing phase.</p>",
-            "bullets": "",
-            "sources": "",
-            "presentation": "mechanism"
+            "icon": "lock",
+            "label": "Secure checkout",
+            "detail": "Encrypted one-time purchase via Shopify."
           }
         },
-        "story_4": {
-          "type": "story",
+        "fact_1": {
+          "type": "fact",
           "settings": {
-            "heading": "Spermidine: An ingredient selected for the growth cycle.",
-            "body": "<p>This is why researchers look beyond standard vitamins. Spermidine is a compound that naturally participates in cellular growth and maintenance biology. Rather than just coating the hair strand or providing basic building blocks, scientists have investigated spermidine for its specific role in the behavior of the hair follicle itself. It offers a targeted, biological rationale for people looking to support their hair cycle from the inside out.</p>",
-            "bullets": "",
-            "sources": "",
-            "presentation": "editorial"
+            "value": "10 mg",
+            "label": "Spermidine 3HCL per serving"
           }
         },
-        "story_5": {
-          "type": "story",
+        "fact_2": {
+          "type": "fact",
           "settings": {
-            "heading": "The human research behind the growing phase.",
-            "body": "<p>The interest in spermidine isn&#x27;t just theoretical. In a 2017 randomized, double-blind, placebo-controlled study, researchers gave 100 healthy adults either a spermidine-based oral supplement or a placebo for 90 days. The results provided preliminary evidence that the spermidine formulation helped prolong the anagen (growing) phase of the hair follicles. While this study was conducted on healthy adults rather than specifically on people taking weight-loss medications, it provides a clear, biological reason to consider spermidine for hair-cycle support.</p>",
-            "bullets": "<ul><li>100 healthy adult participants</li><li>90-day randomized oral trial</li><li>Measured markers of the follicle growing phase</li></ul>",
-            "sources": "<p><a href=\"https://pubmed.ncbi.nlm.nih.gov/29214104/\">A spermidine-based nutritional supplement prolongs the anagen phase of hair follicles in humans ↗</a></p>",
-            "presentation": "proof"
+            "value": "2 capsules",
+            "label": "Daily serving size"
           }
         },
-        "story_6": {
-          "type": "story",
+        "fact_3": {
+          "type": "fact",
           "settings": {
-            "heading": "A deliberate addition to your daily routine.",
-            "body": "<p>Waiting and worrying feels passive. Goodwell provides a defined, manageable way to add spermidine to your daily routine. We created this product for people who want a clear ingredient rationale, not a proprietary mystery blend. It is designed to be taken alongside your existing health plan, offering an internal approach to hair-cycle support without asking you to change the medical decisions you&#x27;ve made with your doctor.</p>",
-            "bullets": "",
-            "sources": "",
-            "presentation": "product"
+            "value": "60 capsules",
+            "label": "Total per bottle"
           }
         },
-        "story_7": {
-          "type": "story",
+        "fact_4": {
+          "type": "fact",
           "settings": {
-            "heading": "What is inside the capsule.",
-            "body": "<p>We believe in straightforward labels. You deserve to know exactly what you are taking every day. Goodwell Spermidine is delivered in a simple format with just the active ingredient, the capsule, and rice flour, so you can easily integrate it into your morning or evening routine.</p>",
-            "bullets": "<ul><li>10 mg Spermidine 3HCL per serving</li><li>2 capsules per daily serving</li><li>60 capsules per bottle (30-day supply)</li><li>Simple HPMC capsule and rice flour base</li></ul>",
-            "sources": "",
-            "presentation": "product"
+            "value": "30 servings",
+            "label": "Days of supply"
           }
         },
-        "story_8": {
-          "type": "story",
+        "mechanism_1": {
+          "type": "mechanism",
           "settings": {
-            "heading": "Realistic expectations for hair biology.",
-            "body": "<p>Hair biology moves slowly. Because the hair cycle takes time to shift, no supplement can offer overnight results or stop shedding immediately. Supporting the anagen phase is a long-term commitment to your body&#x27;s natural processes. The preliminary human research measured its markers after 90 days of use. This is about steady, proactive care, not instant cosmetic fixes.</p>",
-            "bullets": "",
-            "sources": "",
-            "presentation": "editorial"
+            "title": "The growing phase",
+            "text": "Follicles actively produce hair during the anagen phase."
           }
         },
-        "offer_1": {
-          "type": "offer",
+        "mechanism_2": {
+          "type": "mechanism",
           "settings": {
-            "description": "A straightforward starting point to introduce spermidine to your routine."
+            "title": "The sudden shift",
+            "text": "Rapid body changes can push follicles into a resting state."
           }
         },
-        "offer_2": {
-          "type": "offer",
+        "mechanism_3": {
+          "type": "mechanism",
           "settings": {
-            "description": "Aligns with the 90-day timeline used in preliminary human hair-cycle research."
-          }
-        },
-        "offer_3": {
-          "type": "offer",
-          "settings": {
-            "description": "Our best value for long-term, consistent hair-cycle support."
+            "title": "The ingredient rationale",
+            "text": "Spermidine is studied specifically for maintaining the active growing phase."
           }
         },
         "faq_1": {
           "type": "faq",
           "settings": {
-            "question": "Is this specifically designed to stop hair loss from my weight-loss medication?",
-            "answer": "<p>No supplement can guarantee it will stop medication-related shedding. Goodwell Spermidine is designed to support the natural growing phase (anagen) of the hair cycle. The research on spermidine involves healthy adults, and while the biological mechanism is highly relevant to hair thinning, it has not been tested specifically as a cure for GLP-1 side effects.</p>",
-            "sources": "",
-            "requires_refund_policy": false
+            "question": "Will this stop hair shedding from my GLP-1 medication?",
+            "answer": "No supplement can guarantee an end to medication-related shedding. Goodwell Spermidine provides an ingredient studied for supporting the natural growing phase of the hair cycle. It offers proactive biological support, not a proven cure for GLP-1 side effects."
           }
         },
         "faq_2": {
           "type": "faq",
           "settings": {
-            "question": "I already eat a lot of protein. Do I still need this?",
-            "answer": "<p>Meeting your protein goals is excellent and necessary for overall health. However, spermidine serves a different biological function. While protein provides the building blocks for hair, spermidine is studied for its role in the cellular processes that help maintain the active growing phase of the follicle itself.</p>",
-            "sources": "",
-            "requires_refund_policy": false
+            "question": "How long does hair biology take to shift?",
+            "answer": "Hair cycles change slowly. The preliminary human study on oral spermidine measured markers of the growing phase after 90 days of consistent use. Supporting your follicles is a steady habit, not an overnight cosmetic fix."
           }
         },
         "faq_3": {
           "type": "faq",
           "settings": {
-            "question": "How long will it take to see a difference?",
-            "answer": "<p>Hair biology is inherently slow. The preliminary human study on oral spermidine measured its markers of the growing phase after 90 days of consistent daily use. Supporting your hair cycle is a long-term commitment to your body&#x27;s natural processes.</p>",
-            "sources": "<p><a href=\"https://pubmed.ncbi.nlm.nih.gov/29214104/\">A spermidine-based nutritional supplement prolongs the anagen phase of hair follicles in humans ↗</a></p>",
-            "requires_refund_policy": false
+            "question": "Can I take this with my weight-loss prescription?",
+            "answer": "Always consult your prescribing doctor before adding any supplement to your routine, especially when taking medications that alter your metabolism or weight. We do not promise compatibility with specific prescription drugs."
           }
         },
         "faq_4": {
           "type": "faq",
           "settings": {
-            "question": "Can I take this with my current prescription medications?",
-            "answer": "<p>While spermidine is a naturally occurring compound, you should always consult your prescribing doctor before adding any new supplement to your routine, especially if you are taking medications that affect your metabolism or weight.</p>",
-            "sources": "",
-            "requires_refund_policy": false
+            "question": "What exactly is in the capsule?",
+            "answer": "Each two-capsule serving contains 10 mg of Spermidine 3HCL. The only other ingredients are an HPMC capsule and rice flour. There are no hidden proprietary blends."
           }
         },
         "faq_5": {
           "type": "faq",
           "settings": {
-            "question": "Does this replace minoxidil or other topical treatments?",
-            "answer": "<p>No. Goodwell Spermidine is an oral supplement that works from the inside to support the hair cycle. It is not a replacement for medical treatments like minoxidil, which work through different mechanisms on the scalp. Many people use internal and external approaches together.</p>",
-            "sources": "",
-            "requires_refund_policy": false
+            "question": "How do I use this product?",
+            "answer": "Take two capsules daily with water. You can easily integrate this quick step into your existing morning or evening routine alongside your other daily habits."
           }
         },
         "faq_6": {
           "type": "faq",
           "settings": {
-            "question": "What exactly is in the capsule?",
-            "answer": "<p>Each two-capsule serving contains 10 mg of Spermidine 3HCL. The only other ingredients are the HPMC capsule itself and rice flour used to ensure the capsule is filled properly. We do not use proprietary blends.</p>",
-            "sources": "",
-            "requires_refund_policy": false
-          }
-        },
-        "faq_7": {
-          "type": "faq",
-          "settings": {
-            "question": "Will this cause hair to grow on other parts of my body?",
-            "answer": "<p>The preliminary human research on oral spermidine focused specifically on measuring the growth cycle of hair follicles on the scalp. While it is a naturally occurring compound, its potential effects on the growth rate or thickness of existing body hair have not been comprehensively mapped in these studies.</p>",
-            "sources": "",
-            "requires_refund_policy": false
-          }
-        },
-        "faq_8": {
-          "type": "faq",
-          "settings": {
-            "question": "What if my hair shedding is caused by something else, like stress or age?",
-            "answer": "<p>Hair shedding often has multiple overlapping causes, including stress, hormonal changes, and rapid weight loss. Spermidine is studied for its role in the biological mechanism of the hair&#x27;s growing phase, offering a specific way to support your hair cycle. However, persistent shedding should always be evaluated by a dermatologist.</p>",
-            "sources": "",
-            "requires_refund_policy": false
-          }
-        },
-        "faq_9": {
-          "type": "faq",
-          "settings": {
-            "question": "Is the 10mg dose the exact same as the clinical studies?",
-            "answer": "<p>The 2017 preliminary human study used a spermidine-based nutritional complex, but the exact formulation and dose were not fully disclosed in the published paper. Goodwell provides a straightforward 10mg serving of Spermidine 3HCL to give you a consistent, manageable daily intake of this specific ingredient.</p>",
-            "sources": "<p><a href=\"https://pubmed.ncbi.nlm.nih.gov/29214104/\">A spermidine-based nutritional supplement prolongs the anagen phase of hair follicles in humans ↗</a></p>",
-            "requires_refund_policy": false
+            "question": "Is this a recurring subscription?",
+            "answer": "No. All options on this page are one-time purchases processed through our secure Shopify checkout. You only buy what you choose today, with no automatic rebilling or hidden subscription commitments."
           }
         }
       },
       "block_order": [
-        "story_1",
-        "story_2",
-        "story_3",
-        "story_4",
-        "story_5",
-        "story_6",
-        "story_7",
-        "story_8",
-        "offer_1",
-        "offer_2",
-        "offer_3",
+        "trust_1",
+        "trust_2",
+        "trust_3",
+        "fact_1",
+        "fact_2",
+        "fact_3",
+        "fact_4",
+        "mechanism_1",
+        "mechanism_2",
+        "mechanism_3",
         "faq_1",
         "faq_2",
         "faq_3",
         "faq_4",
         "faq_5",
-        "faq_6",
-        "faq_7",
-        "faq_8",
-        "faq_9"
+        "faq_6"
       ]
     }
   },
