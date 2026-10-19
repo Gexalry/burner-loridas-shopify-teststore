@@ -3,13 +3,13 @@
     "audience_colors": {
       "type": "colors-changer",
       "settings": {
-        "colors_solid_button_labels": "#ffffff",
-        "colors_accent_1": "#1e504a",
-        "colors_accent_2": "#779c90",
-        "colors_text": "#173f3d",
-        "colors_outline_button_labels": "#1e504a",
-        "colors_background_1": "#fbfcf8",
-        "colors_background_2": "#e7eeea"
+        "colors_solid_button_labels": "#FFFFFF",
+        "colors_accent_1": "#007A73",
+        "colors_accent_2": "#041C1B",
+        "colors_text": "#041C1B",
+        "colors_outline_button_labels": "#007A73",
+        "colors_background_1": "#FFFFFF",
+        "colors_background_2": "#ECF1F5"
       }
     },
     "header_visibility": {
