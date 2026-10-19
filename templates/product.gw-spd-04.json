@@ -134,7 +134,7 @@
               "type": "text",
               "settings": {
                 "visibility": "always-display",
-                "text": "<p>For women caring for tomorrow.</p>",
+                "text": "<p>INSIDE-OUT CELL CARE</p>",
                 "alignment": "left",
                 "mobile_alignment": "mobile-left",
                 "text_size": 12,
@@ -210,7 +210,7 @@
               "type": "heading",
               "settings": {
                 "visibility": "always-display",
-                "title": "Care for yourself beautifully from the inside.",
+                "title": "Take control of how you age when the mirror catches you off guard.",
                 "heading_size": "custom",
                 "custom_desktop_size": 39,
                 "custom_mobile_size": 30,
@@ -299,7 +299,7 @@
               "type": "text",
               "settings": {
                 "visibility": "always-display",
-                "text": "<p>You already care for your skin. Now add an inside-out approach inspired by cellular recycling research to your daily aging-well routine.</p>",
+                "text": "<p>Your creams work on the surface. Add a smart tool to support cell recycling from the inside out.</p>",
                 "alignment": "left",
                 "mobile_alignment": "mobile-left",
                 "text_size": 16,
@@ -375,7 +375,7 @@
               "type": "text",
               "settings": {
                 "visibility": "always-display",
-                "text": "<ul><li>Two simple capsules each morning</li><li>Inspired by cellular maintenance research</li><li>A simple, fully transparent ingredient list</li></ul>",
+                "text": "<ul><li>Gets you 10 mg of Spermidine 3HCL in every two-capsule serving.</li><li>Tested for its role in cell recycling and healthy aging.</li><li>One simple daily step to pair with your morning skin care.</li></ul>",
                 "alignment": "left",
                 "mobile_alignment": "mobile-left",
                 "text_size": 15,
@@ -480,7 +480,7 @@
                 "swatches_custom_colors_list": "#000000, #FFFFFF",
                 "full_width_dropdowns": false,
                 "breaks_style": "normal",
-                "breaks_headline": "Choose your daily supply.",
+                "breaks_headline": "Choose your daily cell support",
                 "breaks_prices_layout": "price-first-horizontal",
                 "breaks_display_selected_indicator": true,
                 "breaks_border_radius": 8,
@@ -535,7 +535,7 @@
               "type": "text",
               "settings": {
                 "visibility": "always-display",
-                "text": "<p>Real one-time purchases through our secure checkout. No hidden subscriptions.</p>",
+                "text": "<p>One-time purchase. One bottle gives you a 30-day supply of 60 capsules.</p>",
                 "alignment": "left",
                 "mobile_alignment": "mobile-left",
                 "text_size": 13,
@@ -621,13 +621,13 @@
                 "mobile_text_size": 12,
                 "icon_1": "fact_check",
                 "icon_1_fill": false,
-                "heading_1": "Clear daily dose",
+                "heading_1": "Transparent Dose",
                 "icon_2": "science",
                 "icon_2_fill": false,
-                "heading_2": "Simple formula",
+                "heading_2": "Clean Formula",
                 "icon_3": "lock",
                 "icon_3_fill": false,
-                "heading_3": "Secure checkout",
+                "heading_3": "30-Day Supply",
                 "margin_top": 15,
                 "margin_bottom": 12
               }
@@ -648,7 +648,7 @@
               "settings": {
                 "visibility": "always-display",
                 "open": false,
-                "heading": "Formula",
+                "heading": "Formula Facts",
                 "heading_size": "medium",
                 "icon": "science",
                 "filled_icon": false,
@@ -686,7 +686,7 @@
                 "open_state_content_text": "#121212",
                 "margin_top": 0,
                 "margin_bottom": 0,
-                "content": "<p>10 mg — Spermidine 3HCL</p><p>2 capsules — Daily serving size</p><p>60 capsules — Total per bottle</p><p>30 servings — Full month supply</p><p>10 mg Spermidine 3HCL per two-capsule serving.</p><p>Made with HPMC capsules and rice flour.</p>"
+                "content": "<p>10 mg — Spermidine 3HCL</p><p>2 — Capsules Per Serving</p><p>30 — Servings Per Bottle</p><p>60 — Capsules Per Bottle</p><p>10 mg of Spermidine 3HCL per dose.</p><p>Just the active part, an HPMC capsule, and rice flour.</p><p>Each bottle gives you 60 capsules for a full month of care.</p>"
               }
             },
             "routine": {
@@ -694,7 +694,7 @@
               "settings": {
                 "visibility": "always-display",
                 "open": false,
-                "heading": "A sensible inside-out addition.",
+                "heading": "One simple step in your morning",
                 "heading_size": "medium",
                 "icon": "event_repeat",
                 "filled_icon": false,
@@ -732,7 +732,7 @@
                 "open_state_content_text": "#121212",
                 "margin_top": 0,
                 "margin_bottom": 0,
-                "content": "<p>Keep your favorite serums and creams. Just take two capsules daily to support your cellular biology with the same dedication you give your skin.</p>"
+                "content": "<p>Take two capsules daily with or without food. It is an easy add on to your coffee or sunscreen routine. You get steady care without the fuss.</p>"
               }
             },
             "sticky": {
@@ -740,7 +740,7 @@
               "settings": {
                 "function": "scroll_#variant-selects-id",
                 "display_when": "after_scroll",
-                "button_label": "View Purchase Options",
+                "button_label": "Choose Your Supply",
                 "enable_custom_btn_color": false,
                 "custom_btn_color": "#dd1d1d",
                 "color_scheme": "background-1",
@@ -824,7 +824,7 @@
           "type": "caption",
           "settings": {
             "visibility": "always-display",
-            "caption": "For women caring for tomorrow.",
+            "caption": "INSIDE-OUT CELL CARE",
             "text_style": "caption-with-letter-spacing",
             "text_size": "medium",
             "margin_top": 0,
@@ -835,7 +835,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "When the mirror feels a little unfamiliar.",
+            "title": "Care for how you age without the guilt or the hype.",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -924,7 +924,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>You notice the shifts in your forties. You already moisturize and protect your skin. Adding a cellular-focused supplement gives you a proactive, biological layer of care that complements your outside-in dedication.</p>",
+            "text": "<p>It can jar you when the mirror seems to age faster than you feel. But seeing new lines does not mean your skin care failed. You do not need a crazy pill circus. You just need a smart way to help your body maintain itself. Goodwell Spermidine adds an inside layer of cell care to your daily habits. It helps you take charge of your aging process so you can stay vibrant and feel like yourself.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1008,7 +1008,7 @@
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "title": "How cellular recycling works.",
+        "title": "How cell recycling works for you",
         "title_highlight_1": "solid-color",
         "title_highlight_1_gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
         "title_highlight_1_bg-color": "#F9EFFF",
@@ -1094,8 +1094,8 @@
           "settings": {
             "icon": "hub",
             "filled_icon": false,
-            "title": "Natural wear",
-            "text": "<p>Over time, your cells accumulate worn components from daily biological function.</p>"
+            "title": "The Cell Gap",
+            "text": "<p>Your cells work hard to break down and reuse old parts. This recycling process is called autophagy. It is a huge focus in aging science.</p>"
           }
         },
         "step_2": {
@@ -1103,8 +1103,8 @@
           "settings": {
             "icon": "autorenew",
             "filled_icon": false,
-            "title": "Cellular recycling",
-            "text": "<p>A process called autophagy breaks down these old parts so materials can be reused.</p>"
+            "title": "The Spermidine Link",
+            "text": "<p>Experts study spermidine because it helps this exact recycling process. This gives you a strong reason for inside out care.</p>"
           }
         },
         "step_3": {
@@ -1112,8 +1112,8 @@
           "settings": {
             "icon": "science",
             "filled_icon": false,
-            "title": "Ingredient research",
-            "text": "<p>Scientists study spermidine to understand its role in this natural cellular maintenance system.</p>"
+            "title": "Your Skin Care Partner",
+            "text": "<p>Your serums protect your skin on the outside. A daily dose of spermidine adds an inside layer of cell care to your routine.</p>"
           }
         }
       },
@@ -1160,7 +1160,7 @@
           "type": "caption",
           "settings": {
             "visibility": "always-display",
-            "caption": "Randomized placebo-controlled pilot",
+            "caption": "Randomized Oral Pilot Study",
             "text_style": "caption-with-letter-spacing",
             "text_size": "medium",
             "margin_top": 0,
@@ -1260,7 +1260,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>The active group showed increased cellular recycling activity in B immune cells.</p>",
+            "text": "<p>The study found more cell recycling action in B cells compared to the placebo.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1337,7 +1337,7 @@
           "settings": {
             "visibility": "always-display",
             "open": false,
-            "heading": "Read the research",
+            "heading": "Review the 2026 pilot study details",
             "heading_size": "medium",
             "icon": "biotech",
             "filled_icon": false,
@@ -1375,7 +1375,7 @@
             "open_state_content_text": "#121212",
             "margin_top": 0,
             "margin_bottom": 0,
-            "content": "<p>40 adults over 65 randomized, 38 analyzed; active group received wheat germ extract supplying 6mg per day for 13 weeks.</p><p>Early cellular finding, not visible skin results. Tested extract differs from Goodwell&#x27;s formula.</p><p><a href=\"https://pubmed.ncbi.nlm.nih.gov/42169618/\" target=\"_blank\" rel=\"noopener\">Read the research</a></p>"
+            "content": "<p>Experts randomized 40 adults over 65 for a 13-week test. They gave them an oral wheat germ extract with 6 mg/day of spermidine, or a rice flour placebo. They analyzed 38 people.</p><p>This study shows a human link to cell recycling. It does not measure fewer wrinkles. It does not test the exact Goodwell formula.</p><p><a href=\"https://pubmed.ncbi.nlm.nih.gov/42169618/\" target=\"_blank\" rel=\"noopener\">Review the 2026 pilot study details</a></p>"
           }
         }
       },
@@ -1484,60 +1484,60 @@
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "Will this reverse my wrinkles?",
+            "heading": "Will this reverse my wrinkles or make me look younger?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>No. Goodwell Spermidine supports internal cellular maintenance, not cosmetic wrinkle removal. It is designed to complement your topical skincare by adding a biological layer of care to your long-term aging-well routine.</p>"
+            "row_content": "<p>No pill can erase decades from your face. Goodwell Spermidine helps healthy aging from the inside. It works with your skin creams instead of replacing them.</p>"
           }
         },
         "faq_2": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "What exactly did the human study measure?",
+            "heading": "Is there a human study proving this improves skin?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>The featured pilot study measured increased cellular recycling activity (autophagic flux) in specific immune cells of older adults. It tested a wheat-germ extract, providing a human mechanism signal rather than a visible skin-rejuvenation outcome.</p>"
+            "row_content": "<p>Early tests show signs of cell recycling. But the reviewed research shows no human pill trial proving that spermidine reverses skin aging. Experts study it in lab cells.</p>"
           }
         },
         "faq_3": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "Can I take this with my current medications?",
+            "heading": "What exactly is in the capsule?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>If you take prescription medications, use hormone therapy, or have a medical condition, you must consult your healthcare provider before adding any new supplement to your routine.</p>"
+            "row_content": "<p>Each two-capsule serving holds 10 mg of Spermidine 3HCL. The only other parts are the HPMC capsule itself and rice flour.</p>"
           }
         },
         "faq_4": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "What is in the capsule?",
+            "heading": "How does this fit with my current skincare routine?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Each two-capsule serving provides 10 mg of Spermidine 3HCL. The only other ingredients are an HPMC capsule and rice flour.</p>"
+            "row_content": "<p>Think of it as an inside partner. Keep using your sunscreen and creams for surface care. Use spermidine to aid your cell health.</p>"
           }
         },
         "faq_5": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "How many bottles should I buy?",
+            "heading": "Are there any hidden subscriptions?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Each bottle contains 60 capsules, a 30-day supply. We offer multi-bottle bundles if you prefer to order less frequently.</p>"
+            "row_content": "<p>No. All options you see are one-time buys. You only buy what you choose today. We do not bill you without asking.</p>"
           }
         },
         "faq_6": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "Are these one-time purchases or a subscription?",
+            "heading": "Does this contain wheat or gluten?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Every order is a simple, one-time purchase. We do not use automatic subscriptions. You only buy what you need, when you decide you want it, through our secure checkout.</p>"
+            "row_content": "<p>Our capsules hold Spermidine 3HCL and rice flour. Please ask your doctor first if you have severe food allergies. Final facility cross contact details remain unverified.</p>"
           }
         }
       },
@@ -1582,7 +1582,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "Care for your biology from within.",
+            "title": "Take charge of your changing biology.",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -1671,7 +1671,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>Add a research-inspired cellular layer to your daily aging-well routine.</p>",
+            "text": "<p>You already put the effort into caring for yourself. Add a tested tool for cell upkeep. Take control of how you aid your aging process today.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1747,7 +1747,7 @@
           "type": "button",
           "settings": {
             "visibility": "always-display",
-            "button_label": "View Bundle Options",
+            "button_label": "Shop Goodwell Spermidine",
             "button_style_secondary": false,
             "large_font_size": false,
             "enable_custom_color": false,

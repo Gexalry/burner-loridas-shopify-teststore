@@ -134,7 +134,7 @@
               "type": "text",
               "settings": {
                 "visibility": "always-display",
-                "text": "<p>Targeted Intimate Health</p>",
+                "text": "<p>You Want a Better Finish</p>",
                 "alignment": "left",
                 "mobile_alignment": "mobile-left",
                 "text_size": 12,
@@ -210,7 +210,7 @@
               "type": "heading",
               "settings": {
                 "visibility": "always-display",
-                "title": "Care for yourselves and your private moments.",
+                "title": "When You Want a Bigger, More Visual Finish",
                 "heading_size": "custom",
                 "custom_desktop_size": 39,
                 "custom_mobile_size": 30,
@@ -299,7 +299,7 @@
               "type": "text",
               "settings": {
                 "visibility": "always-display",
-                "text": "<p>A clear spermidine supplement designed for your daily intimate health routine, keeping things simple so you can focus on each other.</p>",
+                "text": "<p>You already drink water and take zinc. Now take the next step. Goodwell Spermidine gives you a clear 10mg two-capsule serving. It brings new cell maintenance research to your routine.</p>",
                 "alignment": "left",
                 "mobile_alignment": "mobile-left",
                 "text_size": 16,
@@ -375,7 +375,7 @@
               "type": "text",
               "settings": {
                 "visibility": "always-display",
-                "text": "<ul><li>10mg Spermidine 3HCL per serving</li><li>Transparent two-capsule daily routine</li><li>A simple, fully transparent ingredient list</li></ul>",
+                "text": "<ul><li>Test new cell maintenance research in your routine. Go beyond basic water and zinc.</li><li>Get a clear 10mg dose of Spermidine 3HCL. We never use hidden blends.</li><li>Test the newest research on cell stress and fluid volume.</li></ul>",
                 "alignment": "left",
                 "mobile_alignment": "mobile-left",
                 "text_size": 15,
@@ -480,7 +480,7 @@
                 "swatches_custom_colors_list": "#000000, #FFFFFF",
                 "full_width_dropdowns": false,
                 "breaks_style": "normal",
-                "breaks_headline": "Select your one-time order",
+                "breaks_headline": "Select Your One-Time Supply",
                 "breaks_prices_layout": "price-first-horizontal",
                 "breaks_display_selected_indicator": true,
                 "breaks_border_radius": 8,
@@ -535,7 +535,7 @@
               "type": "text",
               "settings": {
                 "visibility": "always-display",
-                "text": "<p>Simple checkout. No hidden subscriptions or auto-billing.</p>",
+                "text": "<p>Pay once. We do not use hidden auto-billing.</p>",
                 "alignment": "left",
                 "mobile_alignment": "mobile-left",
                 "text_size": 13,
@@ -621,10 +621,10 @@
                 "mobile_text_size": 12,
                 "icon_1": "fact_check",
                 "icon_1_fill": false,
-                "heading_1": "Clear Dose",
+                "heading_1": "Clear Formula",
                 "icon_2": "science",
                 "icon_2_fill": false,
-                "heading_2": "Transparent Formula",
+                "heading_2": "Easy Routine",
                 "icon_3": "lock",
                 "icon_3_fill": false,
                 "heading_3": "Secure Checkout",
@@ -648,7 +648,7 @@
               "settings": {
                 "visibility": "always-display",
                 "open": false,
-                "heading": "Formula",
+                "heading": "Supplement Facts",
                 "heading_size": "medium",
                 "icon": "science",
                 "filled_icon": false,
@@ -686,7 +686,7 @@
                 "open_state_content_text": "#121212",
                 "margin_top": 0,
                 "margin_bottom": 0,
-                "content": "<p>10 mg — Spermidine 3HCL</p><p>2 — Capsules per serving</p><p>30 — Servings per bottle</p><p>60 — Total capsules</p><p>10mg Spermidine 3HCL per serving.</p><p>Just the active ingredient, capsule, and rice flour.</p>"
+                "content": "<p>10 mg — Spermidine 3HCL</p><p>2 — Capsules Per Serving</p><p>60 — Capsules Per Bottle</p><p>30 — Servings Per Bottle</p><p>10mg of Spermidine 3HCL. No hidden blends.</p><p>Take two capsules a day.</p><p>Buy once. We never force a subscription.</p>"
               }
             },
             "routine": {
@@ -694,7 +694,7 @@
               "settings": {
                 "visibility": "always-display",
                 "open": false,
-                "heading": "A simple daily habit",
+                "heading": "Add It to Your Day",
                 "heading_size": "medium",
                 "icon": "event_repeat",
                 "filled_icon": false,
@@ -732,7 +732,7 @@
                 "open_state_content_text": "#121212",
                 "margin_top": 0,
                 "margin_bottom": 0,
-                "content": "<p>Take two capsules daily with water. A straightforward addition to your existing hydration and intimate health routine.</p>"
+                "content": "<p>Cell health takes time. Take two capsules every day. You can eat food with them or take them on an empty stomach. Keep drinking plenty of water for the best results.</p>"
               }
             },
             "sticky": {
@@ -824,7 +824,7 @@
           "type": "caption",
           "settings": {
             "visibility": "always-display",
-            "caption": "Targeted Intimate Health",
+            "caption": "You Want a Better Finish",
             "text_style": "caption-with-letter-spacing",
             "text_size": "medium",
             "margin_top": 0,
@@ -835,7 +835,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "Confidence in your private moments.",
+            "title": "Keep the Excitement Going",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -924,7 +924,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>Real intimacy is built on relaxed evenings and genuine connection with him. Goodwell offers a straightforward spermidine supplement for men who want a simple, deliberate addition to their daily health habits.</p>",
+            "text": "<p>You want a great finish every time. You want to thrill your partner. You know the basics like pacing and drinking water. But the cells that make your fluid face stress every day. Goodwell Spermidine focuses on this daily cell stress. It is for men who want the best possible environment for their fluid.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1008,7 +1008,7 @@
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "title": "How spermidine fits the biology",
+        "title": "How Spermidine Works Inside You",
         "title_highlight_1": "solid-color",
         "title_highlight_1_gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
         "title_highlight_1_bg-color": "#F9EFFF",
@@ -1094,8 +1094,8 @@
           "settings": {
             "icon": "hub",
             "filled_icon": false,
-            "title": "Cellular Environment",
-            "text": "<p>Reproductive tissues require active cellular maintenance to function properly.</p>"
+            "title": "The Limits of Zinc",
+            "text": "<p>Many men already try zinc and water. Spermidine takes a new path. It fights the daily stress that hits your cells.</p>"
           }
         },
         "step_2": {
@@ -1103,8 +1103,8 @@
           "settings": {
             "icon": "autorenew",
             "filled_icon": false,
-            "title": "The Polyamine Role",
-            "text": "<p>Spermidine is a natural polyamine that plays a role in the normal process of recycling cellular material.</p>"
+            "title": "What is a Polyamine?",
+            "text": "<p>Spermidine is a natural compound. Your body keeps high amounts of it in your semen. It helps keep cells healthy under stress.</p>"
           }
         },
         "step_3": {
@@ -1112,8 +1112,8 @@
           "settings": {
             "icon": "science",
             "filled_icon": false,
-            "title": "Current Research",
-            "text": "<p>Animal research is currently investigating how spermidine interacts with cellular stress in reproductive environments.</p>"
+            "title": "The Volume Idea",
+            "text": "<p>New animal tests look at how this compound protects cells. Scientists want to know if this protection can change fluid volume.</p>"
           }
         }
       },
@@ -1160,7 +1160,7 @@
           "type": "caption",
           "settings": {
             "visibility": "always-display",
-            "caption": "Veterinary Study",
+            "caption": "Animal Research Study (2026)",
             "text_style": "caption-with-letter-spacing",
             "text_size": "medium",
             "margin_top": 0,
@@ -1171,7 +1171,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "Study Details",
+            "title": "Research Details",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -1260,7 +1260,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>Researchers observed higher ejaculate volume on day 35 compared to control.</p>",
+            "text": "<p>This group had higher fluid volume on day 35. They also had better motility on day 42. They showed less cell stress.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1337,7 +1337,7 @@
           "settings": {
             "visibility": "always-display",
             "open": false,
-            "heading": "Read the study",
+            "heading": "Read the animal study abstract",
             "heading_size": "medium",
             "icon": "biotech",
             "filled_icon": false,
@@ -1375,7 +1375,7 @@
             "open_state_content_text": "#121212",
             "margin_top": 0,
             "margin_bottom": 0,
-            "content": "<p>24 heat-stressed rams across three groups; the spermidine group received 5 mg/kg daily for 60 days.</p><p>This is preclinical animal research, not a demonstrated human capsule effect.</p><p><a href=\"https://pubmed.ncbi.nlm.nih.gov/42541972/\" target=\"_blank\" rel=\"noopener\">Read the study</a></p>"
+            "content": "<p>Scientists split 24 heat-stressed rams into three groups. The spermidine group got 5 mg/kg in their food for 60 days.</p><p>This is early animal proof. It happened under heat stress. It does not prove that healthy men will see a volume increase from our 10mg serving.</p><p><a href=\"https://pubmed.ncbi.nlm.nih.gov/42541972/\" target=\"_blank\" rel=\"noopener\">Read the animal study abstract</a></p>"
           }
         }
       },
@@ -1484,60 +1484,60 @@
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "Will this guarantee a bigger load?",
+            "heading": "Will this definitely give me bigger loads?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>No. Ejaculate volume depends on hydration, arousal, and individual biology. While a veterinary study showed fluid increases in heat-stressed rams, a human volume increase from oral capsules remains a hypothesis, not an established outcome.</p>"
+            "row_content": "<p>We want to be clear. This is a new idea. Animal tests show this compound can change volume. But no controlled human trial was found proving that oral spermidine increases semen volume. This product lets you try the research yourself.</p>"
           }
         },
         "faq_2": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "Is this based on human clinical trials?",
+            "heading": "How is this different from taking zinc or lecithin?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>The semen-volume finding comes from animal research and does not establish a human volume effect. We offer this ingredient in a clearly labeled formulation for those interested in the underlying science.</p>"
+            "row_content": "<p>Zinc is a basic mineral. Lecithin is a fat. Spermidine does a different job. It works inside the cells to fight daily stress and keep them healthy.</p>"
           }
         },
         "faq_3": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "Can I take this with other medications?",
+            "heading": "What exactly is in the capsule?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Goodwell keeps its active ingredient list simple. However, if you take prescription medications or have existing health conditions, please consult your healthcare provider before starting any new dietary supplement.</p>"
+            "row_content": "<p>We keep it simple. Two capsules give you 10mg of Spermidine 3HCL. We put it in a basic plant capsule with rice flour. We never use hidden filler blends.</p>"
           }
         },
         "faq_4": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "What exactly is in the capsules?",
+            "heading": "Is this a recurring subscription?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Each serving of two capsules contains 10mg of Spermidine 3HCL, an HPMC capsule, and rice flour. There are no proprietary blends or hidden herbs.</p>"
+            "row_content": "<p>No. Every choice on this page is a one-time purchase. We never bill you later.</p>"
           }
         },
         "faq_5": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "How many capsules should I take?",
+            "heading": "Is Spermidine safe to take every day?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Take two capsules daily with water. Each bottle contains 60 capsules, providing a complete 30-day supply for one person.</p>"
+            "row_content": "<p>A 2024 study looked at 37 men. They took a 40mg dose for up to 28 days. They had no bad side effects from the product. This shows short-term tolerability for that exact form. It does not prove long-term safety for everyone. Always ask your doctor if you have health concerns.</p>"
           }
         },
         "faq_6": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "Do I have to sign up for a subscription?",
+            "heading": "How long should I take it?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>No. Every order is a one-time purchase. We do not use auto-billing or hidden subscription plans. You only buy what you actively choose to add to your cart.</p>"
+            "row_content": "<p>This is not a quick stimulant. It works on your cells over time. Take it every day as part of your normal routine.</p>"
           }
         }
       },
@@ -1582,7 +1582,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "Support your intimate routine",
+            "title": "Step Up Your Intimate Routine",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -1671,7 +1671,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>Choose a transparent, straightforward formula to support your daily routine.</p>",
+            "text": "<p>Stop guessing with hidden blends. Give your cells a clear, focused formula. Choose your supply today.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1747,7 +1747,7 @@
           "type": "button",
           "settings": {
             "visibility": "always-display",
-            "button_label": "View Options",
+            "button_label": "Select Your Bundle",
             "button_style_secondary": false,
             "large_font_size": false,
             "enable_custom_color": false,
