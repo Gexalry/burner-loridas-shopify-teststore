@@ -128,7 +128,8 @@
                 "mobile_alignment": "mobile-left",
                 "margin_top": 0,
                 "margin_bottom": 9
-              }
+              },
+              "disabled": true
             },
             "eyebrow": {
               "type": "text",
@@ -204,7 +205,8 @@
                 "typing_reverse_mode": false,
                 "margin_top": 0,
                 "margin_bottom": 6
-              }
+              },
+              "disabled": true
             },
             "positioning": {
               "type": "heading",
@@ -293,7 +295,8 @@
                 "typing_reverse_mode": false,
                 "margin_top": 0,
                 "margin_bottom": 12
-              }
+              },
+              "disabled": true
             },
             "intro": {
               "type": "text",
@@ -369,7 +372,8 @@
                 "typing_reverse_mode": false,
                 "margin_top": 9,
                 "margin_bottom": 9
-              }
+              },
+              "disabled": true
             },
             "benefits": {
               "type": "text",
