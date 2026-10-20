@@ -471,7 +471,8 @@
                 "icon_2": "check_circle",
                 "filled_icon_2": false,
                 "margin_top": 9,
-                "margin_bottom": 9
+                "margin_bottom": 9,
+                "show_installments": false
               }
             },
             "supply": {
@@ -810,7 +811,7 @@
         "custom_section_colors_background": "#FFFFFF",
         "full_desktop_width": false,
         "content_layout": "no-overlap",
-        "desktop_media_width": 50,
+        "desktop_media_width": 55,
         "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
@@ -841,7 +842,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "Keep the Excitement Going",
+            "title": "Share the Thrill",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -930,7 +931,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>You want to thrill your partner. You already pace yourself and drink plenty of water. Choosing a clear, daily supplement is your next step. Catch his look. Share the thrill. Stay ready for the best moments.</p>",
+            "text": "<p>Catch his look and share the thrill.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1010,33 +1011,51 @@
       ]
     },
     "mechanism": {
-      "type": "rich-text",
+      "type": "image-with-text",
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "desktop_content_position": "center",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "full_width": false,
-        "mobile_narrow_width": false,
-        "color_scheme": "background-2",
-        "custom_colors_background": "#FFFFFF",
-        "custom_colors_text": "#2E2A39",
+        "video_autoplay": true,
+        "video_loop": true,
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "custom_colors_background": "#2E2A39",
+        "custom_colors_text": "#FFFFFF",
         "custom_colors_solid_button_background": "#dd1d1d",
         "custom_colors_solid_button_text": "#ffffff",
         "custom_colors_outline_button": "#dd1d1d",
-        "pattern_bg": "none",
-        "pattern_color": "#6D388B",
-        "pattern_size": 20,
-        "pattern_thickness": 2,
-        "pattern_angle": 45,
-        "pattern_opacity_mode": "low",
-        "pattern_opacity_low": 7,
-        "pattern_opacity_normal": 80,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "section_color_scheme": "background-1",
+        "custom_section_colors_background": "#FFFFFF",
+        "full_desktop_width": false,
+        "content_layout": "no-overlap",
+        "desktop_media_width": 55,
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_full_media_width": false,
+        "mobile_direction": "normal",
+        "mobile_image_quanlity": "2",
+        "mobile_content_alignment": "left",
+        "mobile_padding_top": 24,
+        "mobile_padding_bottom": 24,
+        "desktop_padding_top": 36,
+        "desktop_padding_bottom": 36,
+        "image": "",
+        "video": "shopify://files/videos/gw-r09-intimacy.mp4"
       },
       "blocks": {
+        "eyebrow": {
+          "type": "caption",
+          "settings": {
+            "visibility": "always-display",
+            "caption": "You Want a Better Finish",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium",
+            "margin_top": 0,
+            "margin_bottom": 9
+          },
+          "disabled": true
+        },
         "heading": {
           "type": "heading",
           "settings": {
@@ -1130,7 +1149,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>Many men already try zinc and water. Spermidine is a different kind of ingredient. It is naturally found in human semen. Scientists want to know how it links to cell stress and fluid quality.</p>",
+            "text": "<p>Spermidine is found in human semen. Experts study its link to cell stress.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1204,6 +1223,7 @@
         }
       },
       "block_order": [
+        "eyebrow",
         "heading",
         "body"
       ]
@@ -1226,8 +1246,8 @@
         "custom_section_colors_background": "#FFFFFF",
         "full_desktop_width": false,
         "content_layout": "no-overlap",
-        "desktop_media_width": 45,
-        "layout": "text_first",
+        "desktop_media_width": 55,
+        "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "mobile_full_media_width": false,
@@ -1238,7 +1258,7 @@
         "mobile_padding_bottom": 24,
         "desktop_padding_top": 36,
         "desktop_padding_bottom": 36,
-        "image": "shopify://shop_images/gw-spd-01-r08-bundle-1.png"
+        "image": "shopify://shop_images/gw-spd-01-r09-research.png"
       },
       "blocks": {
         "label": {
@@ -1346,7 +1366,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>New animal tests look at this idea. Scientists split 24 heat-stressed rams into three groups. The spermidine group got 5 mg/kg in their food for 60 days. This group had higher fluid volume on day 35. They also had better motility on day 42. This is an early finding in animals. It happened under heat stress. It does not prove that healthy men will see a volume gain.</p>",
+            "text": "<p>Tests looked at heat-stressed rams. Rams given spermidine in food had more fluid.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1461,7 +1481,7 @@
             "open_state_content_text": "#121212",
             "margin_top": 0,
             "margin_bottom": 0,
-            "content": "<p><a href=\"https://pubmed.ncbi.nlm.nih.gov/42541972/\" target=\"_blank\" rel=\"noopener\">Spermidine and melatonin ameliorate heat stress-induced decline in sheep semen quality</a></p>"
+            "content": "<p>New animal tests look at this idea. Scientists split 24 heat-stressed rams into three groups. The spermidine group got 5 mg/kg in their food for 60 days. This group had higher fluid volume on day 35. They also had better motility on day 42. This is an early finding in animals. It happened under heat stress. It does not prove that healthy men will see a volume gain.</p><p><a href=\"https://pubmed.ncbi.nlm.nih.gov/42541972/\" target=\"_blank\" rel=\"noopener\">Spermidine and melatonin ameliorate heat stress-induced decline in sheep semen quality</a></p>"
           }
         }
       },
@@ -1668,7 +1688,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "Step Up Your Intimate Routine",
+            "title": "Step Up Your Routine",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -1757,7 +1777,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>Stop guessing with hidden blends. Choose a clear formula with a precise 10mg Spermidine 3HCL serving. Pick your one-time supply today.</p>",
+            "text": "<p>Choose a clear formula for your routine today.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,

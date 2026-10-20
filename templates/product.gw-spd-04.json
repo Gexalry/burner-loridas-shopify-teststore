@@ -471,7 +471,8 @@
                 "icon_2": "check_circle",
                 "filled_icon_2": false,
                 "margin_top": 9,
-                "margin_bottom": 9
+                "margin_bottom": 9,
+                "show_installments": false
               }
             },
             "supply": {
@@ -810,7 +811,7 @@
         "custom_section_colors_background": "#FFFFFF",
         "full_desktop_width": false,
         "content_layout": "no-overlap",
-        "desktop_media_width": 50,
+        "desktop_media_width": 55,
         "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
@@ -841,7 +842,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "Care for yourself without the hype.",
+            "title": "Care Without the Hype",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -930,7 +931,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>It is normal to feel unsettled when visible changes speed up. You already put effort into your daily skin habits. Goodwell Spermidine gives you a focused ingredient to add an inside layer to your routine. It is a simple way to own your choices and stay vibrant.</p>",
+            "text": "<p>Own your choices and keep feeling like yourself.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1010,38 +1011,56 @@
       ]
     },
     "mechanism": {
-      "type": "rich-text",
+      "type": "image-with-text",
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "desktop_content_position": "center",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "full_width": false,
-        "mobile_narrow_width": false,
-        "color_scheme": "background-2",
-        "custom_colors_background": "#FFFFFF",
-        "custom_colors_text": "#2E2A39",
+        "video_autoplay": true,
+        "video_loop": true,
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "custom_colors_background": "#2E2A39",
+        "custom_colors_text": "#FFFFFF",
         "custom_colors_solid_button_background": "#dd1d1d",
         "custom_colors_solid_button_text": "#ffffff",
         "custom_colors_outline_button": "#dd1d1d",
-        "pattern_bg": "none",
-        "pattern_color": "#6D388B",
-        "pattern_size": 20,
-        "pattern_thickness": 2,
-        "pattern_angle": 45,
-        "pattern_opacity_mode": "low",
-        "pattern_opacity_low": 7,
-        "pattern_opacity_normal": 80,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "section_color_scheme": "background-1",
+        "custom_section_colors_background": "#FFFFFF",
+        "full_desktop_width": false,
+        "content_layout": "no-overlap",
+        "desktop_media_width": 55,
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_full_media_width": false,
+        "mobile_direction": "normal",
+        "mobile_image_quanlity": "2",
+        "mobile_content_alignment": "left",
+        "mobile_padding_top": 24,
+        "mobile_padding_bottom": 24,
+        "desktop_padding_top": 36,
+        "desktop_padding_bottom": 36,
+        "image": "",
+        "video": "shopify://files/videos/gw-r09-cell-recycling.mp4"
       },
       "blocks": {
+        "eyebrow": {
+          "type": "caption",
+          "settings": {
+            "visibility": "always-display",
+            "caption": "INSIDE-OUT CELL CARE",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium",
+            "margin_top": 0,
+            "margin_bottom": 9
+          },
+          "disabled": true
+        },
         "heading": {
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "How cell recycling works.",
+            "title": "How Cell Recycling Works",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -1130,7 +1149,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>Your body has a natural way to clean up. It breaks down worn parts and reuses them to maintain cells. Science calls this process autophagy. Spermidine is actively studied because it links to this exact biological cycle. It gives you a clear reason to add it to your daily care.</p>",
+            "text": "<p>Your body breaks down and reuses worn cell parts.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1204,6 +1223,7 @@
         }
       },
       "block_order": [
+        "eyebrow",
         "heading",
         "body"
       ]
@@ -1226,8 +1246,8 @@
         "custom_section_colors_background": "#FFFFFF",
         "full_desktop_width": false,
         "content_layout": "no-overlap",
-        "desktop_media_width": 45,
-        "layout": "text_first",
+        "desktop_media_width": 55,
+        "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "mobile_full_media_width": false,
@@ -1238,7 +1258,7 @@
         "mobile_padding_bottom": 24,
         "desktop_padding_top": 36,
         "desktop_padding_bottom": 36,
-        "image": "shopify://shop_images/gw-spd-04-r08-bundle-1.png"
+        "image": "shopify://shop_images/gw-spd-04-r09-research.png"
       },
       "blocks": {
         "label": {
@@ -1257,7 +1277,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "Review the human pilot study.",
+            "title": "The Human Pilot Study",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -1346,7 +1366,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>Experts ran a 13-week test on 40 adults over 65. They split them to take a placebo or 6 mg of spermidine a day from wheat germ extract. They looked at 38 people. At two weeks, the spermidine group showed more cell recycling action in immune B cells. This early small trial was not built to prove a final whole body result. It did not measure wrinkles. It did not test the 10 mg Spermidine 3HCL Goodwell formula.</p>",
+            "text": "<p>A small trial on adults over 65 found more recycling in immune B cells.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1461,7 +1481,7 @@
             "open_state_content_text": "#121212",
             "margin_top": 0,
             "margin_bottom": 0,
-            "content": "<p><a href=\"https://pubmed.ncbi.nlm.nih.gov/42169618/\" target=\"_blank\" rel=\"noopener\">Spermidine Mitigates Immune Cell Senescence and Boosts Vaccine Responses in Healthy Older Adults—A Pilot Study</a></p>"
+            "content": "<p>Experts ran a 13-week test on 40 adults over 65. They split them to take a placebo or 6 mg of spermidine a day from wheat germ extract. They looked at 38 people. At two weeks, the spermidine group showed more cell recycling action in immune B cells. This early small trial was not built to prove a final whole body result. It did not measure wrinkles. It did not test the 10 mg Spermidine 3HCL Goodwell formula.</p><p><a href=\"https://pubmed.ncbi.nlm.nih.gov/42169618/\" target=\"_blank\" rel=\"noopener\">Spermidine Mitigates Immune Cell Senescence and Boosts Vaccine Responses in Healthy Older Adults—A Pilot Study</a></p>"
           }
         }
       },
@@ -1668,7 +1688,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "Make a clear choice for your care.",
+            "title": "Make a Clear Choice",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -1757,7 +1777,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>Add a researched ingredient to your daily habits. Keep your familiar sense of self. Choose your supply today.</p>",
+            "text": "<p>Choose a clear ingredient for your daily care.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
