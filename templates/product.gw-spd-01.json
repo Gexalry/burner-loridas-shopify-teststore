@@ -449,7 +449,8 @@
                 "typing_reverse_mode": false,
                 "margin_top": 9,
                 "margin_bottom": 12
-              }
+              },
+              "disabled": true
             },
             "price": {
               "type": "product_price",
@@ -690,7 +691,7 @@
                 "open_state_content_text": "#121212",
                 "margin_top": 0,
                 "margin_bottom": 0,
-                "content": "<p>10 mg — Spermidine 3HCL</p><p>2 — Capsules Per Serving</p><p>60 — Capsules Per Bottle</p><p>30 — Servings Per Bottle</p><p>10mg of Spermidine 3HCL. No hidden blends.</p><p>Take two capsules a day.</p><p>Buy once. We never force a subscription.</p>"
+                "content": "<p>10mg Spermidine 3HCL</p><p>2 Capsules</p><p>60 Capsules</p><p>30 Servings</p><p>HPMC Capsule, Rice Flour</p><p>Take two capsules daily; with or without food.</p><p>10mg of Spermidine 3HCL. No hidden blends.</p><p>Take two capsules a day.</p><p>Buy once. We never force a subscription.</p>"
               }
             },
             "routine": {
@@ -736,7 +737,7 @@
                 "open_state_content_text": "#121212",
                 "margin_top": 0,
                 "margin_bottom": 0,
-                "content": "<p>Cell health takes time. Take two capsules every day. You can eat food with them or take them on an empty stomach. Keep drinking plenty of water for the best results.</p>"
+                "content": "<p>Take two capsules every day. You can eat food with them or take them on an empty stomach. Make it a simple part of your daily habits.</p>"
               }
             },
             "sticky": {
@@ -821,7 +822,7 @@
         "mobile_padding_bottom": 24,
         "desktop_padding_top": 36,
         "desktop_padding_bottom": 36,
-        "image": "shopify://shop_images/gw-spd-01-lifestyle.jpg"
+        "image": "shopify://shop_images/gw-spd-01-r08-lifestyle.png"
       },
       "blocks": {
         "eyebrow": {
@@ -833,7 +834,8 @@
             "text_size": "medium",
             "margin_top": 0,
             "margin_bottom": 9
-          }
+          },
+          "disabled": true
         },
         "heading": {
           "type": "heading",
@@ -928,7 +930,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>You want a great finish every time. You want to thrill your partner. You know the basics like pacing and drinking water. But the cells that make your fluid face stress every day. Goodwell Spermidine focuses on this daily cell stress. It is for men who want the best possible environment for their fluid.</p>",
+            "text": "<p>You want to thrill your partner. You already pace yourself and drink plenty of water. Choosing a clear, daily supplement is your next step. Catch his look. Share the thrill. Stay ready for the best moments.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1008,51 +1010,21 @@
       ]
     },
     "mechanism": {
-      "type": "icon-bar",
+      "type": "rich-text",
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "title": "How Spermidine Works Inside You",
-        "title_highlight_1": "solid-color",
-        "title_highlight_1_gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
-        "title_highlight_1_bg-color": "#F9EFFF",
-        "title_highlight_1_color": "#6D388B",
-        "highlighted-1_border_radius": 8,
-        "highlighted-1_border_width": 0,
-        "highlighted-1_border": "solid",
-        "highlighted-1_border_color": "#6D388B",
-        "highlighted-1_padding-block": 0.3,
-        "highlighted-1_padding-inline": 0.3,
-        "title_highlight_1_underline-thickness": 2,
-        "title_highlight_1_underline-color": "#6D388B",
-        "title_highlight_1_underline-color--gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
-        "title_highlight_1_underline-color-position": 25,
-        "title_highlight_1_handwritten-color": "#6D388B",
-        "title_highlight_1_handwritten-stroke-width": 3,
-        "title_highlight_1_handwritten-position": 60,
-        "title_highlight_2": "none",
-        "title_highlight_2_gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
-        "title_highlight_2_bg-color": "#F9EFFF",
-        "title_highlight_2_color": "#6D388B",
-        "highlighted-2_border_radius": 8,
-        "highlighted-2_border_width": 0,
-        "highlighted-2_border": "solid",
-        "highlighted-2_border_color": "#6D388B",
-        "highlighted-2_padding-block": 0.3,
-        "highlighted-2_padding-inline": 0.3,
-        "title_highlight_2_underline-thickness": 2,
-        "title_highlight_2_underline-color": "#6D388B",
-        "title_highlight_2_underline-color--gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
-        "title_highlight_2_underline-color-position": 25,
-        "title_highlight_2_handwritten-color": "#6D388B",
-        "title_highlight_2_handwritten-stroke-width": 3,
-        "title_highlight_2_handwritten-position": 60,
-        "heading_size": "h2",
-        "custom_desktop_size": 39,
-        "custom_mobile_size": 28,
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "full_width": false,
+        "mobile_narrow_width": false,
         "color_scheme": "background-2",
         "custom_colors_background": "#FFFFFF",
         "custom_colors_text": "#2E2A39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
         "pattern_bg": "none",
         "pattern_color": "#6D388B",
         "pattern_size": 20,
@@ -1061,70 +1033,179 @@
         "pattern_opacity_mode": "low",
         "pattern_opacity_low": 7,
         "pattern_opacity_normal": 80,
-        "icon_layout": "vertical",
-        "icon_size": "small",
-        "icon_color": "accent-1",
-        "cards_color_scheme": "background-1",
-        "custom_cards_colors_background": "#F3F3F3",
-        "custom_cards_colors_text": "#2E2A39",
-        "type": "slide",
-        "autoplay": false,
-        "autoplay_speed": 5,
-        "arrows_color_scheme": "inverse",
-        "transparent_arrows": true,
-        "dots_color_scheme": "inverse",
-        "desktop_full_page": false,
-        "columns_desktop": 3,
-        "slider_desktop": false,
-        "per_move_desktop": 1,
-        "desktop_spacing": 24,
-        "desktop_side_padding": 0,
-        "desktop_padding_calc": true,
-        "desktop_adaptive_height": false,
-        "desktop_dots_position": "under",
-        "desktop_arrows_position": "sides",
-        "columns_mobile": "1",
-        "slider_mobile": false,
-        "enable_mobile_preview": false,
-        "mobile_adaptive_height": false,
-        "mobile_dots_position": "under",
-        "mobile_arrows_position": "under",
         "padding_top": 36,
         "padding_bottom": 36
       },
       "blocks": {
-        "step_1": {
-          "type": "column",
+        "heading": {
+          "type": "heading",
           "settings": {
-            "icon": "hub",
-            "filled_icon": false,
-            "title": "The Limits of Zinc",
-            "text": "<p>Many men already try zinc and water. Spermidine takes a new path. It fights the daily stress that hits your cells.</p>"
+            "visibility": "always-display",
+            "title": "A New Research Idea",
+            "heading_size": "custom",
+            "custom_desktop_size": 33,
+            "custom_mobile_size": 28,
+            "alignment": "left",
+            "mobile_alignment": "mobile-left",
+            "enable_custom_color": false,
+            "custom_color": "#FF0000",
+            "title_highlight_1": "solid-color",
+            "title_highlight_1_gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
+            "title_highlight_1_bg-color": "#F9EFFF",
+            "title_highlight_1_color": "#6D388B",
+            "highlighted-1_border_radius": 8,
+            "highlighted-1_border_width": 0,
+            "highlighted-1_border": "solid",
+            "highlighted-1_border_color": "#6D388B",
+            "highlighted-1_padding-block": 0.3,
+            "highlighted-1_padding-inline": 0.3,
+            "title_highlight_1_underline-thickness": 2,
+            "title_highlight_1_underline-color": "#6D388B",
+            "title_highlight_1_underline-color--gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
+            "title_highlight_1_underline-color-position": 25,
+            "title_highlight_1_handwritten-color": "#6D388B",
+            "title_highlight_1_handwritten-stroke-width": 3,
+            "title_highlight_1_handwritten-position": 60,
+            "title_highlight_2": "none",
+            "highlight_2_keep_italic": false,
+            "title_highlight_2_gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
+            "title_highlight_2_bg-color": "#F9EFFF",
+            "title_highlight_2_color": "#6D388B",
+            "highlighted-2_border_radius": 8,
+            "highlighted-2_border_width": 0,
+            "highlighted-2_border": "solid",
+            "highlighted-2_border_color": "#6D388B",
+            "highlighted-2_padding-block": 0.3,
+            "highlighted-2_padding-inline": 0.3,
+            "title_highlight_2_underline-thickness": 2,
+            "title_highlight_2_underline-color": "#6D388B",
+            "title_highlight_2_underline-color--gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
+            "title_highlight_2_underline-color-position": 25,
+            "title_highlight_2_handwritten-color": "#6D388B",
+            "title_highlight_2_handwritten-stroke-width": 3,
+            "title_highlight_2_handwritten-position": 60,
+            "text_animation": "none",
+            "split_type": "chars",
+            "split_delay": 30,
+            "split_duration": 600,
+            "split_y_offset": 40,
+            "split_animate_on_scroll": true,
+            "shiny_speed": 5,
+            "shiny_on_scroll": false,
+            "blur_type": "words",
+            "blur_direction": "top",
+            "blur_delay": 200,
+            "blur_duration": 350,
+            "blur_animate_on_scroll": true,
+            "highlight_bold_only": false,
+            "remove_bold_styling": false,
+            "highlight_color": "#ffd1dc",
+            "highlight_height": 40,
+            "highlight_position": 10,
+            "highlighter_underline_color": "#000000",
+            "highlighter_underline_thickness": 2,
+            "highlighter_underline_offset": 0,
+            "highlighter_strike_color": "#FF0000",
+            "highlighter_strike_thickness": 2,
+            "highlighter_strike_offset": 0,
+            "highlighter_animation_duration": 800,
+            "highlighter_animation_delay": 200,
+            "highlighter_animate_on_scroll": false,
+            "typing_speed": 50,
+            "typing_initial_delay": 0,
+            "typing_pause_duration": 2000,
+            "typing_deleting_speed": 30,
+            "typing_loop": true,
+            "typing_show_cursor": true,
+            "typing_cursor_character": "|",
+            "typing_cursor_blink_duration": 500,
+            "typing_hide_cursor_while_typing": false,
+            "typing_start_on_visible": false,
+            "typing_reverse_mode": false,
+            "margin_top": 0,
+            "margin_bottom": 12
           }
         },
-        "step_2": {
-          "type": "column",
+        "body": {
+          "type": "text",
           "settings": {
-            "icon": "autorenew",
-            "filled_icon": false,
-            "title": "What is a Polyamine?",
-            "text": "<p>Spermidine is a natural compound. Your body keeps high amounts of it in your semen. It helps keep cells healthy under stress.</p>"
-          }
-        },
-        "step_3": {
-          "type": "column",
-          "settings": {
-            "icon": "science",
-            "filled_icon": false,
-            "title": "The Volume Idea",
-            "text": "<p>New animal tests look at how this compound protects cells. Scientists want to know if this protection can change fluid volume.</p>"
+            "visibility": "always-display",
+            "text": "<p>Many men already try zinc and water. Spermidine is a different kind of ingredient. It is naturally found in human semen. Scientists want to know how it links to cell stress and fluid quality.</p>",
+            "alignment": "left",
+            "mobile_alignment": "mobile-left",
+            "text_size": 16,
+            "enable_custom_color": false,
+            "custom_text_color": "#FF0000",
+            "bold_text_style": "none",
+            "bold_solid_color": "#6D388B",
+            "bold_gradient_color": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
+            "bold_bg_color": "#FFD700",
+            "bold_bg_text_color": "#000000",
+            "bold_bg_padding_inline": 0.7,
+            "bold_bg_padding_block": 0.2,
+            "bold_bg_border_radius": 8,
+            "bold_bg_border_width": 0,
+            "bold_bg_border_style": "solid",
+            "bold_bg_border_color": "#121212",
+            "bold_remove_weight": false,
+            "italic_text_style": "none",
+            "italic_solid_color": "#6D388B",
+            "italic_gradient_color": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
+            "italic_bg_color": "#FFD700",
+            "italic_bg_text_color": "#121212",
+            "italic_bg_padding_inline": 0.7,
+            "italic_bg_padding_block": 0.2,
+            "italic_bg_border_radius": 8,
+            "italic_bg_border_width": 0,
+            "italic_bg_border_style": "solid",
+            "italic_bg_border_color": "#121212",
+            "italic_remove_style": false,
+            "text_animation": "none",
+            "split_type": "chars",
+            "split_delay": 30,
+            "split_duration": 600,
+            "split_y_offset": 40,
+            "split_animate_on_scroll": true,
+            "shiny_speed": 5,
+            "shiny_on_scroll": false,
+            "blur_type": "words",
+            "blur_direction": "top",
+            "blur_delay": 200,
+            "blur_duration": 350,
+            "blur_animate_on_scroll": true,
+            "highlight_bold_only": false,
+            "remove_bold_weight": false,
+            "highlight_color": "#ffd1dc",
+            "highlight_height": 40,
+            "highlight_position": 10,
+            "highlighter_underline_color": "#000000",
+            "highlighter_underline_thickness": 2,
+            "highlighter_underline_offset": 0,
+            "highlighter_strike_color": "#FF0000",
+            "highlighter_strike_thickness": 2,
+            "highlighter_strike_offset": 0,
+            "highlighter_animation_duration": 800,
+            "highlighter_animation_delay": 200,
+            "highlighter_animate_on_scroll": false,
+            "typing_speed": 50,
+            "typing_initial_delay": 0,
+            "typing_pause_duration": 2000,
+            "typing_deleting_speed": 30,
+            "typing_loop": true,
+            "typing_show_cursor": true,
+            "typing_cursor_character": "|",
+            "typing_cursor_blink_duration": 500,
+            "typing_hide_cursor_while_typing": false,
+            "typing_start_on_visible": false,
+            "typing_reverse_mode": false,
+            "margin_top": 9,
+            "margin_bottom": 9
           }
         }
       },
       "block_order": [
-        "step_1",
-        "step_2",
-        "step_3"
+        "heading",
+        "body"
       ]
     },
     "research": {
@@ -1157,7 +1238,7 @@
         "mobile_padding_bottom": 24,
         "desktop_padding_top": 36,
         "desktop_padding_bottom": 36,
-        "image": "shopify://shop_images/gw-spd-01-product.jpg"
+        "image": "shopify://shop_images/gw-spd-01-r08-bundle-1.png"
       },
       "blocks": {
         "label": {
@@ -1169,13 +1250,14 @@
             "text_size": "medium",
             "margin_top": 0,
             "margin_bottom": 9
-          }
+          },
+          "disabled": true
         },
         "heading": {
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "Research Details",
+            "title": "The Volume Test",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -1264,7 +1346,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>This group had higher fluid volume on day 35. They also had better motility on day 42. They showed less cell stress.</p>",
+            "text": "<p>New animal tests look at this idea. Scientists split 24 heat-stressed rams into three groups. The spermidine group got 5 mg/kg in their food for 60 days. This group had higher fluid volume on day 35. They also had better motility on day 42. This is an early finding in animals. It happened under heat stress. It does not prove that healthy men will see a volume gain.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1379,7 +1461,7 @@
             "open_state_content_text": "#121212",
             "margin_top": 0,
             "margin_bottom": 0,
-            "content": "<p>Scientists split 24 heat-stressed rams into three groups. The spermidine group got 5 mg/kg in their food for 60 days.</p><p>This is early animal proof. It happened under heat stress. It does not prove that healthy men will see a volume increase from our 10mg serving.</p><p><a href=\"https://pubmed.ncbi.nlm.nih.gov/42541972/\" target=\"_blank\" rel=\"noopener\">Read the animal study abstract</a></p>"
+            "content": "<p><a href=\"https://pubmed.ncbi.nlm.nih.gov/42541972/\" target=\"_blank\" rel=\"noopener\">Spermidine and melatonin ameliorate heat stress-induced decline in sheep semen quality</a></p>"
           }
         }
       },
@@ -1491,7 +1573,7 @@
             "heading": "Will this definitely give me bigger loads?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>We want to be clear. This is a new idea. Animal tests show this compound can change volume. But no controlled human trial was found proving that oral spermidine increases semen volume. This product lets you try the research yourself.</p>"
+            "row_content": "<p>We want to be clear. This is a new research idea. Animal tests show it can change volume. But no human trial proves that this pill grows semen volume. We provide a clear formula so you know exactly what you take.</p>"
           }
         },
         "faq_2": {
@@ -1501,7 +1583,7 @@
             "heading": "How is this different from taking zinc or lecithin?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Zinc is a basic mineral. Lecithin is a fat. Spermidine does a different job. It works inside the cells to fight daily stress and keep them healthy.</p>"
+            "row_content": "<p>Zinc is a basic mineral. Lecithin is a fat. Spermidine is found in semen. It is currently part of new tests on cell stress and fluid quality.</p>"
           }
         },
         "faq_3": {
@@ -1511,7 +1593,7 @@
             "heading": "What exactly is in the capsule?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>We keep it simple. Two capsules give you 10mg of Spermidine 3HCL. We put it in a basic plant capsule with rice flour. We never use hidden filler blends.</p>"
+            "row_content": "<p>We keep it simple. Two capsules give you 10mg of Spermidine 3HCL. We put it in a basic HPMC capsule with rice flour. We never use hidden filler blends.</p>"
           }
         },
         "faq_4": {
@@ -1531,7 +1613,7 @@
             "heading": "Is Spermidine safe to take every day?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>A 2024 study looked at 37 men. They took a 40mg dose for up to 28 days. They had no bad side effects from the product. This shows short-term tolerability for that exact form. It does not prove long-term safety for everyone. Always ask your doctor if you have health concerns.</p>"
+            "row_content": "<p>Each man has unique health needs. Ask your doctor before you start this or any new supplement. This is very important if you take medicine or have health issues.</p>"
           }
         },
         "faq_6": {
@@ -1541,7 +1623,7 @@
             "heading": "How long should I take it?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>This is not a quick stimulant. It works on your cells over time. Take it every day as part of your normal routine.</p>"
+            "row_content": "<p>There is no proven timeline for human volume results. The label says to take two capsules every day. You can take them with or without food.</p>"
           }
         }
       },
@@ -1675,7 +1757,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>Stop guessing with hidden blends. Give your cells a clear, focused formula. Choose your supply today.</p>",
+            "text": "<p>Stop guessing with hidden blends. Choose a clear formula with a precise 10mg Spermidine 3HCL serving. Pick your one-time supply today.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1751,7 +1833,7 @@
           "type": "button",
           "settings": {
             "visibility": "always-display",
-            "button_label": "Select Your Bundle",
+            "button_label": "Select Your One-Time Supply",
             "button_style_secondary": false,
             "large_font_size": false,
             "enable_custom_color": false,

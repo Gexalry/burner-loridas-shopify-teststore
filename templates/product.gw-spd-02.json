@@ -128,7 +128,8 @@
                 "mobile_alignment": "mobile-left",
                 "margin_top": 0,
                 "margin_bottom": 9
-              }
+              },
+              "disabled": true
             },
             "eyebrow": {
               "type": "text",
@@ -204,7 +205,8 @@
                 "typing_reverse_mode": false,
                 "margin_top": 0,
                 "margin_bottom": 6
-              }
+              },
+              "disabled": true
             },
             "positioning": {
               "type": "heading",
@@ -293,7 +295,8 @@
                 "typing_reverse_mode": false,
                 "margin_top": 0,
                 "margin_bottom": 12
-              }
+              },
+              "disabled": true
             },
             "intro": {
               "type": "text",
@@ -369,7 +372,8 @@
                 "typing_reverse_mode": false,
                 "margin_top": 9,
                 "margin_bottom": 9
-              }
+              },
+              "disabled": true
             },
             "benefits": {
               "type": "text",
@@ -445,7 +449,8 @@
                 "typing_reverse_mode": false,
                 "margin_top": 9,
                 "margin_bottom": 12
-              }
+              },
+              "disabled": true
             },
             "price": {
               "type": "product_price",
@@ -686,7 +691,7 @@
                 "open_state_content_text": "#121212",
                 "margin_top": 0,
                 "margin_bottom": 0,
-                "content": "<p>10 mg — Spermidine 3HCL per serving</p><p>2 — Capsules per daily serving</p><p>30 — Servings per bottle</p><p>0 — Hidden blends</p><p>Supports your growth cycle</p><p>10mg Spermidine 3HCL per serving</p><p>Simple one-time purchase</p>"
+                "content": "<p>10mg Spermidine 3HCL</p><p>2 Capsules</p><p>60 Capsules</p><p>30 Servings</p><p>HPMC Capsule, Rice Flour</p><p>Take two capsules daily, with or without food.</p><p>Supports your growth cycle</p><p>10mg Spermidine 3HCL per serving</p><p>Simple one-time purchase</p>"
               }
             },
             "routine": {
@@ -694,7 +699,7 @@
               "settings": {
                 "visibility": "always-display",
                 "open": false,
-                "heading": "A simple step for your daily plan.",
+                "heading": "A simple step for your morning.",
                 "heading_size": "medium",
                 "icon": "event_repeat",
                 "filled_icon": false,
@@ -732,7 +737,7 @@
                 "open_state_content_text": "#121212",
                 "margin_top": 0,
                 "margin_bottom": 0,
-                "content": "<p>Take two capsules each day. You can take them with or without food. Support your hair cycle while you focus on your main health goals.</p>"
+                "content": "<p>Take two capsules each day. You can take them with or without food. Add a clear ingredient to your routine while you focus on your main health goals. One bottle lasts 30 days.</p>"
               }
             },
             "sticky": {
@@ -817,7 +822,7 @@
         "mobile_padding_bottom": 24,
         "desktop_padding_top": 36,
         "desktop_padding_bottom": 36,
-        "image": "shopify://shop_images/gw-spd-02-lifestyle.jpg"
+        "image": "shopify://shop_images/gw-spd-02-r08-lifestyle.png"
       },
       "blocks": {
         "eyebrow": {
@@ -829,13 +834,14 @@
             "text_size": "medium",
             "margin_top": 0,
             "margin_bottom": 9
-          }
+          },
+          "disabled": true
         },
         "heading": {
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "Stop dreading the hairbrush after your shower.",
+            "title": "Enjoy your progress without the daily hair checks.",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -924,7 +930,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>You love the scale. But a thin ponytail brings real fear. Fast weight loss can shock your hair. This shock pushes hair out of its active growth phase. You may already eat enough protein and still feel stuck. Goodwell gives you a clear ingredient to support your hair cycle.</p>",
+            "text": "<p>You love the scale. You love the healthy changes. But many people notice a thinner ponytail during fast weight loss. You want to wash and brush your hair with confidence. Goodwell gives you a clear ingredient studied for the hair growth phase.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1004,51 +1010,21 @@
       ]
     },
     "mechanism": {
-      "type": "icon-bar",
+      "type": "rich-text",
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "title": "How the hair cycle works and why spermidine helps.",
-        "title_highlight_1": "solid-color",
-        "title_highlight_1_gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
-        "title_highlight_1_bg-color": "#F9EFFF",
-        "title_highlight_1_color": "#6D388B",
-        "highlighted-1_border_radius": 8,
-        "highlighted-1_border_width": 0,
-        "highlighted-1_border": "solid",
-        "highlighted-1_border_color": "#6D388B",
-        "highlighted-1_padding-block": 0.3,
-        "highlighted-1_padding-inline": 0.3,
-        "title_highlight_1_underline-thickness": 2,
-        "title_highlight_1_underline-color": "#6D388B",
-        "title_highlight_1_underline-color--gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
-        "title_highlight_1_underline-color-position": 25,
-        "title_highlight_1_handwritten-color": "#6D388B",
-        "title_highlight_1_handwritten-stroke-width": 3,
-        "title_highlight_1_handwritten-position": 60,
-        "title_highlight_2": "none",
-        "title_highlight_2_gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
-        "title_highlight_2_bg-color": "#F9EFFF",
-        "title_highlight_2_color": "#6D388B",
-        "highlighted-2_border_radius": 8,
-        "highlighted-2_border_width": 0,
-        "highlighted-2_border": "solid",
-        "highlighted-2_border_color": "#6D388B",
-        "highlighted-2_padding-block": 0.3,
-        "highlighted-2_padding-inline": 0.3,
-        "title_highlight_2_underline-thickness": 2,
-        "title_highlight_2_underline-color": "#6D388B",
-        "title_highlight_2_underline-color--gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
-        "title_highlight_2_underline-color-position": 25,
-        "title_highlight_2_handwritten-color": "#6D388B",
-        "title_highlight_2_handwritten-stroke-width": 3,
-        "title_highlight_2_handwritten-position": 60,
-        "heading_size": "h2",
-        "custom_desktop_size": 39,
-        "custom_mobile_size": 28,
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "full_width": false,
+        "mobile_narrow_width": false,
         "color_scheme": "background-2",
         "custom_colors_background": "#FFFFFF",
         "custom_colors_text": "#2E2A39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
         "pattern_bg": "none",
         "pattern_color": "#6D388B",
         "pattern_size": 20,
@@ -1057,70 +1033,179 @@
         "pattern_opacity_mode": "low",
         "pattern_opacity_low": 7,
         "pattern_opacity_normal": 80,
-        "icon_layout": "vertical",
-        "icon_size": "small",
-        "icon_color": "accent-1",
-        "cards_color_scheme": "background-1",
-        "custom_cards_colors_background": "#F3F3F3",
-        "custom_cards_colors_text": "#2E2A39",
-        "type": "slide",
-        "autoplay": false,
-        "autoplay_speed": 5,
-        "arrows_color_scheme": "inverse",
-        "transparent_arrows": true,
-        "dots_color_scheme": "inverse",
-        "desktop_full_page": false,
-        "columns_desktop": 3,
-        "slider_desktop": false,
-        "per_move_desktop": 1,
-        "desktop_spacing": 24,
-        "desktop_side_padding": 0,
-        "desktop_padding_calc": true,
-        "desktop_adaptive_height": false,
-        "desktop_dots_position": "under",
-        "desktop_arrows_position": "sides",
-        "columns_mobile": "1",
-        "slider_mobile": false,
-        "enable_mobile_preview": false,
-        "mobile_adaptive_height": false,
-        "mobile_dots_position": "under",
-        "mobile_arrows_position": "under",
         "padding_top": 36,
         "padding_bottom": 36
       },
       "blocks": {
-        "step_1": {
-          "type": "column",
+        "heading": {
+          "type": "heading",
           "settings": {
-            "icon": "hub",
-            "filled_icon": false,
-            "title": "The Growth Phase",
-            "text": "<p>Your hair fullness depends on active follicles. This active time is the growth phase. Your hair needs to stay in this phase to look full.</p>"
+            "visibility": "always-display",
+            "title": "How the natural hair cycle works.",
+            "heading_size": "custom",
+            "custom_desktop_size": 33,
+            "custom_mobile_size": 28,
+            "alignment": "left",
+            "mobile_alignment": "mobile-left",
+            "enable_custom_color": false,
+            "custom_color": "#FF0000",
+            "title_highlight_1": "solid-color",
+            "title_highlight_1_gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
+            "title_highlight_1_bg-color": "#F9EFFF",
+            "title_highlight_1_color": "#6D388B",
+            "highlighted-1_border_radius": 8,
+            "highlighted-1_border_width": 0,
+            "highlighted-1_border": "solid",
+            "highlighted-1_border_color": "#6D388B",
+            "highlighted-1_padding-block": 0.3,
+            "highlighted-1_padding-inline": 0.3,
+            "title_highlight_1_underline-thickness": 2,
+            "title_highlight_1_underline-color": "#6D388B",
+            "title_highlight_1_underline-color--gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
+            "title_highlight_1_underline-color-position": 25,
+            "title_highlight_1_handwritten-color": "#6D388B",
+            "title_highlight_1_handwritten-stroke-width": 3,
+            "title_highlight_1_handwritten-position": 60,
+            "title_highlight_2": "none",
+            "highlight_2_keep_italic": false,
+            "title_highlight_2_gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
+            "title_highlight_2_bg-color": "#F9EFFF",
+            "title_highlight_2_color": "#6D388B",
+            "highlighted-2_border_radius": 8,
+            "highlighted-2_border_width": 0,
+            "highlighted-2_border": "solid",
+            "highlighted-2_border_color": "#6D388B",
+            "highlighted-2_padding-block": 0.3,
+            "highlighted-2_padding-inline": 0.3,
+            "title_highlight_2_underline-thickness": 2,
+            "title_highlight_2_underline-color": "#6D388B",
+            "title_highlight_2_underline-color--gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
+            "title_highlight_2_underline-color-position": 25,
+            "title_highlight_2_handwritten-color": "#6D388B",
+            "title_highlight_2_handwritten-stroke-width": 3,
+            "title_highlight_2_handwritten-position": 60,
+            "text_animation": "none",
+            "split_type": "chars",
+            "split_delay": 30,
+            "split_duration": 600,
+            "split_y_offset": 40,
+            "split_animate_on_scroll": true,
+            "shiny_speed": 5,
+            "shiny_on_scroll": false,
+            "blur_type": "words",
+            "blur_direction": "top",
+            "blur_delay": 200,
+            "blur_duration": 350,
+            "blur_animate_on_scroll": true,
+            "highlight_bold_only": false,
+            "remove_bold_styling": false,
+            "highlight_color": "#ffd1dc",
+            "highlight_height": 40,
+            "highlight_position": 10,
+            "highlighter_underline_color": "#000000",
+            "highlighter_underline_thickness": 2,
+            "highlighter_underline_offset": 0,
+            "highlighter_strike_color": "#FF0000",
+            "highlighter_strike_thickness": 2,
+            "highlighter_strike_offset": 0,
+            "highlighter_animation_duration": 800,
+            "highlighter_animation_delay": 200,
+            "highlighter_animate_on_scroll": false,
+            "typing_speed": 50,
+            "typing_initial_delay": 0,
+            "typing_pause_duration": 2000,
+            "typing_deleting_speed": 30,
+            "typing_loop": true,
+            "typing_show_cursor": true,
+            "typing_cursor_character": "|",
+            "typing_cursor_blink_duration": 500,
+            "typing_hide_cursor_while_typing": false,
+            "typing_start_on_visible": false,
+            "typing_reverse_mode": false,
+            "margin_top": 0,
+            "margin_bottom": 12
           }
         },
-        "step_2": {
-          "type": "column",
+        "body": {
+          "type": "text",
           "settings": {
-            "icon": "autorenew",
-            "filled_icon": false,
-            "title": "The Sudden Shift",
-            "text": "<p>Big weight loss or stress can break this balance. This shock pushes many follicles out of the growth phase at once. Your hair starts to fall out.</p>"
-          }
-        },
-        "step_3": {
-          "type": "column",
-          "settings": {
-            "icon": "science",
-            "filled_icon": false,
-            "title": "The Spermidine Link",
-            "text": "<p>Spermidine is not a basic vitamin. Scientists study it for cell health. Research looks at how it might help hair stay in the growth phase longer.</p>"
+            "visibility": "always-display",
+            "text": "<p>Your hair fullness depends on active follicles. Hair naturally cycles through growing, resting, and shedding. The active time is the growth phase. Sudden body changes can alter how you experience this cycle. Spermidine is an ingredient researched specifically for its link to the growth phase.</p>",
+            "alignment": "left",
+            "mobile_alignment": "mobile-left",
+            "text_size": 16,
+            "enable_custom_color": false,
+            "custom_text_color": "#FF0000",
+            "bold_text_style": "none",
+            "bold_solid_color": "#6D388B",
+            "bold_gradient_color": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
+            "bold_bg_color": "#FFD700",
+            "bold_bg_text_color": "#000000",
+            "bold_bg_padding_inline": 0.7,
+            "bold_bg_padding_block": 0.2,
+            "bold_bg_border_radius": 8,
+            "bold_bg_border_width": 0,
+            "bold_bg_border_style": "solid",
+            "bold_bg_border_color": "#121212",
+            "bold_remove_weight": false,
+            "italic_text_style": "none",
+            "italic_solid_color": "#6D388B",
+            "italic_gradient_color": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
+            "italic_bg_color": "#FFD700",
+            "italic_bg_text_color": "#121212",
+            "italic_bg_padding_inline": 0.7,
+            "italic_bg_padding_block": 0.2,
+            "italic_bg_border_radius": 8,
+            "italic_bg_border_width": 0,
+            "italic_bg_border_style": "solid",
+            "italic_bg_border_color": "#121212",
+            "italic_remove_style": false,
+            "text_animation": "none",
+            "split_type": "chars",
+            "split_delay": 30,
+            "split_duration": 600,
+            "split_y_offset": 40,
+            "split_animate_on_scroll": true,
+            "shiny_speed": 5,
+            "shiny_on_scroll": false,
+            "blur_type": "words",
+            "blur_direction": "top",
+            "blur_delay": 200,
+            "blur_duration": 350,
+            "blur_animate_on_scroll": true,
+            "highlight_bold_only": false,
+            "remove_bold_weight": false,
+            "highlight_color": "#ffd1dc",
+            "highlight_height": 40,
+            "highlight_position": 10,
+            "highlighter_underline_color": "#000000",
+            "highlighter_underline_thickness": 2,
+            "highlighter_underline_offset": 0,
+            "highlighter_strike_color": "#FF0000",
+            "highlighter_strike_thickness": 2,
+            "highlighter_strike_offset": 0,
+            "highlighter_animation_duration": 800,
+            "highlighter_animation_delay": 200,
+            "highlighter_animate_on_scroll": false,
+            "typing_speed": 50,
+            "typing_initial_delay": 0,
+            "typing_pause_duration": 2000,
+            "typing_deleting_speed": 30,
+            "typing_loop": true,
+            "typing_show_cursor": true,
+            "typing_cursor_character": "|",
+            "typing_cursor_blink_duration": 500,
+            "typing_hide_cursor_while_typing": false,
+            "typing_start_on_visible": false,
+            "typing_reverse_mode": false,
+            "margin_top": 9,
+            "margin_bottom": 9
           }
         }
       },
       "block_order": [
-        "step_1",
-        "step_2",
-        "step_3"
+        "heading",
+        "body"
       ]
     },
     "research": {
@@ -1153,7 +1238,7 @@
         "mobile_padding_bottom": 24,
         "desktop_padding_top": 36,
         "desktop_padding_bottom": 36,
-        "image": "shopify://shop_images/gw-spd-02-product.jpg"
+        "image": "shopify://shop_images/gw-spd-02-r08-bundle-1.png"
       },
       "blocks": {
         "label": {
@@ -1165,13 +1250,14 @@
             "text_size": "medium",
             "margin_top": 0,
             "margin_bottom": 9
-          }
+          },
+          "disabled": true
         },
         "heading": {
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "Study Details",
+            "title": "The science behind spermidine and hair.",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -1260,7 +1346,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>People took a spermidine complex. They showed better growth-cycle markers. They kept their hair in the growth phase longer than the placebo group.</p>",
+            "text": "<p>Scientists study spermidine for cell health. A 2017 trial tested a daily spermidine complex in 100 healthy adults for 90 days. The people taking the complex had more follicles in mature growth phases than the placebo group. This early study did not test the Goodwell formula. It did not measure hair growth in people on weight loss drugs.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1375,7 +1461,7 @@
             "open_state_content_text": "#121212",
             "margin_top": 0,
             "margin_bottom": 0,
-            "content": "<p>100 healthy adults studied for 90 days.</p><p>This early study tested an undisclosed spermidine complex in healthy adults. It did not test the Goodwell formula. It did not measure real hair growth in people on weight loss drugs.</p><p><a href=\"https://pubmed.ncbi.nlm.nih.gov/29214104/\" target=\"_blank\" rel=\"noopener\">View the 2017 study</a></p>"
+            "content": "<p><a href=\"https://pubmed.ncbi.nlm.nih.gov/29214104/\" target=\"_blank\" rel=\"noopener\">A spermidine-based nutritional supplement prolongs the anagen phase of hair follicles in humans</a></p>"
           }
         }
       },
@@ -1487,7 +1573,7 @@
             "heading": "Will this stop my drug-linked hair loss?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Hair loss during fast weight loss has many causes. Goodwell Spermidine supports your normal hair growth cycle. It is not a cure for drug side effects. It does not block your medicine. Talk to a skin doctor if you worry about hair loss.</p>"
+            "row_content": "<p>Hair loss during fast weight loss has many causes. Scientists study spermidine for the hair growth phase. But this formula is not proven to stop GLP-1 hair loss. Talk to a doctor if you worry about sudden shedding.</p>"
           }
         },
         "faq_2": {
@@ -1582,7 +1668,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "Support your hair while you lose weight.",
+            "title": "Add spermidine to your daily plan.",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -1671,7 +1757,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>You do the hard work for your body. Now add a clear ingredient to support your hair growth phase.</p>",
+            "text": "<p>You do the hard work for your body. Now add a clear ingredient studied for the hair growth phase. Choose your supply today.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1747,7 +1833,7 @@
           "type": "button",
           "settings": {
             "visibility": "always-display",
-            "button_label": "View Bundle Options",
+            "button_label": "Choose your Goodwell Spermidine supply",
             "button_style_secondary": false,
             "large_font_size": false,
             "enable_custom_color": false,

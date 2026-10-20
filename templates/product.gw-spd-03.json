@@ -128,7 +128,8 @@
                 "mobile_alignment": "mobile-left",
                 "margin_top": 0,
                 "margin_bottom": 9
-              }
+              },
+              "disabled": true
             },
             "eyebrow": {
               "type": "text",
@@ -204,7 +205,8 @@
                 "typing_reverse_mode": false,
                 "margin_top": 0,
                 "margin_bottom": 6
-              }
+              },
+              "disabled": true
             },
             "positioning": {
               "type": "heading",
@@ -293,7 +295,8 @@
                 "typing_reverse_mode": false,
                 "margin_top": 0,
                 "margin_bottom": 12
-              }
+              },
+              "disabled": true
             },
             "intro": {
               "type": "text",
@@ -369,7 +372,8 @@
                 "typing_reverse_mode": false,
                 "margin_top": 9,
                 "margin_bottom": 9
-              }
+              },
+              "disabled": true
             },
             "benefits": {
               "type": "text",
@@ -445,7 +449,8 @@
                 "typing_reverse_mode": false,
                 "margin_top": 9,
                 "margin_bottom": 12
-              }
+              },
+              "disabled": true
             },
             "price": {
               "type": "product_price",
@@ -480,7 +485,7 @@
                 "swatches_custom_colors_list": "#000000, #FFFFFF",
                 "full_width_dropdowns": false,
                 "breaks_style": "normal",
-                "breaks_headline": "A Shared Routine for the Years Ahead",
+                "breaks_headline": "Choose Your Supply",
                 "breaks_prices_layout": "price-first-horizontal",
                 "breaks_display_selected_indicator": true,
                 "breaks_border_radius": 8,
@@ -686,7 +691,7 @@
                 "open_state_content_text": "#121212",
                 "margin_top": 0,
                 "margin_bottom": 0,
-                "content": "<p>10 mg — Spermidine 3HCL per dose</p><p>2 Capsules — Daily Serving Size</p><p>60 Capsules — Per Bottle</p><p>30 Servings — Per Bottle (1 Month Supply per person)</p><p>Based on the science of cell cleanup and healthy aging.</p><p>Exactly 10 mg of Spermidine 3HCL per dose. No hidden blends.</p><p>Bundled to make your shared daily routine simple and easy.</p>"
+                "content": "<p>10 mg Spermidine 3HCL</p><p>2 Capsules</p><p>60 Capsules</p><p>30 Servings</p><p>HPMC (plant capsule), rice flour</p><p>Take two capsules daily, with or without food.</p><p>Based on the science of cell cleanup and healthy aging.</p><p>Exactly 10 mg of Spermidine 3HCL per dose. No hidden blends.</p><p>Bundled to make your shared daily routine simple and easy.</p>"
               }
             },
             "routine": {
@@ -732,7 +737,7 @@
                 "open_state_content_text": "#121212",
                 "margin_top": 0,
                 "margin_bottom": 0,
-                "content": "<p>Using our capsules is easy. Just take two capsules every day. You can take them with or without food. It fits right into your shared breakfast or your own morning routine.</p>"
+                "content": "<p>Using our capsules is simple. Each person takes two capsules every day. You can take them with or without food. We made the Couple&#x27;s Supply to make this easy. Two bottles give two people a full 30-day routine. It is a simple choice you can make together.</p>"
               }
             },
             "sticky": {
@@ -817,7 +822,7 @@
         "mobile_padding_bottom": 24,
         "desktop_padding_top": 36,
         "desktop_padding_bottom": 36,
-        "image": "shopify://shop_images/gw-spd-03-lifestyle.jpg"
+        "image": "shopify://shop_images/gw-spd-03-r08-lifestyle.png"
       },
       "blocks": {
         "eyebrow": {
@@ -829,13 +834,14 @@
             "text_size": "medium",
             "margin_top": 0,
             "margin_bottom": 9
-          }
+          },
+          "disabled": true
         },
         "heading": {
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "The best parts of life are the normal ones.",
+            "title": "Care for your shared future.",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -924,7 +930,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>A good retirement is not just about big trips. It is about your daily walks. It is about morning coffee and dinner together. You want to keep your freedom to enjoy these moments. This takes ongoing health. No pill can promise you extra years. But experts now look closely at how our cells maintain themselves over time. Our formula helps support this basic cell care. It is a simple way to invest in the everyday life you share.</p>",
+            "text": "<p>You worked hard to build a life you love. A good retirement is about morning coffee and dinner together. You want to keep your shared routines going. No pill can promise you extra years. But experts study how cells recycle waste to understand healthy aging. Our capsules give you a clear, exact dose of the compound they study.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1004,51 +1010,21 @@
       ]
     },
     "mechanism": {
-      "type": "icon-bar",
+      "type": "rich-text",
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "title": "How Cell Maintenance Works",
-        "title_highlight_1": "solid-color",
-        "title_highlight_1_gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
-        "title_highlight_1_bg-color": "#F9EFFF",
-        "title_highlight_1_color": "#6D388B",
-        "highlighted-1_border_radius": 8,
-        "highlighted-1_border_width": 0,
-        "highlighted-1_border": "solid",
-        "highlighted-1_border_color": "#6D388B",
-        "highlighted-1_padding-block": 0.3,
-        "highlighted-1_padding-inline": 0.3,
-        "title_highlight_1_underline-thickness": 2,
-        "title_highlight_1_underline-color": "#6D388B",
-        "title_highlight_1_underline-color--gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
-        "title_highlight_1_underline-color-position": 25,
-        "title_highlight_1_handwritten-color": "#6D388B",
-        "title_highlight_1_handwritten-stroke-width": 3,
-        "title_highlight_1_handwritten-position": 60,
-        "title_highlight_2": "none",
-        "title_highlight_2_gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
-        "title_highlight_2_bg-color": "#F9EFFF",
-        "title_highlight_2_color": "#6D388B",
-        "highlighted-2_border_radius": 8,
-        "highlighted-2_border_width": 0,
-        "highlighted-2_border": "solid",
-        "highlighted-2_border_color": "#6D388B",
-        "highlighted-2_padding-block": 0.3,
-        "highlighted-2_padding-inline": 0.3,
-        "title_highlight_2_underline-thickness": 2,
-        "title_highlight_2_underline-color": "#6D388B",
-        "title_highlight_2_underline-color--gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
-        "title_highlight_2_underline-color-position": 25,
-        "title_highlight_2_handwritten-color": "#6D388B",
-        "title_highlight_2_handwritten-stroke-width": 3,
-        "title_highlight_2_handwritten-position": 60,
-        "heading_size": "h2",
-        "custom_desktop_size": 39,
-        "custom_mobile_size": 28,
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "full_width": false,
+        "mobile_narrow_width": false,
         "color_scheme": "background-2",
         "custom_colors_background": "#FFFFFF",
         "custom_colors_text": "#2E2A39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
         "pattern_bg": "none",
         "pattern_color": "#6D388B",
         "pattern_size": 20,
@@ -1057,70 +1033,179 @@
         "pattern_opacity_mode": "low",
         "pattern_opacity_low": 7,
         "pattern_opacity_normal": 80,
-        "icon_layout": "vertical",
-        "icon_size": "small",
-        "icon_color": "accent-1",
-        "cards_color_scheme": "background-1",
-        "custom_cards_colors_background": "#F3F3F3",
-        "custom_cards_colors_text": "#2E2A39",
-        "type": "slide",
-        "autoplay": false,
-        "autoplay_speed": 5,
-        "arrows_color_scheme": "inverse",
-        "transparent_arrows": true,
-        "dots_color_scheme": "inverse",
-        "desktop_full_page": false,
-        "columns_desktop": 3,
-        "slider_desktop": false,
-        "per_move_desktop": 1,
-        "desktop_spacing": 24,
-        "desktop_side_padding": 0,
-        "desktop_padding_calc": true,
-        "desktop_adaptive_height": false,
-        "desktop_dots_position": "under",
-        "desktop_arrows_position": "sides",
-        "columns_mobile": "1",
-        "slider_mobile": false,
-        "enable_mobile_preview": false,
-        "mobile_adaptive_height": false,
-        "mobile_dots_position": "under",
-        "mobile_arrows_position": "under",
         "padding_top": 36,
         "padding_bottom": 36
       },
       "blocks": {
-        "step_1": {
-          "type": "column",
+        "heading": {
+          "type": "heading",
           "settings": {
-            "icon": "hub",
-            "filled_icon": false,
-            "title": "Clearing Out the Clutter",
-            "text": "<p>As we get older, our cells build up damaged parts. Autophagy is how the body recycles this waste. It clears out the clutter to keep cells working well.</p>"
+            "visibility": "always-display",
+            "title": "Recycling Cell Waste",
+            "heading_size": "custom",
+            "custom_desktop_size": 33,
+            "custom_mobile_size": 28,
+            "alignment": "left",
+            "mobile_alignment": "mobile-left",
+            "enable_custom_color": false,
+            "custom_color": "#FF0000",
+            "title_highlight_1": "solid-color",
+            "title_highlight_1_gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
+            "title_highlight_1_bg-color": "#F9EFFF",
+            "title_highlight_1_color": "#6D388B",
+            "highlighted-1_border_radius": 8,
+            "highlighted-1_border_width": 0,
+            "highlighted-1_border": "solid",
+            "highlighted-1_border_color": "#6D388B",
+            "highlighted-1_padding-block": 0.3,
+            "highlighted-1_padding-inline": 0.3,
+            "title_highlight_1_underline-thickness": 2,
+            "title_highlight_1_underline-color": "#6D388B",
+            "title_highlight_1_underline-color--gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
+            "title_highlight_1_underline-color-position": 25,
+            "title_highlight_1_handwritten-color": "#6D388B",
+            "title_highlight_1_handwritten-stroke-width": 3,
+            "title_highlight_1_handwritten-position": 60,
+            "title_highlight_2": "none",
+            "highlight_2_keep_italic": false,
+            "title_highlight_2_gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
+            "title_highlight_2_bg-color": "#F9EFFF",
+            "title_highlight_2_color": "#6D388B",
+            "highlighted-2_border_radius": 8,
+            "highlighted-2_border_width": 0,
+            "highlighted-2_border": "solid",
+            "highlighted-2_border_color": "#6D388B",
+            "highlighted-2_padding-block": 0.3,
+            "highlighted-2_padding-inline": 0.3,
+            "title_highlight_2_underline-thickness": 2,
+            "title_highlight_2_underline-color": "#6D388B",
+            "title_highlight_2_underline-color--gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
+            "title_highlight_2_underline-color-position": 25,
+            "title_highlight_2_handwritten-color": "#6D388B",
+            "title_highlight_2_handwritten-stroke-width": 3,
+            "title_highlight_2_handwritten-position": 60,
+            "text_animation": "none",
+            "split_type": "chars",
+            "split_delay": 30,
+            "split_duration": 600,
+            "split_y_offset": 40,
+            "split_animate_on_scroll": true,
+            "shiny_speed": 5,
+            "shiny_on_scroll": false,
+            "blur_type": "words",
+            "blur_direction": "top",
+            "blur_delay": 200,
+            "blur_duration": 350,
+            "blur_animate_on_scroll": true,
+            "highlight_bold_only": false,
+            "remove_bold_styling": false,
+            "highlight_color": "#ffd1dc",
+            "highlight_height": 40,
+            "highlight_position": 10,
+            "highlighter_underline_color": "#000000",
+            "highlighter_underline_thickness": 2,
+            "highlighter_underline_offset": 0,
+            "highlighter_strike_color": "#FF0000",
+            "highlighter_strike_thickness": 2,
+            "highlighter_strike_offset": 0,
+            "highlighter_animation_duration": 800,
+            "highlighter_animation_delay": 200,
+            "highlighter_animate_on_scroll": false,
+            "typing_speed": 50,
+            "typing_initial_delay": 0,
+            "typing_pause_duration": 2000,
+            "typing_deleting_speed": 30,
+            "typing_loop": true,
+            "typing_show_cursor": true,
+            "typing_cursor_character": "|",
+            "typing_cursor_blink_duration": 500,
+            "typing_hide_cursor_while_typing": false,
+            "typing_start_on_visible": false,
+            "typing_reverse_mode": false,
+            "margin_top": 0,
+            "margin_bottom": 12
           }
         },
-        "step_2": {
-          "type": "column",
+        "body": {
+          "type": "text",
           "settings": {
-            "icon": "autorenew",
-            "filled_icon": false,
-            "title": "The Fasting Link",
-            "text": "<p>Experts study this cell cleanup during fasting. Research shows fasting raises natural spermidine levels in people. This connects the compound to your body&#x27;s maintenance cycle.</p>"
-          }
-        },
-        "step_3": {
-          "type": "column",
-          "settings": {
-            "icon": "science",
-            "filled_icon": false,
-            "title": "The Spermidine Bridge",
-            "text": "<p>Spermidine is found in nature. Early lab tests show it triggers this cell cleanup. This gives experts a clear reason to study it for healthy aging.</p>"
+            "visibility": "always-display",
+            "text": "<p>Cells build up waste as we age. Autophagy is the natural way your body clears out this clutter. It reuses worn parts to keep cells working well. Experts study spermidine, a compound found in nature. Early lab models show it can trigger this cellular recycling step. This is why scientists study the ingredient for healthy aging.</p>",
+            "alignment": "left",
+            "mobile_alignment": "mobile-left",
+            "text_size": 16,
+            "enable_custom_color": false,
+            "custom_text_color": "#FF0000",
+            "bold_text_style": "none",
+            "bold_solid_color": "#6D388B",
+            "bold_gradient_color": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
+            "bold_bg_color": "#FFD700",
+            "bold_bg_text_color": "#000000",
+            "bold_bg_padding_inline": 0.7,
+            "bold_bg_padding_block": 0.2,
+            "bold_bg_border_radius": 8,
+            "bold_bg_border_width": 0,
+            "bold_bg_border_style": "solid",
+            "bold_bg_border_color": "#121212",
+            "bold_remove_weight": false,
+            "italic_text_style": "none",
+            "italic_solid_color": "#6D388B",
+            "italic_gradient_color": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
+            "italic_bg_color": "#FFD700",
+            "italic_bg_text_color": "#121212",
+            "italic_bg_padding_inline": 0.7,
+            "italic_bg_padding_block": 0.2,
+            "italic_bg_border_radius": 8,
+            "italic_bg_border_width": 0,
+            "italic_bg_border_style": "solid",
+            "italic_bg_border_color": "#121212",
+            "italic_remove_style": false,
+            "text_animation": "none",
+            "split_type": "chars",
+            "split_delay": 30,
+            "split_duration": 600,
+            "split_y_offset": 40,
+            "split_animate_on_scroll": true,
+            "shiny_speed": 5,
+            "shiny_on_scroll": false,
+            "blur_type": "words",
+            "blur_direction": "top",
+            "blur_delay": 200,
+            "blur_duration": 350,
+            "blur_animate_on_scroll": true,
+            "highlight_bold_only": false,
+            "remove_bold_weight": false,
+            "highlight_color": "#ffd1dc",
+            "highlight_height": 40,
+            "highlight_position": 10,
+            "highlighter_underline_color": "#000000",
+            "highlighter_underline_thickness": 2,
+            "highlighter_underline_offset": 0,
+            "highlighter_strike_color": "#FF0000",
+            "highlighter_strike_thickness": 2,
+            "highlighter_strike_offset": 0,
+            "highlighter_animation_duration": 800,
+            "highlighter_animation_delay": 200,
+            "highlighter_animate_on_scroll": false,
+            "typing_speed": 50,
+            "typing_initial_delay": 0,
+            "typing_pause_duration": 2000,
+            "typing_deleting_speed": 30,
+            "typing_loop": true,
+            "typing_show_cursor": true,
+            "typing_cursor_character": "|",
+            "typing_cursor_blink_duration": 500,
+            "typing_hide_cursor_while_typing": false,
+            "typing_start_on_visible": false,
+            "typing_reverse_mode": false,
+            "margin_top": 9,
+            "margin_bottom": 9
           }
         }
       },
       "block_order": [
-        "step_1",
-        "step_2",
-        "step_3"
+        "heading",
+        "body"
       ]
     },
     "research": {
@@ -1153,7 +1238,7 @@
         "mobile_padding_bottom": 24,
         "desktop_padding_top": 36,
         "desktop_padding_bottom": 36,
-        "image": "shopify://shop_images/gw-spd-03-product.jpg"
+        "image": "shopify://shop_images/gw-spd-03-r08-bundle-2.png"
       },
       "blocks": {
         "label": {
@@ -1165,13 +1250,14 @@
             "text_size": "medium",
             "margin_top": 0,
             "margin_bottom": 9
-          }
+          },
+          "disabled": true
         },
         "heading": {
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "Study Details & Limitations",
+            "title": "The 20-Year Dietary Study",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -1260,7 +1346,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>People who ate more spermidine in their food had lower death rates over the study.</p>",
+            "text": "<p>A major study tracked 829 people aged 45 to 84. Experts watched their diets for up to 20 years. People who ate more spermidine in their food had lower death rates over the study. This study looked at food choices. It was not a test of our capsules. A link in a study does not prove taking a supplement will add years to your life.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1375,7 +1461,7 @@
             "open_state_content_text": "#121212",
             "margin_top": 0,
             "margin_bottom": 0,
-            "content": "<p>829 people aged 45 to 84. Experts tracked their diets for up to 20 years.</p><p>This study looked at food choices, not our capsules. It does not prove Goodwell will extend your life or add years to your lifespan.</p><p><a href=\"https://doi.org/10.1093/ajcn/nqy102\" target=\"_blank\" rel=\"noopener\">Review the dietary cohort study</a></p>"
+            "content": "<p><a href=\"https://pubmed.ncbi.nlm.nih.gov/29955838/\" target=\"_blank\" rel=\"noopener\">Higher spermidine intake is linked to lower mortality: a prospective population-based study</a></p>"
           }
         }
       },
@@ -1487,7 +1573,7 @@
             "heading": "Will taking this make us live longer?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>That is not proven. Eating foods with spermidine is linked to healthy aging in some studies. Lab models also show it helps clean cells. But there is no proof that taking a spermidine capsule will extend human life.</p>"
+            "row_content": "<p>That is not proven. Eating foods with spermidine is linked to healthy aging in some long-term studies. Lab models also show it helps clean cells. But there is no proof that taking a spermidine capsule will extend human life.</p>"
           }
         },
         "faq_2": {
@@ -1504,10 +1590,10 @@
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "Does this replace fasting or a good diet?",
+            "heading": "Does this replace a good diet or medical care?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>No. Our capsules target the same cell pathways studied in fasting. But they do not replace the full benefits of fasting, good food, or exercise.</p>"
+            "row_content": "<p>No. A supplement does not replace good food, daily exercise, or routine medical care.</p>"
           }
         },
         "faq_4": {
@@ -1582,7 +1668,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "Protect Your Everyday Freedom",
+            "title": "A Shared Routine for the Years Ahead",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -1671,7 +1757,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>You worked hard to build a life you love. Support the cell care that helps keep your days normal, comfortable, and yours. Start your routine today.</p>",
+            "text": "<p>Support the cell care that experts study for healthy aging. You get a clear formula and an exact dose. Start your new shared habit today.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1747,7 +1833,7 @@
           "type": "button",
           "settings": {
             "visibility": "always-display",
-            "button_label": "Select Your Bundle",
+            "button_label": "Choose Your Supply",
             "button_style_secondary": false,
             "large_font_size": false,
             "enable_custom_color": false,

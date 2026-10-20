@@ -128,7 +128,8 @@
                 "mobile_alignment": "mobile-left",
                 "margin_top": 0,
                 "margin_bottom": 9
-              }
+              },
+              "disabled": true
             },
             "eyebrow": {
               "type": "text",
@@ -204,7 +205,8 @@
                 "typing_reverse_mode": false,
                 "margin_top": 0,
                 "margin_bottom": 6
-              }
+              },
+              "disabled": true
             },
             "positioning": {
               "type": "heading",
@@ -293,7 +295,8 @@
                 "typing_reverse_mode": false,
                 "margin_top": 0,
                 "margin_bottom": 12
-              }
+              },
+              "disabled": true
             },
             "intro": {
               "type": "text",
@@ -369,7 +372,8 @@
                 "typing_reverse_mode": false,
                 "margin_top": 9,
                 "margin_bottom": 9
-              }
+              },
+              "disabled": true
             },
             "benefits": {
               "type": "text",
@@ -445,7 +449,8 @@
                 "typing_reverse_mode": false,
                 "margin_top": 9,
                 "margin_bottom": 12
-              }
+              },
+              "disabled": true
             },
             "price": {
               "type": "product_price",
@@ -686,7 +691,7 @@
                 "open_state_content_text": "#121212",
                 "margin_top": 0,
                 "margin_bottom": 0,
-                "content": "<p>10 mg — Spermidine 3HCL</p><p>2 — Capsules Per Serving</p><p>30 — Servings Per Bottle</p><p>60 — Capsules Per Bottle</p><p>10 mg of Spermidine 3HCL per dose.</p><p>Just the active part, an HPMC capsule, and rice flour.</p><p>Each bottle gives you 60 capsules for a full month of care.</p>"
+                "content": "<p>10 mg Spermidine 3HCL</p><p>2 Capsules</p><p>60 Capsules</p><p>30 Servings</p><p>HPMC Capsule, Rice Flour</p><p>Take 1 serving per day. Take with or without food.</p><p>10 mg of Spermidine 3HCL per dose.</p><p>Just the active part, an HPMC capsule, and rice flour.</p><p>Each bottle gives you 60 capsules for a full month of care.</p>"
               }
             },
             "routine": {
@@ -694,7 +699,7 @@
               "settings": {
                 "visibility": "always-display",
                 "open": false,
-                "heading": "One simple step in your morning",
+                "heading": "Easy to add to your morning.",
                 "heading_size": "medium",
                 "icon": "event_repeat",
                 "filled_icon": false,
@@ -732,7 +737,7 @@
                 "open_state_content_text": "#121212",
                 "margin_top": 0,
                 "margin_bottom": 0,
-                "content": "<p>Take two capsules daily with or without food. It is an easy add on to your coffee or sunscreen routine. You get steady care without the fuss.</p>"
+                "content": "<p>You already have a great routine. Just take two capsules each day. You can take them with or without food. They fit perfectly beside your daily serums and sun care.</p>"
               }
             },
             "sticky": {
@@ -817,7 +822,7 @@
         "mobile_padding_bottom": 24,
         "desktop_padding_top": 36,
         "desktop_padding_bottom": 36,
-        "image": "shopify://shop_images/gw-spd-04-lifestyle.jpg"
+        "image": "shopify://shop_images/gw-spd-04-r08-lifestyle.png"
       },
       "blocks": {
         "eyebrow": {
@@ -829,13 +834,14 @@
             "text_size": "medium",
             "margin_top": 0,
             "margin_bottom": 9
-          }
+          },
+          "disabled": true
         },
         "heading": {
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "Care for how you age without the guilt or the hype.",
+            "title": "Care for yourself without the hype.",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -924,7 +930,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>It can jar you when the mirror seems to age faster than you feel. But seeing new lines does not mean your skin care failed. You do not need a crazy pill circus. You just need a smart way to help your body maintain itself. Goodwell Spermidine adds an inside layer of cell care to your daily habits. It helps you take charge of your aging process so you can stay vibrant and feel like yourself.</p>",
+            "text": "<p>It is normal to feel unsettled when visible changes speed up. You already put effort into your daily skin habits. Goodwell Spermidine gives you a focused ingredient to add an inside layer to your routine. It is a simple way to own your choices and stay vibrant.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1004,51 +1010,21 @@
       ]
     },
     "mechanism": {
-      "type": "icon-bar",
+      "type": "rich-text",
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "title": "How cell recycling works for you",
-        "title_highlight_1": "solid-color",
-        "title_highlight_1_gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
-        "title_highlight_1_bg-color": "#F9EFFF",
-        "title_highlight_1_color": "#6D388B",
-        "highlighted-1_border_radius": 8,
-        "highlighted-1_border_width": 0,
-        "highlighted-1_border": "solid",
-        "highlighted-1_border_color": "#6D388B",
-        "highlighted-1_padding-block": 0.3,
-        "highlighted-1_padding-inline": 0.3,
-        "title_highlight_1_underline-thickness": 2,
-        "title_highlight_1_underline-color": "#6D388B",
-        "title_highlight_1_underline-color--gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
-        "title_highlight_1_underline-color-position": 25,
-        "title_highlight_1_handwritten-color": "#6D388B",
-        "title_highlight_1_handwritten-stroke-width": 3,
-        "title_highlight_1_handwritten-position": 60,
-        "title_highlight_2": "none",
-        "title_highlight_2_gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
-        "title_highlight_2_bg-color": "#F9EFFF",
-        "title_highlight_2_color": "#6D388B",
-        "highlighted-2_border_radius": 8,
-        "highlighted-2_border_width": 0,
-        "highlighted-2_border": "solid",
-        "highlighted-2_border_color": "#6D388B",
-        "highlighted-2_padding-block": 0.3,
-        "highlighted-2_padding-inline": 0.3,
-        "title_highlight_2_underline-thickness": 2,
-        "title_highlight_2_underline-color": "#6D388B",
-        "title_highlight_2_underline-color--gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
-        "title_highlight_2_underline-color-position": 25,
-        "title_highlight_2_handwritten-color": "#6D388B",
-        "title_highlight_2_handwritten-stroke-width": 3,
-        "title_highlight_2_handwritten-position": 60,
-        "heading_size": "h2",
-        "custom_desktop_size": 39,
-        "custom_mobile_size": 28,
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "full_width": false,
+        "mobile_narrow_width": false,
         "color_scheme": "background-2",
         "custom_colors_background": "#FFFFFF",
         "custom_colors_text": "#2E2A39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
         "pattern_bg": "none",
         "pattern_color": "#6D388B",
         "pattern_size": 20,
@@ -1057,70 +1033,179 @@
         "pattern_opacity_mode": "low",
         "pattern_opacity_low": 7,
         "pattern_opacity_normal": 80,
-        "icon_layout": "vertical",
-        "icon_size": "small",
-        "icon_color": "accent-1",
-        "cards_color_scheme": "background-1",
-        "custom_cards_colors_background": "#F3F3F3",
-        "custom_cards_colors_text": "#2E2A39",
-        "type": "slide",
-        "autoplay": false,
-        "autoplay_speed": 5,
-        "arrows_color_scheme": "inverse",
-        "transparent_arrows": true,
-        "dots_color_scheme": "inverse",
-        "desktop_full_page": false,
-        "columns_desktop": 3,
-        "slider_desktop": false,
-        "per_move_desktop": 1,
-        "desktop_spacing": 24,
-        "desktop_side_padding": 0,
-        "desktop_padding_calc": true,
-        "desktop_adaptive_height": false,
-        "desktop_dots_position": "under",
-        "desktop_arrows_position": "sides",
-        "columns_mobile": "1",
-        "slider_mobile": false,
-        "enable_mobile_preview": false,
-        "mobile_adaptive_height": false,
-        "mobile_dots_position": "under",
-        "mobile_arrows_position": "under",
         "padding_top": 36,
         "padding_bottom": 36
       },
       "blocks": {
-        "step_1": {
-          "type": "column",
+        "heading": {
+          "type": "heading",
           "settings": {
-            "icon": "hub",
-            "filled_icon": false,
-            "title": "The Cell Gap",
-            "text": "<p>Your cells work hard to break down and reuse old parts. This recycling process is called autophagy. It is a huge focus in aging science.</p>"
+            "visibility": "always-display",
+            "title": "How cell recycling works.",
+            "heading_size": "custom",
+            "custom_desktop_size": 33,
+            "custom_mobile_size": 28,
+            "alignment": "left",
+            "mobile_alignment": "mobile-left",
+            "enable_custom_color": false,
+            "custom_color": "#FF0000",
+            "title_highlight_1": "solid-color",
+            "title_highlight_1_gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
+            "title_highlight_1_bg-color": "#F9EFFF",
+            "title_highlight_1_color": "#6D388B",
+            "highlighted-1_border_radius": 8,
+            "highlighted-1_border_width": 0,
+            "highlighted-1_border": "solid",
+            "highlighted-1_border_color": "#6D388B",
+            "highlighted-1_padding-block": 0.3,
+            "highlighted-1_padding-inline": 0.3,
+            "title_highlight_1_underline-thickness": 2,
+            "title_highlight_1_underline-color": "#6D388B",
+            "title_highlight_1_underline-color--gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
+            "title_highlight_1_underline-color-position": 25,
+            "title_highlight_1_handwritten-color": "#6D388B",
+            "title_highlight_1_handwritten-stroke-width": 3,
+            "title_highlight_1_handwritten-position": 60,
+            "title_highlight_2": "none",
+            "highlight_2_keep_italic": false,
+            "title_highlight_2_gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
+            "title_highlight_2_bg-color": "#F9EFFF",
+            "title_highlight_2_color": "#6D388B",
+            "highlighted-2_border_radius": 8,
+            "highlighted-2_border_width": 0,
+            "highlighted-2_border": "solid",
+            "highlighted-2_border_color": "#6D388B",
+            "highlighted-2_padding-block": 0.3,
+            "highlighted-2_padding-inline": 0.3,
+            "title_highlight_2_underline-thickness": 2,
+            "title_highlight_2_underline-color": "#6D388B",
+            "title_highlight_2_underline-color--gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
+            "title_highlight_2_underline-color-position": 25,
+            "title_highlight_2_handwritten-color": "#6D388B",
+            "title_highlight_2_handwritten-stroke-width": 3,
+            "title_highlight_2_handwritten-position": 60,
+            "text_animation": "none",
+            "split_type": "chars",
+            "split_delay": 30,
+            "split_duration": 600,
+            "split_y_offset": 40,
+            "split_animate_on_scroll": true,
+            "shiny_speed": 5,
+            "shiny_on_scroll": false,
+            "blur_type": "words",
+            "blur_direction": "top",
+            "blur_delay": 200,
+            "blur_duration": 350,
+            "blur_animate_on_scroll": true,
+            "highlight_bold_only": false,
+            "remove_bold_styling": false,
+            "highlight_color": "#ffd1dc",
+            "highlight_height": 40,
+            "highlight_position": 10,
+            "highlighter_underline_color": "#000000",
+            "highlighter_underline_thickness": 2,
+            "highlighter_underline_offset": 0,
+            "highlighter_strike_color": "#FF0000",
+            "highlighter_strike_thickness": 2,
+            "highlighter_strike_offset": 0,
+            "highlighter_animation_duration": 800,
+            "highlighter_animation_delay": 200,
+            "highlighter_animate_on_scroll": false,
+            "typing_speed": 50,
+            "typing_initial_delay": 0,
+            "typing_pause_duration": 2000,
+            "typing_deleting_speed": 30,
+            "typing_loop": true,
+            "typing_show_cursor": true,
+            "typing_cursor_character": "|",
+            "typing_cursor_blink_duration": 500,
+            "typing_hide_cursor_while_typing": false,
+            "typing_start_on_visible": false,
+            "typing_reverse_mode": false,
+            "margin_top": 0,
+            "margin_bottom": 12
           }
         },
-        "step_2": {
-          "type": "column",
+        "body": {
+          "type": "text",
           "settings": {
-            "icon": "autorenew",
-            "filled_icon": false,
-            "title": "The Spermidine Link",
-            "text": "<p>Experts study spermidine because it helps this exact recycling process. This gives you a strong reason for inside out care.</p>"
-          }
-        },
-        "step_3": {
-          "type": "column",
-          "settings": {
-            "icon": "science",
-            "filled_icon": false,
-            "title": "Your Skin Care Partner",
-            "text": "<p>Your serums protect your skin on the outside. A daily dose of spermidine adds an inside layer of cell care to your routine.</p>"
+            "visibility": "always-display",
+            "text": "<p>Your body has a natural way to clean up. It breaks down worn parts and reuses them to maintain cells. Science calls this process autophagy. Spermidine is actively studied because it links to this exact biological cycle. It gives you a clear reason to add it to your daily care.</p>",
+            "alignment": "left",
+            "mobile_alignment": "mobile-left",
+            "text_size": 16,
+            "enable_custom_color": false,
+            "custom_text_color": "#FF0000",
+            "bold_text_style": "none",
+            "bold_solid_color": "#6D388B",
+            "bold_gradient_color": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
+            "bold_bg_color": "#FFD700",
+            "bold_bg_text_color": "#000000",
+            "bold_bg_padding_inline": 0.7,
+            "bold_bg_padding_block": 0.2,
+            "bold_bg_border_radius": 8,
+            "bold_bg_border_width": 0,
+            "bold_bg_border_style": "solid",
+            "bold_bg_border_color": "#121212",
+            "bold_remove_weight": false,
+            "italic_text_style": "none",
+            "italic_solid_color": "#6D388B",
+            "italic_gradient_color": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
+            "italic_bg_color": "#FFD700",
+            "italic_bg_text_color": "#121212",
+            "italic_bg_padding_inline": 0.7,
+            "italic_bg_padding_block": 0.2,
+            "italic_bg_border_radius": 8,
+            "italic_bg_border_width": 0,
+            "italic_bg_border_style": "solid",
+            "italic_bg_border_color": "#121212",
+            "italic_remove_style": false,
+            "text_animation": "none",
+            "split_type": "chars",
+            "split_delay": 30,
+            "split_duration": 600,
+            "split_y_offset": 40,
+            "split_animate_on_scroll": true,
+            "shiny_speed": 5,
+            "shiny_on_scroll": false,
+            "blur_type": "words",
+            "blur_direction": "top",
+            "blur_delay": 200,
+            "blur_duration": 350,
+            "blur_animate_on_scroll": true,
+            "highlight_bold_only": false,
+            "remove_bold_weight": false,
+            "highlight_color": "#ffd1dc",
+            "highlight_height": 40,
+            "highlight_position": 10,
+            "highlighter_underline_color": "#000000",
+            "highlighter_underline_thickness": 2,
+            "highlighter_underline_offset": 0,
+            "highlighter_strike_color": "#FF0000",
+            "highlighter_strike_thickness": 2,
+            "highlighter_strike_offset": 0,
+            "highlighter_animation_duration": 800,
+            "highlighter_animation_delay": 200,
+            "highlighter_animate_on_scroll": false,
+            "typing_speed": 50,
+            "typing_initial_delay": 0,
+            "typing_pause_duration": 2000,
+            "typing_deleting_speed": 30,
+            "typing_loop": true,
+            "typing_show_cursor": true,
+            "typing_cursor_character": "|",
+            "typing_cursor_blink_duration": 500,
+            "typing_hide_cursor_while_typing": false,
+            "typing_start_on_visible": false,
+            "typing_reverse_mode": false,
+            "margin_top": 9,
+            "margin_bottom": 9
           }
         }
       },
       "block_order": [
-        "step_1",
-        "step_2",
-        "step_3"
+        "heading",
+        "body"
       ]
     },
     "research": {
@@ -1153,7 +1238,7 @@
         "mobile_padding_bottom": 24,
         "desktop_padding_top": 36,
         "desktop_padding_bottom": 36,
-        "image": "shopify://shop_images/gw-spd-04-product.jpg"
+        "image": "shopify://shop_images/gw-spd-04-r08-bundle-1.png"
       },
       "blocks": {
         "label": {
@@ -1165,13 +1250,14 @@
             "text_size": "medium",
             "margin_top": 0,
             "margin_bottom": 9
-          }
+          },
+          "disabled": true
         },
         "heading": {
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "Study Details",
+            "title": "Review the human pilot study.",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -1260,7 +1346,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>The study found more cell recycling action in B cells compared to the placebo.</p>",
+            "text": "<p>Experts ran a 13-week test on 40 adults over 65. They split them to take a placebo or 6 mg of spermidine a day from wheat germ extract. They looked at 38 people. At two weeks, the spermidine group showed more cell recycling action in immune B cells. This early small trial was not built to prove a final whole body result. It did not measure wrinkles. It did not test the 10 mg Spermidine 3HCL Goodwell formula.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1375,7 +1461,7 @@
             "open_state_content_text": "#121212",
             "margin_top": 0,
             "margin_bottom": 0,
-            "content": "<p>Experts randomized 40 adults over 65 for a 13-week test. They gave them an oral wheat germ extract with 6 mg/day of spermidine, or a rice flour placebo. They analyzed 38 people.</p><p>This study shows a human link to cell recycling. It does not measure fewer wrinkles. It does not test the exact Goodwell formula.</p><p><a href=\"https://pubmed.ncbi.nlm.nih.gov/42169618/\" target=\"_blank\" rel=\"noopener\">Review the 2026 pilot study details</a></p>"
+            "content": "<p><a href=\"https://pubmed.ncbi.nlm.nih.gov/42169618/\" target=\"_blank\" rel=\"noopener\">Spermidine Mitigates Immune Cell Senescence and Boosts Vaccine Responses in Healthy Older Adults—A Pilot Study</a></p>"
           }
         }
       },
@@ -1487,7 +1573,7 @@
             "heading": "Will this reverse my wrinkles or make me look younger?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>No pill can erase decades from your face. Goodwell Spermidine helps healthy aging from the inside. It works with your skin creams instead of replacing them.</p>"
+            "row_content": "<p>No human pill trial shows that spermidine reverses wrinkles or skin aging. Goodwell Spermidine gives you an ingredient studied for cell recycling. Use it right alongside your normal skin care.</p>"
           }
         },
         "faq_2": {
@@ -1497,7 +1583,7 @@
             "heading": "Is there a human study proving this improves skin?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Early tests show signs of cell recycling. But the reviewed research shows no human pill trial proving that spermidine reverses skin aging. Experts study it in lab cells.</p>"
+            "row_content": "<p>No. The reviewed research shows no human pill trial proving that spermidine improves skin appearance. Early pilot tests show signs of cell recycling in immune cells of older adults.</p>"
           }
         },
         "faq_3": {
@@ -1507,17 +1593,17 @@
             "heading": "What exactly is in the capsule?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Each two-capsule serving holds 10 mg of Spermidine 3HCL. The only other parts are the HPMC capsule itself and rice flour.</p>"
+            "row_content": "<p>You get 10 mg of Spermidine 3HCL in each two-capsule serving. The only other parts are an HPMC capsule and rice flour.</p>"
           }
         },
         "faq_4": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "How does this fit with my current skincare routine?",
+            "heading": "How does this fit with my current skin care routine?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Think of it as an inside partner. Keep using your sunscreen and creams for surface care. Use spermidine to aid your cell health.</p>"
+            "row_content": "<p>Keep using your sunscreen and creams. Take two capsules a day with or without food as an easy inside addition to your habits.</p>"
           }
         },
         "faq_5": {
@@ -1537,7 +1623,7 @@
             "heading": "Does this contain wheat or gluten?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Our capsules hold Spermidine 3HCL and rice flour. Please ask your doctor first if you have severe food allergies. Final facility cross contact details remain unverified.</p>"
+            "row_content": "<p>The ingredient list is just Spermidine 3HCL, an HPMC capsule, and rice flour. However, the final facility wheat and gluten-free status is not confirmed. Please ask your doctor first if you have severe allergies.</p>"
           }
         }
       },
@@ -1582,7 +1668,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "Take charge of your changing biology.",
+            "title": "Make a clear choice for your care.",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -1671,7 +1757,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>You already put the effort into caring for yourself. Add a tested tool for cell upkeep. Take control of how you aid your aging process today.</p>",
+            "text": "<p>Add a researched ingredient to your daily habits. Keep your familiar sense of self. Choose your supply today.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1747,7 +1833,7 @@
           "type": "button",
           "settings": {
             "visibility": "always-display",
-            "button_label": "Shop Goodwell Spermidine",
+            "button_label": "Choose your daily cell support",
             "button_style_secondary": false,
             "large_font_size": false,
             "enable_custom_color": false,
