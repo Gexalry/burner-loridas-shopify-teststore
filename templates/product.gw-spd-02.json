@@ -486,7 +486,7 @@
                 "swatches_custom_colors_list": "#000000, #FFFFFF",
                 "full_width_dropdowns": false,
                 "breaks_style": "normal",
-                "breaks_headline": "Select Your Supply",
+                "breaks_headline": "Choose your Goodwell supply",
                 "breaks_prices_layout": "price-first-horizontal",
                 "breaks_display_selected_indicator": true,
                 "breaks_border_radius": 8,
@@ -654,7 +654,7 @@
               "settings": {
                 "visibility": "always-display",
                 "open": false,
-                "heading": "Formula Facts",
+                "heading": "Inside the capsule",
                 "heading_size": "medium",
                 "icon": "science",
                 "filled_icon": false,
@@ -700,7 +700,7 @@
               "settings": {
                 "visibility": "always-display",
                 "open": false,
-                "heading": "Take two capsules daily.",
+                "heading": "Take two capsules a day.",
                 "heading_size": "medium",
                 "icon": "event_repeat",
                 "filled_icon": false,
@@ -738,7 +738,7 @@
                 "open_state_content_text": "#121212",
                 "margin_top": 0,
                 "margin_bottom": 0,
-                "content": "<p>Take two capsules once a day. Each bottle holds 60 capsules, so it lasts exactly 30 days.</p>"
+                "content": "<p>You can take them on an empty stomach or with a meal. There is no messy powder to mix.</p>"
               }
             },
             "sticky": {
@@ -746,7 +746,7 @@
               "settings": {
                 "function": "scroll_#variant-selects-id",
                 "display_when": "after_scroll",
-                "button_label": "Choose a Bundle",
+                "button_label": "Choose your bundle",
                 "enable_custom_btn_color": false,
                 "custom_btn_color": "#dd1d1d",
                 "color_scheme": "background-1",
@@ -842,7 +842,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "Enjoy the weight loss.",
+            "title": "A simple addition to your day.",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -931,7 +931,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>The smaller jeans finally button without a struggle.</p>",
+            "text": "<p>Capsules save you the effort of measuring and mixing powders. Just swallow two a day and move on with your evening.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1041,7 +1041,7 @@
         "desktop_padding_top": 36,
         "desktop_padding_bottom": 36,
         "image": "",
-        "video": "shopify://files/videos/gw-r09-hair.mp4"
+        "video": "shopify://files/videos/gw-r12-hair.mp4"
       },
       "blocks": {
         "eyebrow": {
@@ -1060,7 +1060,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "The active growth phase.",
+            "title": "Why the growing phase matters.",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -1258,7 +1258,7 @@
         "mobile_padding_bottom": 24,
         "desktop_padding_top": 36,
         "desktop_padding_bottom": 36,
-        "image": "shopify://shop_images/gw-spd-02-r09-research.png"
+        "image": "shopify://shop_images/gw-spd-02-r12-research.png"
       },
       "blocks": {
         "label": {
@@ -1277,7 +1277,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "A 90-day trial on hair follicles.",
+            "title": "The oral spermidine study.",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -1366,7 +1366,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>Researchers tested 100 healthy adults for 90 days. The supplement group had more hair follicles in mature growth phases than the placebo group.</p>",
+            "text": "<p>A 90-day study tested a different spermidine complex on 100 adults in good health. The team found more sampled hair follicles in mature growth phases.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1443,7 +1443,7 @@
           "settings": {
             "visibility": "always-display",
             "open": false,
-            "heading": "Read the study facts",
+            "heading": "Study details",
             "heading_size": "medium",
             "icon": "biotech",
             "filled_icon": false,
@@ -1481,7 +1481,7 @@
             "open_state_content_text": "#121212",
             "margin_top": 0,
             "margin_bottom": 0,
-            "content": "<p>In a 2017 trial, 100 healthy adults took a spermidine complex or a blank pill for 90 days. The supplement group had more hair follicles in mature growth phases than the placebo group. The authors called this early evidence for prolonging the growth phase. This study tested a different formula, not the Goodwell product. It did not test people taking weight loss drugs. The researchers disclosed industry ties.</p><p><a href=\"https://pubmed.ncbi.nlm.nih.gov/29214104/\" target=\"_blank\" rel=\"noopener\">A spermidine-based nutritional supplement prolongs the anagen phase of hair follicles in humans</a></p>"
+            "content": "<p>A study looked at 100 adults in good health. They took a daily tablet with a different spermidine complex for 90 days. Compared to a placebo group, the team found more of their sampled hair follicles in mature growth phases.</p><p><a href=\"https://pubmed.ncbi.nlm.nih.gov/29214104/\" target=\"_blank\" rel=\"noopener\">A spermidine-based nutritional supplement prolongs the anagen phase of hair follicles in humans</a></p>"
           }
         }
       },
@@ -1497,7 +1497,7 @@
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "title": "Common Questions",
+        "title": "Common questions",
         "title_highlight_1": "solid-color",
         "title_highlight_1_gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
         "title_highlight_1_bg-color": "#F9EFFF",
@@ -1590,60 +1590,60 @@
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "What did the study actually test?",
+            "heading": "What did the 90-day trial actually test?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>A 2017 trial tested a different spermidine complex on 100 healthy adults for 90 days. It did not test the Goodwell formula. It also did not test people taking GLP-1 medication or losing weight quickly.</p>"
+            "row_content": "<p>A 90-day study looked at a different spermidine formula. The team tested it on 100 adults in good health. They found more sampled hair follicles in mature growth phases.</p>"
           }
         },
         "faq_2": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "What exactly is in the bottle?",
+            "heading": "What is inside the capsule?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>A daily serving of two capsules contains 10mg of Spermidine 3HCL. The only other things in the bottle are an HPMC capsule and rice flour.</p>"
+            "row_content": "<p>Two capsules give you 10mg of Spermidine 3HCL. The capsule shell is HPMC, and the powder inside includes rice flour.</p>"
           }
         },
         "faq_3": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "How do I take it?",
+            "heading": "How do I take Goodwell?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Take two capsules once a day. You can take them with a meal or without food. Each bottle holds 60 capsules, so it lasts exactly 30 days.</p>"
+            "row_content": "<p>Swallow two capsules every day. You can take them with food or on an empty stomach.</p>"
           }
         },
         "faq_4": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "Can I take this with my medication?",
+            "heading": "Why should I buy a bundle?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Talk to your doctor before starting any new supplement. This is especially true if you take GLP-1 drugs or other prescription medicines. They can tell you if this fits your needs.</p>"
+            "row_content": "<p>Buying more at once lowers the price per bottle. One bottle for 30 days is $59. Three bottles for 90 days cost $129. Five bottles for 150 days cost $189.</p>"
           }
         },
         "faq_5": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "Will I be billed every month?",
+            "heading": "Can I take this with my weight loss medicine?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>No. This is a simple one-time purchase. We do not place you on a hidden subscription. You only buy the one, three, or five bottles you choose today.</p>"
+            "row_content": "<p>Always ask your doctor before you start a new supplement, especially if you take prescription drugs.</p>"
           }
         },
         "faq_6": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "How many bottles should I buy?",
+            "heading": "Will you charge my card every month?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>One bottle provides a 30-day supply for one person. We offer bundles of three bottles for 90 days, or five bottles for 150 days so you can stock up.</p>"
+            "row_content": "<p>No. Every order is a one-time purchase.</p>"
           }
         }
       },
@@ -1688,7 +1688,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "Start your daily supply.",
+            "title": "Choose your Goodwell bundle.",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -1777,7 +1777,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>Select a one, three, or five-bottle bundle to start your daily supply.</p>",
+            "text": "<p>Pick the option that fits your needs. Every bottle gives you 60 capsules for a complete 30-day supply.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1853,7 +1853,7 @@
           "type": "button",
           "settings": {
             "visibility": "always-display",
-            "button_label": "Select Your Bottles",
+            "button_label": "Get Goodwell today",
             "button_style_secondary": false,
             "large_font_size": false,
             "enable_custom_color": false,

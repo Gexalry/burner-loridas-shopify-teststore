@@ -700,7 +700,7 @@
               "settings": {
                 "visibility": "always-display",
                 "open": false,
-                "heading": "Take two capsules daily.",
+                "heading": "Two capsules, zero prep work.",
                 "heading_size": "medium",
                 "icon": "event_repeat",
                 "filled_icon": false,
@@ -738,7 +738,7 @@
                 "open_state_content_text": "#121212",
                 "margin_top": 0,
                 "margin_bottom": 0,
-                "content": "<p>Swallow two capsules daily with water. Each bottle holds 60 capsules for a 30-day supply.</p>"
+                "content": "<p>Keep the bottle on your nightstand. You only need to swallow two capsules daily, and you can take them on an empty stomach.</p>"
               }
             },
             "sticky": {
@@ -746,7 +746,7 @@
               "settings": {
                 "function": "scroll_#variant-selects-id",
                 "display_when": "after_scroll",
-                "button_label": "View Options",
+                "button_label": "Choose Package",
                 "enable_custom_btn_color": false,
                 "custom_btn_color": "#dd1d1d",
                 "color_scheme": "background-1",
@@ -842,7 +842,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "A quiet moment after the door shuts.",
+            "title": "Ready to skip the messy powders?",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -931,7 +931,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>The evening slows down when you finally lock hands on the couch. The heat is still there, just waiting for the right look.</p>",
+            "text": "<p>Capsules save you the effort of measuring and mixing powders. Just swallow two a day and move on with your evening.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1041,7 +1041,7 @@
         "desktop_padding_top": 36,
         "desktop_padding_bottom": 36,
         "image": "",
-        "video": "shopify://files/videos/gw-r09-intimacy.mp4"
+        "video": "shopify://files/videos/gw-r12-intimacy.mp4"
       },
       "blocks": {
         "eyebrow": {
@@ -1060,7 +1060,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "A compound found in the fluid.",
+            "title": "The natural role of spermidine.",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -1258,7 +1258,7 @@
         "mobile_padding_bottom": 24,
         "desktop_padding_top": 36,
         "desktop_padding_bottom": 36,
-        "image": "shopify://shop_images/gw-spd-01-r09-research.png"
+        "image": "shopify://shop_images/gw-spd-01-r12-research.png"
       },
       "blocks": {
         "label": {
@@ -1277,7 +1277,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "Rams showed higher volume on day 35.",
+            "title": "The animal science behind the compound.",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -1366,7 +1366,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>The heat-stressed rams ate spermidine for two months. On day 35, the treated animals produced a higher fluid volume than the control group.</p>",
+            "text": "<p>A 2026 study tested 24 heat-stressed rams. The animals that ate spermidine showed higher fluid volume on day 35.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1443,7 +1443,7 @@
           "settings": {
             "visibility": "always-display",
             "open": false,
-            "heading": "Read the study facts",
+            "heading": "Read the Full Study",
             "heading_size": "medium",
             "icon": "biotech",
             "filled_icon": false,
@@ -1481,7 +1481,7 @@
             "open_state_content_text": "#121212",
             "margin_top": 0,
             "margin_bottom": 0,
-            "content": "<p>Scientists split 24 heat-stressed Dorper rams into three groups. The spermidine group got 5 mg/kg in their food for 60 days. This group had higher fluid volume on day 35. They also had better sperm motility on day 42. This is an early finding in animals. It happened under heat stress. It does not prove that healthy men will see a volume gain or a stronger finish. The animal dose does not convert directly to human supplements.</p><p><a href=\"https://pubmed.ncbi.nlm.nih.gov/42541972/\" target=\"_blank\" rel=\"noopener\">Spermidine and melatonin ameliorate heat stress-induced decline in sheep semen quality</a></p>"
+            "content": "<p>The 60-day test split 24 heat-stressed rams into three groups. The spermidine group ate 5 mg/kg in their food. These rams had higher fluid volume on day 35 and better sperm movement on day 42. It did not change pregnancy or delivery rates.</p><p><a href=\"https://pubmed.ncbi.nlm.nih.gov/42541972/\" target=\"_blank\" rel=\"noopener\">Spermidine and melatonin ameliorate heat stress-induced decline in sheep semen quality</a></p>"
           }
         }
       },
@@ -1590,60 +1590,60 @@
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "What did the animal study find?",
+            "heading": "What did the animal study measure?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Researchers tested heat-stressed rams. The animals that ate spermidine had higher semen volume on day 35. They also had better motility on day 42. This does not prove the capsules increase human semen volume.</p>"
+            "row_content": "<p>Researchers gave spermidine to heat-stressed rams. They measured higher fluid volume on day 35 and better sperm movement on day 42.</p>"
           }
         },
         "faq_2": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "What exactly is in the capsule?",
+            "heading": "What exactly is in each capsule?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>You get 10mg Spermidine 3HCL in every two-capsule serving. We pack it into an HPMC capsule shell with rice flour. There are no other ingredients.</p>"
+            "row_content": "<p>Every two-capsule serving gives you 10mg of Spermidine 3HCL. The pill itself is made of HPMC and holds a little rice flour.</p>"
           }
         },
         "faq_3": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "How do I take this supplement?",
+            "heading": "How do I take this?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Swallow two capsules every day with a glass of water. You can take them in the morning or at night, with or without a meal.</p>"
+            "row_content": "<p>Swallow two capsules daily. You can take them at any time of day, with or without food.</p>"
           }
         },
         "faq_4": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "How long does a bottle last?",
+            "heading": "Which package is the best deal?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Every bottle holds 60 capsules. Since you take two a day, one bottle is an exact 30-day supply. Buying three or five bottles at once saves you money.</p>"
+            "row_content": "<p>The five-bottle bundle costs $149.97 and gives you the lowest price per bottle. The three-bottle option is $99.99 and also saves you money.</p>"
           }
         },
         "faq_5": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "Can I take this with my other daily medicines?",
+            "heading": "Can I take this with my other pills?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>You should always ask your doctor before you start a new supplement. This is very important if you take prescription drugs or have a health condition.</p>"
+            "row_content": "<p>Always ask your doctor before you start a new supplement. This is especially true if you take prescription drugs or have existing health conditions.</p>"
           }
         },
         "faq_6": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "Will you charge my card every month?",
+            "heading": "Is this a monthly charge?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>No. Every order is a simple one-time purchase. We do not use automatic refills or hidden subscriptions. You only pay for the bottles you choose today.</p>"
+            "row_content": "<p>No. Every order is a one-time purchase.</p>"
           }
         }
       },
@@ -1688,7 +1688,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "Grab your supply today.",
+            "title": "Choose the package that fits your plans.",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -1777,7 +1777,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>Pick a single bottle or choose a multi-month bundle to keep your cabinet stocked.</p>",
+            "text": "<p>One bottle is $49.99, but you can lower your cost per bottle by choosing the three-bottle package for $99.99 or five bottles for $149.97.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1853,7 +1853,7 @@
           "type": "button",
           "settings": {
             "visibility": "always-display",
-            "button_label": "Pick Your Bottles",
+            "button_label": "Get Started",
             "button_style_secondary": false,
             "large_font_size": false,
             "enable_custom_color": false,

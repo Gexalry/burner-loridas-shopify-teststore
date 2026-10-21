@@ -486,7 +486,7 @@
                 "swatches_custom_colors_list": "#000000, #FFFFFF",
                 "full_width_dropdowns": false,
                 "breaks_style": "normal",
-                "breaks_headline": "Select a Couple's Supply",
+                "breaks_headline": "Choose Your Supply",
                 "breaks_prices_layout": "price-first-horizontal",
                 "breaks_display_selected_indicator": true,
                 "breaks_border_radius": 8,
@@ -700,7 +700,7 @@
               "settings": {
                 "visibility": "always-display",
                 "open": false,
-                "heading": "Two capsules each.",
+                "heading": "Two easy capsules for each of you.",
                 "heading_size": "medium",
                 "icon": "event_repeat",
                 "filled_icon": false,
@@ -738,7 +738,7 @@
                 "open_state_content_text": "#121212",
                 "margin_top": 0,
                 "margin_bottom": 0,
-                "content": "<p>Take two capsules with or without food. One bottle lasts one person thirty days.</p>"
+                "content": "<p>Take two capsules with a glass of water or your morning coffee. You can take them with or without food.</p>"
               }
             },
             "sticky": {
@@ -746,7 +746,7 @@
               "settings": {
                 "function": "scroll_#variant-selects-id",
                 "display_when": "after_scroll",
-                "button_label": "View Options",
+                "button_label": "View Bundles",
                 "enable_custom_btn_color": false,
                 "custom_btn_color": "#dd1d1d",
                 "color_scheme": "background-1",
@@ -842,7 +842,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "The morning paper and coffee.",
+            "title": "Get a full month for both of you.",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -931,7 +931,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>The kitchen is quiet except for the coffee maker and the rustle of the newspaper. It is a familiar rhythm built over thousands of mornings.</p>",
+            "text": "<p>The two-bottle package gives each person a full 30-day supply.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1041,7 +1041,7 @@
         "desktop_padding_top": 36,
         "desktop_padding_bottom": 36,
         "image": "",
-        "video": "shopify://files/videos/gw-r09-cell-recycling.mp4"
+        "video": "shopify://files/videos/gw-r12-cell-recycling.mp4"
       },
       "blocks": {
         "eyebrow": {
@@ -1060,7 +1060,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "The cellular recycling loop.",
+            "title": "How cells reuse their old parts.",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -1149,7 +1149,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>Cells naturally take apart damaged pieces and reuse the parts. In a lab setting, spermidine triggers this exact cleanup loop in human cells.</p>",
+            "text": "<p>Cells break down old parts and use them again. Lab tests show spermidine starts this exact loop in human cells.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1258,7 +1258,7 @@
         "mobile_padding_bottom": 24,
         "desktop_padding_top": 36,
         "desktop_padding_bottom": 36,
-        "image": "shopify://shop_images/gw-spd-03-r09-research.png"
+        "image": "shopify://shop_images/gw-spd-03-r12-research.png"
       },
       "blocks": {
         "label": {
@@ -1277,7 +1277,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "What the twenty-year study tracked.",
+            "title": "Tracking real food over 20 years.",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -1366,7 +1366,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>Experts watched what 829 people ate for twenty years. They saw a link between eating more spermidine and lower death rates over time.</p>",
+            "text": "<p>Scientists tracked 829 adults to see what they ate. They found a strong link between eating more spermidine and lower death rates.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1443,7 +1443,7 @@
           "settings": {
             "visibility": "always-display",
             "open": false,
-            "heading": "Read the study details",
+            "heading": "Read the Study Details",
             "heading_size": "medium",
             "icon": "biotech",
             "filled_icon": false,
@@ -1481,7 +1481,7 @@
             "open_state_content_text": "#121212",
             "margin_top": 0,
             "margin_bottom": 0,
-            "content": "<p>A major study tracked 829 people aged 45 to 84. Experts watched their diets for up to 20 years. People who ate more spermidine in their food had lower death rates over the study. This study looked at food choices. It was not a test of our capsules. A link in a study does not prove taking a supplement will add years to your life.</p><p><a href=\"https://pubmed.ncbi.nlm.nih.gov/29955838/\" target=\"_blank\" rel=\"noopener\">Higher spermidine intake is linked to lower mortality: a prospective population-based study</a></p>"
+            "content": "<p>A 20-year food study tracked 829 people aged 45 to 84. The team used repeated questions about what people ate from 1995 to 2015. They found a strong link between eating more spermidine and lower death rates.</p><p><a href=\"https://pubmed.ncbi.nlm.nih.gov/29955838/\" target=\"_blank\" rel=\"noopener\">Higher spermidine intake is linked to lower mortality: a prospective population-based study</a></p>"
           }
         }
       },
@@ -1590,50 +1590,50 @@
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "How much is in one serving?",
+            "heading": "How much is in each serving?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Two capsules deliver 10 mg of Spermidine 3HCL. Each bottle contains sixty capsules. That gives you thirty servings.</p>"
+            "row_content": "<p>Every two-capsule serving gives you 10mg of Spermidine 3HCL. You both take two capsules a day.</p>"
           }
         },
         "faq_2": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "Do we take it with food?",
+            "heading": "Did the 20-year study use these capsules?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>You can take your two capsules with or without food. Just drink a glass of water to wash them down.</p>"
+            "row_content": "<p>No. That study tracked the real food that 829 adults ate. It found a link between eating more spermidine and lower death rates.</p>"
           }
         },
         "faq_3": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "Is this the exact formula from the study?",
+            "heading": "Do we need to take this with a meal?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>No. The major twenty-year study tracked the food people ate, not a capsule. Goodwell provides 10 mg of Spermidine 3HCL to add to your day.</p>"
+            "row_content": "<p>No. You can take your capsules with or without food. Just choose a time that works best for both of you.</p>"
           }
         },
         "faq_4": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "How does the couple's supply work?",
+            "heading": "How long does the bundle last?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>One bottle lasts one person thirty days. The two-bottle bundle costs $89 and gives each of you a thirty-day supply. The four-bottle bundle costs $159 for sixty days each.</p>"
+            "row_content": "<p>Two bottles give each person a 30-day supply. Four bottles give each person a 60-day supply. You each take two capsules daily.</p>"
           }
         },
         "faq_5": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "What are the other ingredients?",
+            "heading": "Will I be billed every month?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>A serving of two capsules delivers exactly 10 mg of Spermidine 3HCL. The only other ingredients are rice flour and the HPMC capsule shell itself.</p>"
+            "row_content": "<p>No. Every order is a one-time purchase.</p>"
           }
         },
         "faq_6": {
@@ -1643,7 +1643,7 @@
             "heading": "Can I take this with my medicine?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>You should always ask your doctor before you start a new supplement. This is very important if you take prescription drugs or have a health condition.</p>"
+            "row_content": "<p>Always ask your doctor before you start a new supplement. This is very important if you take prescription drugs or have a health issue.</p>"
           }
         }
       },
@@ -1688,7 +1688,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "Choose your bundle.",
+            "title": "Get your shared supply today.",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -1777,7 +1777,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>The two-bottle bundle costs $89 and gives each of you a thirty-day supply.</p>",
+            "text": "<p>Choose the four-bottle bundle for $159 to get 60 days for each of you. You save $19 over buying two separate pairs.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1853,7 +1853,7 @@
           "type": "button",
           "settings": {
             "visibility": "always-display",
-            "button_label": "Choose a Supply",
+            "button_label": "Get the Couple's Supply",
             "button_style_secondary": false,
             "large_font_size": false,
             "enable_custom_color": false,

@@ -486,7 +486,7 @@
                 "swatches_custom_colors_list": "#000000, #FFFFFF",
                 "full_width_dropdowns": false,
                 "breaks_style": "normal",
-                "breaks_headline": "Select a Supply",
+                "breaks_headline": "Choose your Goodwell supply",
                 "breaks_prices_layout": "price-first-horizontal",
                 "breaks_display_selected_indicator": true,
                 "breaks_border_radius": 8,
@@ -654,7 +654,7 @@
               "settings": {
                 "visibility": "always-display",
                 "open": false,
-                "heading": "Formula Information",
+                "heading": "Formula Facts",
                 "heading_size": "medium",
                 "icon": "science",
                 "filled_icon": false,
@@ -700,7 +700,7 @@
               "settings": {
                 "visibility": "always-display",
                 "open": false,
-                "heading": "Take two capsules daily.",
+                "heading": "Take two capsules anytime.",
                 "heading_size": "medium",
                 "icon": "event_repeat",
                 "filled_icon": false,
@@ -738,7 +738,7 @@
                 "open_state_content_text": "#121212",
                 "margin_top": 0,
                 "margin_bottom": 0,
-                "content": "<p>Take two capsules at any time of day. You can take them with a meal or on an empty stomach.</p>"
+                "content": "<p>Take two capsules daily. You can swallow them with or without food at whatever time fits your schedule.</p>"
               }
             },
             "sticky": {
@@ -746,7 +746,7 @@
               "settings": {
                 "function": "scroll_#variant-selects-id",
                 "display_when": "after_scroll",
-                "button_label": "View Options",
+                "button_label": "Order Now",
                 "enable_custom_btn_color": false,
                 "custom_btn_color": "#dd1d1d",
                 "color_scheme": "background-1",
@@ -842,7 +842,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "A quiet hour with a book.",
+            "title": "No powders to measure or mix.",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -931,7 +931,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>The hot tea sits on the end table while you finally finish the chapter. It is a rare, uninterrupted moment in a busy house.</p>",
+            "text": "<p>Capsules eliminate the need to measure or mix anything into a drink. You just swallow two a day, with or without food.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1041,7 +1041,7 @@
         "desktop_padding_top": 36,
         "desktop_padding_bottom": 36,
         "image": "",
-        "video": "shopify://files/videos/gw-r09-cell-recycling.mp4"
+        "video": "shopify://files/videos/gw-r12-cell-recycling.mp4"
       },
       "blocks": {
         "eyebrow": {
@@ -1060,7 +1060,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "How cells reuse their old parts.",
+            "title": "The science of cellular reuse.",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -1149,7 +1149,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>Cells gather worn pieces as they operate. The autophagy process breaks those old components down so the cell can reuse the basic material instead of letting it accumulate.</p>",
+            "text": "<p>Healthy cells break down worn pieces and reuse the bits. In lab tests, spermidine makes human cells start this recycling.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1258,7 +1258,7 @@
         "mobile_padding_bottom": 24,
         "desktop_padding_top": 36,
         "desktop_padding_bottom": 36,
-        "image": "shopify://shop_images/gw-spd-04-r09-research.png"
+        "image": "shopify://shop_images/gw-spd-04-r12-research.png"
       },
       "blocks": {
         "label": {
@@ -1277,7 +1277,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "The two-week immune B cell finding.",
+            "title": "What the human pilot study found.",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -1443,7 +1443,7 @@
           "settings": {
             "visibility": "always-display",
             "open": false,
-            "heading": "Read the pilot study details",
+            "heading": "Read the study details",
             "heading_size": "medium",
             "icon": "biotech",
             "filled_icon": false,
@@ -1481,7 +1481,7 @@
             "open_state_content_text": "#121212",
             "margin_top": 0,
             "margin_bottom": 0,
-            "content": "<p>Experts ran a 13-week test on 40 adults over 65. They gave them 6 mg of spermidine a day from a wheat germ extract. They looked at 38 people. At two weeks, the group showed more cell recycling action in B cells. This small trial was not built to prove a final whole body result. It did not test the 10 mg Spermidine 3HCL Goodwell formula.</p><p><a href=\"https://pubmed.ncbi.nlm.nih.gov/42169618/\" target=\"_blank\" rel=\"noopener\">Spermidine Mitigates Immune Cell Senescence and Boosts Vaccine Responses in Healthy Older Adults—A Pilot Study</a></p>"
+            "content": "<p>Researchers ran a small, randomized, double-blind, placebo-controlled pilot study lasting 13 weeks. They enrolled 40 adults 65 and older and analyzed 38 of them. They gave them 6 mg of spermidine a day from a wheat germ extract. At two weeks, the group showed more cell recycling action in B cells.</p><p><a href=\"https://pubmed.ncbi.nlm.nih.gov/42169618/\" target=\"_blank\" rel=\"noopener\">Spermidine Mitigates Immune Cell Senescence and Boosts Vaccine Responses in Healthy Older Adults—A Pilot Study</a></p>"
           }
         }
       },
@@ -1497,7 +1497,7 @@
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "title": "Frequently Asked Questions",
+        "title": "Common Questions",
         "title_highlight_1": "solid-color",
         "title_highlight_1_gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
         "title_highlight_1_bg-color": "#F9EFFF",
@@ -1590,60 +1590,60 @@
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "How much do I take each day?",
+            "heading": "Did the study test this exact Goodwell formula?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>You take two capsules a day. That gives you 10 mg of Spermidine 3HCL. Each bottle holds 60 capsules for a full 30 days.</p>"
+            "row_content": "<p>No. The pilot study gave adults 65 and older a different formulation providing 6mg of spermidine daily from a wheat-germ extract. Goodwell gives you 10mg of Spermidine 3HCL per two-capsule serving.</p>"
           }
         },
         "faq_2": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "Did the study look at skin changes?",
+            "heading": "What is inside each capsule?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>No. The pilot test looked at recycling in immune B cells. It did not measure wrinkles, skin changes, or whole body results.</p>"
+            "row_content": "<p>Every two-capsule serving holds 10mg of Spermidine 3HCL. The capsule shell is made of HPMC, and the powder inside includes rice flour.</p>"
           }
         },
         "faq_3": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "Do I need to take this with food?",
+            "heading": "How do I take Goodwell?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>You can take the two capsules with a meal or on an empty stomach. Choose the time that works best for you.</p>"
+            "row_content": "<p>Swallow two capsules once a day. You can take them with food or on an empty stomach.</p>"
           }
         },
         "faq_4": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "What is inside the capsule?",
+            "heading": "Which bundle saves the most money?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>A serving of two capsules delivers 10 mg of Spermidine 3HCL. The only other ingredients are rice flour and the HPMC capsule shell.</p>"
+            "row_content": "<p>The five-bottle bundle gives you the lowest cost per bottle. It costs $189 and lasts for 150 days.</p>"
           }
         },
         "faq_5": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "Is this the exact study formula?",
+            "heading": "Can I take this with my medicines?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>No. The pilot test used 6 mg a day from a wheat germ extract. Goodwell uses 10 mg of Spermidine 3HCL instead.</p>"
+            "row_content": "<p>Always ask your doctor before you start a new supplement. This matters most if you take drugs or have a health condition.</p>"
           }
         },
         "faq_6": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "Can I take this with my medicine?",
+            "heading": "Will you bill me every month?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Always talk to your doctor before you start a new pill. This is very important if you take prescription medicine or have health issues.</p>"
+            "row_content": "<p>No. Every order is a one-time purchase.</p>"
           }
         }
       },
@@ -1688,7 +1688,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "Pick your bundle today.",
+            "title": "Pick the best bundle for you.",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -1777,7 +1777,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>Select a one, three, or five-bottle bundle to start your daily supply.</p>",
+            "text": "<p>Grab one bottle for $59 to try it out. If you want the best deal, a five-bottle bundle drops the price and saves you money.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1853,7 +1853,7 @@
           "type": "button",
           "settings": {
             "visibility": "always-display",
-            "button_label": "Choose a Bundle",
+            "button_label": "Choose Your Bundle",
             "button_style_secondary": false,
             "large_font_size": false,
             "enable_custom_color": false,
