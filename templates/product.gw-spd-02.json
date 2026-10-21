@@ -627,13 +627,13 @@
                 "mobile_text_size": 12,
                 "icon_1": "fact_check",
                 "icon_1_fill": false,
-                "heading_1": "Targeted Support",
+                "heading_1": "Simple Two-Capsule Serving",
                 "icon_2": "science",
                 "icon_2_fill": false,
-                "heading_2": "Clear Formula",
+                "heading_2": "Linked to Growth Phase",
                 "icon_3": "lock",
                 "icon_3_fill": false,
-                "heading_3": "Secure Checkout",
+                "heading_3": "One-Time Purchase",
                 "margin_top": 15,
                 "margin_bottom": 12
               }
@@ -692,7 +692,7 @@
                 "open_state_content_text": "#121212",
                 "margin_top": 0,
                 "margin_bottom": 0,
-                "content": "<p>10mg Spermidine 3HCL</p><p>2 Capsules</p><p>60 Capsules</p><p>30 Servings</p><p>HPMC Capsule, Rice Flour</p><p>Take two capsules daily, with or without food.</p><p>Supports your growth cycle</p><p>10mg Spermidine 3HCL per serving</p><p>Simple one-time purchase</p>"
+                "content": "<p>10mg Spermidine 3HCL</p><p>2 Capsules</p><p>60 Capsules Per Bottle</p><p>30 Servings Per Bottle</p><p>HPMC Capsule, Rice Flour</p><p>Take two capsules daily, with or without food.</p><p>You get exactly 10mg of Spermidine 3HCL in every two capsules.</p><p>Scientists study this ingredient for the hair growth phase.</p><p>We never charge you for a hidden monthly subscription.</p>"
               }
             },
             "routine": {
@@ -700,7 +700,7 @@
               "settings": {
                 "visibility": "always-display",
                 "open": false,
-                "heading": "A simple step for your morning.",
+                "heading": "A simple morning step.",
                 "heading_size": "medium",
                 "icon": "event_repeat",
                 "filled_icon": false,
@@ -738,7 +738,7 @@
                 "open_state_content_text": "#121212",
                 "margin_top": 0,
                 "margin_bottom": 0,
-                "content": "<p>Take two capsules each day. You can take them with or without food. Add a clear ingredient to your routine while you focus on your main health goals. One bottle lasts 30 days.</p>"
+                "content": "<p>Take two clear capsules each day. You get a direct supply of the ingredient while you focus on your health goals.</p>"
               }
             },
             "sticky": {
@@ -842,7 +842,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "Enjoy Your Progress",
+            "title": "Enjoy your weight loss progress.",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -931,7 +931,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>Enjoy your weight loss progress without the constant dread of daily hair checks.</p>",
+            "text": "<p>You did the hard work. Start your day with an ingredient studied for the hair growth phase.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1060,7 +1060,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "The Hair Cycle",
+            "title": "The natural hair cycle.",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -1149,7 +1149,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>Hair naturally grows, rests, and sheds.</p>",
+            "text": "<p>Hair moves through growing, resting, and shedding. Science links this ingredient to the active growth phase.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1277,7 +1277,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "Spermidine and Hair",
+            "title": "The science behind the ingredient.",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -1366,7 +1366,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>A trial tested healthy adults. The spermidine complex group had more hair in the growth phase.</p>",
+            "text": "<p>A trial tested a daily complex in healthy adults. The test group showed more hair in mature growth phases than the placebo group.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1443,7 +1443,7 @@
           "settings": {
             "visibility": "always-display",
             "open": false,
-            "heading": "View the 2017 study",
+            "heading": "View study details",
             "heading_size": "medium",
             "icon": "biotech",
             "filled_icon": false,
@@ -1481,7 +1481,7 @@
             "open_state_content_text": "#121212",
             "margin_top": 0,
             "margin_bottom": 0,
-            "content": "<p>Scientists study spermidine for cell health. A 2017 trial tested a daily spermidine complex in 100 healthy adults for 90 days. The people taking the complex had more follicles in mature growth phases than the placebo group. This early study did not test the Goodwell formula. It did not measure hair growth in people on weight loss drugs.</p><p><a href=\"https://pubmed.ncbi.nlm.nih.gov/29214104/\" target=\"_blank\" rel=\"noopener\">A spermidine-based nutritional supplement prolongs the anagen phase of hair follicles in humans</a></p>"
+            "content": "<p>Science studies this ingredient for cell health. A 2017 trial tested a daily complex in 100 healthy adults for 90 days. The test group had more hair in mature growth phases than the placebo group. This early study did not test the Goodwell formula. It did not measure hair growth in people on weight loss drugs.</p><p><a href=\"https://pubmed.ncbi.nlm.nih.gov/29214104/\" target=\"_blank\" rel=\"noopener\">A spermidine-based nutritional supplement prolongs the anagen phase of hair follicles in humans</a></p>"
           }
         }
       },
@@ -1497,7 +1497,7 @@
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "title": "Frequently Asked Questions",
+        "title": "Frequently asked questions",
         "title_highlight_1": "solid-color",
         "title_highlight_1_gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
         "title_highlight_1_bg-color": "#F9EFFF",
@@ -1593,27 +1593,27 @@
             "heading": "Will this stop my drug-linked hair loss?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Hair loss during fast weight loss has many causes. Scientists study spermidine for the hair growth phase. But this formula is not proven to stop GLP-1 hair loss. Talk to a doctor if you worry about sudden shedding.</p>"
+            "row_content": "<p>Hair changes during fast weight loss have many causes. Researchers study this ingredient for the hair growth phase. It is not proven to stop GLP-1 hair loss. Always ask a doctor if you worry about sudden shedding.</p>"
           }
         },
         "faq_2": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "Why spermidine instead of biotin or collagen?",
+            "heading": "Why spermidine instead of just biotin?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>You may already take basic vitamins and eat enough protein. Spermidine offers a different path. Science links it directly to the active growth phase of the hair follicle.</p>"
+            "row_content": "<p>Biotin is a popular choice for general hair care. This ingredient offers a different path. Scientists study it for its link to the active hair growth phase.</p>"
           }
         },
         "faq_3": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "Is this the exact formula used in the clinical study?",
+            "heading": "Is this the exact formula used in the study?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>No. The 2017 study used an undisclosed spermidine complex. Goodwell gives you a clear dose. You get 10mg of Spermidine 3HCL with rice flour in two simple capsules.</p>"
+            "row_content": "<p>No. The early trial tested a different complex. Goodwell gives you a clear, direct dose instead. You get 10mg of Spermidine 3HCL and rice flour in two simple capsules.</p>"
           }
         },
         "faq_4": {
@@ -1623,7 +1623,7 @@
             "heading": "How long does one bottle last?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Each bottle holds 60 capsules. You take two capsules a day. One bottle lasts one person for 30 days.</p>"
+            "row_content": "<p>Each bottle holds sixty capsules. You take two capsules a day, with or without food. That means one bottle lasts exactly thirty days for one person.</p>"
           }
         },
         "faq_5": {
@@ -1633,17 +1633,17 @@
             "heading": "Can I take this with my weight loss drugs?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Always ask your doctor before you start a new supplement. This is very important if you take prescription drugs to lose weight.</p>"
+            "row_content": "<p>You must always ask a doctor before you start a new supplement. This step is very important if you take prescription drugs to lose weight. They can tell you what fits your health plan safely.</p>"
           }
         },
         "faq_6": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "Do you charge me every month?",
+            "heading": "Do you charge me every month automatically?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>No. Every choice on this page is a one-time purchase. We only bill you for the exact supply you buy today.</p>"
+            "row_content": "<p>No. Every choice on this page is a single purchase. We only bill you for the exact supply you buy today. We never charge you for hidden monthly plans.</p>"
           }
         }
       },
@@ -1688,7 +1688,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "Add It to Your Plan",
+            "title": "Choose your supply today.",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -1777,7 +1777,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>Choose your supply today.</p>",
+            "text": "<p>You do the hard work. Add a researched ingredient to your plan.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1853,7 +1853,7 @@
           "type": "button",
           "settings": {
             "visibility": "always-display",
-            "button_label": "Choose your Goodwell Spermidine supply",
+            "button_label": "Get Started Today",
             "button_style_secondary": false,
             "large_font_size": false,
             "enable_custom_color": false,

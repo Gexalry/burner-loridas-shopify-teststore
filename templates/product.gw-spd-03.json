@@ -541,7 +541,7 @@
               "type": "text",
               "settings": {
                 "visibility": "always-display",
-                "text": "<p>Each partner takes two capsules daily. The Couple&#x27;s Supply gives two people a full 30-day routine.</p>",
+                "text": "<p>Each partner takes two capsules daily. Two bottles give 30 days for each partner. Four bottles give 60 days for each partner.</p>",
                 "alignment": "left",
                 "mobile_alignment": "mobile-left",
                 "text_size": 13,
@@ -627,7 +627,7 @@
                 "mobile_text_size": 12,
                 "icon_1": "fact_check",
                 "icon_1_fill": false,
-                "heading_1": "Rooted in Research",
+                "heading_1": "Simple Habit For Two",
                 "icon_2": "science",
                 "icon_2_fill": false,
                 "heading_2": "Clear Formula",
@@ -654,7 +654,7 @@
               "settings": {
                 "visibility": "always-display",
                 "open": false,
-                "heading": "Formula Facts",
+                "heading": "Formula & Ingredients",
                 "heading_size": "medium",
                 "icon": "science",
                 "filled_icon": false,
@@ -692,7 +692,7 @@
                 "open_state_content_text": "#121212",
                 "margin_top": 0,
                 "margin_bottom": 0,
-                "content": "<p>10 mg Spermidine 3HCL</p><p>2 Capsules</p><p>60 Capsules</p><p>30 Servings</p><p>HPMC (plant capsule), rice flour</p><p>Take two capsules daily, with or without food.</p><p>Based on the science of cell cleanup and healthy aging.</p><p>Exactly 10 mg of Spermidine 3HCL per dose. No hidden blends.</p><p>Bundled to make your shared daily routine simple and easy.</p>"
+                "content": "<p>10 mg Spermidine 3HCL</p><p>2 Capsules</p><p>60 Capsules per Bottle</p><p>30 Servings per Bottle</p><p>HPMC capsule, rice flour</p><p>Take two capsules daily, with or without food.</p><p>Each person takes two easy capsules every day.</p><p>Exactly 10 mg of Spermidine 3HCL per dose. No hidden blends.</p><p>Bundled to make your shared daily routine simple and easy.</p>"
               }
             },
             "routine": {
@@ -700,7 +700,7 @@
               "settings": {
                 "visibility": "always-display",
                 "open": false,
-                "heading": "Easy to Add to Your Morning",
+                "heading": "An easy habit for two.",
                 "heading_size": "medium",
                 "icon": "event_repeat",
                 "filled_icon": false,
@@ -738,7 +738,7 @@
                 "open_state_content_text": "#121212",
                 "margin_top": 0,
                 "margin_bottom": 0,
-                "content": "<p>Using our capsules is simple. Each person takes two capsules every day. You can take them with or without food. We made the Couple&#x27;s Supply to make this easy. Two bottles give two people a full 30-day routine. It is a simple choice you can make together.</p>"
+                "content": "<p>You each take two capsules daily with or without food. The couple supply gives both of you exactly what you need for a full month.</p>"
               }
             },
             "sticky": {
@@ -746,7 +746,7 @@
               "settings": {
                 "function": "scroll_#variant-selects-id",
                 "display_when": "after_scroll",
-                "button_label": "Choose Your Supply",
+                "button_label": "Get Started",
                 "enable_custom_btn_color": false,
                 "custom_btn_color": "#dd1d1d",
                 "color_scheme": "background-1",
@@ -842,7 +842,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "Care for Your Future",
+            "title": "Keep your morning coffee going.",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -931,7 +931,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>Keep your shared morning coffee routines going.</p>",
+            "text": "<p>You want more ordinary mornings sharing coffee across the table. Our formula gives you a clear dose of a compound studied for cell care.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1060,7 +1060,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "Recycling Cell Waste",
+            "title": "The science of cell recycling.",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -1149,7 +1149,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>Your body breaks down and reuses worn cell parts.</p>",
+            "text": "<p>Your body clears waste by reusing worn parts inside the cells. Early lab tests show spermidine triggers this exact recycling step.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1277,7 +1277,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "The Diet Study",
+            "title": "A 20-year food study.",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -1366,7 +1366,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>A study tracking food linked more dietary spermidine to a lower death rate.</p>",
+            "text": "<p>A long study linked eating more spermidine in food to lower death rates. This dietary link does not prove our capsules will add years to your life.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1443,7 +1443,7 @@
           "settings": {
             "visibility": "always-display",
             "open": false,
-            "heading": "Review the dietary cohort study",
+            "heading": "View Study Details",
             "heading_size": "medium",
             "icon": "biotech",
             "filled_icon": false,
@@ -1497,7 +1497,7 @@
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "title": "Frequently Asked Questions",
+        "title": "Common Questions",
         "title_highlight_1": "solid-color",
         "title_highlight_1_gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
         "title_highlight_1_bg-color": "#F9EFFF",
@@ -1593,57 +1593,57 @@
             "heading": "Will taking this make us live longer?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>That is not proven. Eating foods with spermidine is linked to healthy aging in some long-term studies. Lab models also show it helps clean cells. But there is no proof that taking a spermidine capsule will extend human life.</p>"
+            "row_content": "<p>That is not proven. Eating foods with spermidine is linked to healthy aging in long studies. Lab tests show it helps clean cells. But there is no proof a capsule extends human life.</p>"
           }
         },
         "faq_2": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "How long will a bundle last for the two of us?",
+            "heading": "How long does the Couple's Supply last?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>The Couple&#x27;s Supply gives you two bottles. That is 60 servings total. If you both take two capsules every day, this bundle will last exactly 30 days.</p>"
+            "row_content": "<p>The bundle includes two bottles, giving you sixty total servings. If you both take two capsules every single day, this supply will last each of you exactly thirty days.</p>"
           }
         },
         "faq_3": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "Does this replace a good diet or medical care?",
+            "heading": "Does this replace our healthy diet?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>No. A supplement does not replace good food, daily exercise, or routine medical care.</p>"
+            "row_content": "<p>No, it does not. A daily supplement is just an extra step for your routine. It never replaces good food, daily walks, or the routine care you get from your doctor.</p>"
           }
         },
         "faq_4": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "What exactly is 10 mg of Spermidine 3HCL?",
+            "heading": "What exactly is in each serving?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Our formula gives you 10 milligrams of Spermidine 3HCL per dose. This salt form gives you a clear and exact amount for your daily routine.</p>"
+            "row_content": "<p>Every serving of two capsules gives you exactly 10 mg of Spermidine 3HCL. The only other ingredients are the HPMC capsule and rice flour. We keep the formula clear and simple.</p>"
           }
         },
         "faq_5": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "Do we both have to take it?",
+            "heading": "Do we both need to take it?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Not at all. Taking a supplement is your own choice. If only one of you takes it, a two-bottle bundle will last that person 60 days.</p>"
+            "row_content": "<p>Taking a supplement is your own choice. You do not have to take it together. If only one of you uses it, the two bottle bundle will last that person for sixty days.</p>"
           }
         },
         "faq_6": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "Can I take this with my current medicines?",
+            "heading": "Can we take this with our other daily medicines?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Always talk to your doctor or pharmacist before starting a new supplement. They can review it with your health history and current prescriptions.</p>"
+            "row_content": "<p>You should always talk to your doctor before you start a new habit. They know your health history and can tell you if this fits with your current prescription medicines.</p>"
           }
         }
       },
@@ -1688,7 +1688,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "A Shared Habit",
+            "title": "Start your shared habit today.",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -1777,7 +1777,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>Start your new shared habit today.</p>",
+            "text": "<p>Choose your clear formula and begin your new routine together.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,

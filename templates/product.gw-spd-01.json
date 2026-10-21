@@ -654,7 +654,7 @@
               "settings": {
                 "visibility": "always-display",
                 "open": false,
-                "heading": "Supplement Facts",
+                "heading": "Formula Facts",
                 "heading_size": "medium",
                 "icon": "science",
                 "filled_icon": false,
@@ -692,7 +692,7 @@
                 "open_state_content_text": "#121212",
                 "margin_top": 0,
                 "margin_bottom": 0,
-                "content": "<p>10mg Spermidine 3HCL</p><p>2 Capsules</p><p>60 Capsules</p><p>30 Servings</p><p>HPMC Capsule, Rice Flour</p><p>Take two capsules daily; with or without food.</p><p>10mg of Spermidine 3HCL. No hidden blends.</p><p>Take two capsules a day.</p><p>Buy once. We never force a subscription.</p>"
+                "content": "<p>10mg Spermidine 3HCL</p><p>2 Capsules</p><p>60 Capsules Per Bottle</p><p>30 Servings Per Bottle</p><p>HPMC Capsule, Rice Flour</p><p>Take two capsules daily; with or without food.</p><p>10mg of Spermidine 3HCL. We skip the hidden blends.</p><p>Take two capsules every single day.</p><p>Buy once. We never force a subscription.</p>"
               }
             },
             "routine": {
@@ -700,7 +700,7 @@
               "settings": {
                 "visibility": "always-display",
                 "open": false,
-                "heading": "Add It to Your Day",
+                "heading": "A Simple Daily Habit",
                 "heading_size": "medium",
                 "icon": "event_repeat",
                 "filled_icon": false,
@@ -738,7 +738,7 @@
                 "open_state_content_text": "#121212",
                 "margin_top": 0,
                 "margin_bottom": 0,
-                "content": "<p>Take two capsules every day. You can eat food with them or take them on an empty stomach. Make it a simple part of your daily habits.</p>"
+                "content": "<p>Take two capsules every day with or without food. It takes just seconds to add this clear formula to your morning.</p>"
               }
             },
             "sticky": {
@@ -746,7 +746,7 @@
               "settings": {
                 "function": "scroll_#variant-selects-id",
                 "display_when": "after_scroll",
-                "button_label": "Choose Your Supply",
+                "button_label": "Get Started",
                 "enable_custom_btn_color": false,
                 "custom_btn_color": "#dd1d1d",
                 "color_scheme": "background-1",
@@ -842,7 +842,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "Share the Thrill",
+            "title": "Keep the Anticipation Alive",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -931,7 +931,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>Catch his look and share the thrill.</p>",
+            "text": "<p>You want to catch that look in his eye. Taking a clear, daily formula is a practical step you can take right now.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1060,7 +1060,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "A New Research Idea",
+            "title": "The Cell Stress Connection",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -1149,7 +1149,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>Spermidine is found in human semen. Experts study its link to cell stress.</p>",
+            "text": "<p>Spermidine is a compound found naturally in human semen. Researchers are testing how it connects to cell stress and fluid quality.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1366,7 +1366,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>Tests looked at heat-stressed rams. Rams given spermidine in food had more fluid.</p>",
+            "text": "<p>Animal tests looked at heat-stressed rams. The rams given spermidine in their food had higher fluid volume on day 35.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1443,7 +1443,7 @@
           "settings": {
             "visibility": "always-display",
             "open": false,
-            "heading": "Read the animal study abstract",
+            "heading": "Read the Research",
             "heading_size": "medium",
             "icon": "biotech",
             "filled_icon": false,
@@ -1593,7 +1593,7 @@
             "heading": "Will this definitely give me bigger loads?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>We want to be clear. This is a new research idea. Animal tests show it can change volume. But no human trial proves that this pill grows semen volume. We provide a clear formula so you know exactly what you take.</p>"
+            "row_content": "<p>No human trial proves this pill grows semen volume. Animal tests show it can change fluid volume, but human results are not guaranteed. We provide a clear formula so you know exactly what you take.</p>"
           }
         },
         "faq_2": {
@@ -1603,7 +1603,7 @@
             "heading": "How is this different from taking zinc or lecithin?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Zinc is a basic mineral. Lecithin is a fat. Spermidine is found in semen. It is currently part of new tests on cell stress and fluid quality.</p>"
+            "row_content": "<p>Zinc is a common mineral, and lecithin is a fat. Spermidine is a compound found naturally in human semen. Scientists are studying its link to cell stress and fluid quality.</p>"
           }
         },
         "faq_3": {
@@ -1613,7 +1613,7 @@
             "heading": "What exactly is in the capsule?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>We keep it simple. Two capsules give you 10mg of Spermidine 3HCL. We put it in a basic HPMC capsule with rice flour. We never use hidden filler blends.</p>"
+            "row_content": "<p>Two capsules give you exactly 10mg of Spermidine 3HCL. The only other ingredients are an HPMC capsule and rice flour. We never use hidden blends or proprietary fillers.</p>"
           }
         },
         "faq_4": {
@@ -1623,7 +1623,7 @@
             "heading": "Is this a recurring subscription?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>No. Every choice on this page is a one-time purchase. We never bill you later.</p>"
+            "row_content": "<p>No, it is not. Every choice you see on this page is a simple one-time purchase. You buy it once, and we never force a subscription or bill you later.</p>"
           }
         },
         "faq_5": {
@@ -1633,7 +1633,7 @@
             "heading": "Is Spermidine safe to take every day?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Each man has unique health needs. Ask your doctor before you start this or any new supplement. This is very important if you take medicine or have health issues.</p>"
+            "row_content": "<p>Always ask your doctor before you start this or any new supplement. This matters most if you take prescription medicine or have existing health issues.</p>"
           }
         },
         "faq_6": {
@@ -1643,7 +1643,7 @@
             "heading": "How long should I take it?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>There is no proven timeline for human volume results. The label says to take two capsules every day. You can take them with or without food.</p>"
+            "row_content": "<p>There is no proven timeline for human volume results. The label says to take two capsules every day. You can easily take them with or without food.</p>"
           }
         }
       },
@@ -1688,7 +1688,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "Step Up Your Routine",
+            "title": "Choose a Clear Formula",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -1777,7 +1777,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>Choose a clear formula for your routine today.</p>",
+            "text": "<p>Stop guessing with hidden blends. Get exactly 10mg of Spermidine 3HCL in your two capsules today.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1853,7 +1853,7 @@
           "type": "button",
           "settings": {
             "visibility": "always-display",
-            "button_label": "Select Your One-Time Supply",
+            "button_label": "Choose Your Supply",
             "button_style_secondary": false,
             "large_font_size": false,
             "enable_custom_color": false,
