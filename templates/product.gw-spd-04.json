@@ -486,7 +486,7 @@
                 "swatches_custom_colors_list": "#000000, #FFFFFF",
                 "full_width_dropdowns": false,
                 "breaks_style": "normal",
-                "breaks_headline": "Choose your daily cell support",
+                "breaks_headline": "Select a Supply",
                 "breaks_prices_layout": "price-first-horizontal",
                 "breaks_display_selected_indicator": true,
                 "breaks_border_radius": 8,
@@ -541,7 +541,7 @@
               "type": "text",
               "settings": {
                 "visibility": "always-display",
-                "text": "<p>One-time purchase. One bottle gives you a 30-day supply of 60 capsules.</p>",
+                "text": "<p>One-time purchase options based on daily use.</p>",
                 "alignment": "left",
                 "mobile_alignment": "mobile-left",
                 "text_size": 13,
@@ -627,13 +627,13 @@
                 "mobile_text_size": 12,
                 "icon_1": "fact_check",
                 "icon_1_fill": false,
-                "heading_1": "Transparent Dose",
+                "heading_1": "30-Day Supply",
                 "icon_2": "science",
                 "icon_2_fill": false,
-                "heading_2": "Clean Formula",
+                "heading_2": "Daily Serving",
                 "icon_3": "lock",
                 "icon_3_fill": false,
-                "heading_3": "30-Day Supply",
+                "heading_3": "Other Ingredients",
                 "margin_top": 15,
                 "margin_bottom": 12
               }
@@ -654,7 +654,7 @@
               "settings": {
                 "visibility": "always-display",
                 "open": false,
-                "heading": "Supplement Facts",
+                "heading": "Formula Information",
                 "heading_size": "medium",
                 "icon": "science",
                 "filled_icon": false,
@@ -692,7 +692,7 @@
                 "open_state_content_text": "#121212",
                 "margin_top": 0,
                 "margin_bottom": 0,
-                "content": "<p>10 mg Spermidine 3HCL</p><p>2 Capsules</p><p>60 Capsules Per Bottle</p><p>30 Servings Per Bottle</p><p>HPMC Capsule, Rice Flour</p><p>Take 1 serving per day. Take with or without food.</p><p>10 mg of Spermidine 3HCL per dose.</p><p>Just the active part, an HPMC capsule, and rice flour.</p><p>Each bottle gives you 60 capsules for a full month of care.</p>"
+                "content": "<p>10 mg Spermidine 3HCL</p><p>2 Capsules</p><p>60 Capsules Per Bottle</p><p>30 Servings Per Bottle</p><p>HPMC Capsule, Rice Flour</p><p>Take 1 serving per day. Take with or without food.</p><p>60 capsules per bottle</p><p>10 mg Spermidine 3HCL</p><p>HPMC capsule and rice flour</p>"
               }
             },
             "routine": {
@@ -700,7 +700,7 @@
               "settings": {
                 "visibility": "always-display",
                 "open": false,
-                "heading": "Easy to add to your morning.",
+                "heading": "Take two capsules daily.",
                 "heading_size": "medium",
                 "icon": "event_repeat",
                 "filled_icon": false,
@@ -738,7 +738,7 @@
                 "open_state_content_text": "#121212",
                 "margin_top": 0,
                 "margin_bottom": 0,
-                "content": "<p>Just take two capsules a day with or without food. They fit perfectly right beside your daily serums and sun care.</p>"
+                "content": "<p>Take two capsules at any time of day. You can take them with a meal or on an empty stomach.</p>"
               }
             },
             "sticky": {
@@ -746,7 +746,7 @@
               "settings": {
                 "function": "scroll_#variant-selects-id",
                 "display_when": "after_scroll",
-                "button_label": "Buy Now",
+                "button_label": "View Options",
                 "enable_custom_btn_color": false,
                 "custom_btn_color": "#dd1d1d",
                 "color_scheme": "background-1",
@@ -842,7 +842,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "Take charge of your daily habits.",
+            "title": "A quiet hour with a book.",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -931,7 +931,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>You want to keep feeling like yourself. Add a clear, researched ingredient to your morning routine.</p>",
+            "text": "<p>The hot tea sits on the end table while you finally finish the chapter. It is a rare, uninterrupted moment in a busy house.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1060,7 +1060,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "The science of cellular cleanup.",
+            "title": "How cells reuse their old parts.",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -1149,7 +1149,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>Your cells break down and reuse worn parts. Early research shows spermidine connects to this recycling step in older adults.</p>",
+            "text": "<p>Cells gather worn pieces as they operate. The autophagy process breaks those old components down so the cell can reuse the basic material instead of letting it accumulate.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1277,7 +1277,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "The early human pilot study.",
+            "title": "The two-week immune B cell finding.",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -1366,7 +1366,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>A pilot trial gave adults over 65 a daily spermidine dose. Researchers saw more recycling action in immune B cells, but they did not test our exact formula or measure skin changes.</p>",
+            "text": "<p>Adults 65 and older took a daily wheat germ extract. At two weeks, researchers saw more recycling action in their immune B cells, though T cells did not show the same change.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1443,7 +1443,7 @@
           "settings": {
             "visibility": "always-display",
             "open": false,
-            "heading": "View Study Details",
+            "heading": "Read the pilot study details",
             "heading_size": "medium",
             "icon": "biotech",
             "filled_icon": false,
@@ -1481,7 +1481,7 @@
             "open_state_content_text": "#121212",
             "margin_top": 0,
             "margin_bottom": 0,
-            "content": "<p>Experts ran a 13-week test on 40 adults over 65. They split them to take a placebo or 6 mg of spermidine a day from wheat germ extract. They looked at 38 people. At two weeks, the spermidine group showed more cell recycling action in immune B cells. This early small trial was not built to prove a final whole body result. It did not measure wrinkles. It did not test the 10 mg Spermidine 3HCL Goodwell formula.</p><p><a href=\"https://pubmed.ncbi.nlm.nih.gov/42169618/\" target=\"_blank\" rel=\"noopener\">Spermidine Mitigates Immune Cell Senescence and Boosts Vaccine Responses in Healthy Older Adults—A Pilot Study</a></p>"
+            "content": "<p>Experts ran a 13-week test on 40 adults over 65. They gave them 6 mg of spermidine a day from a wheat germ extract. They looked at 38 people. At two weeks, the group showed more cell recycling action in B cells. This small trial was not built to prove a final whole body result. It did not test the 10 mg Spermidine 3HCL Goodwell formula.</p><p><a href=\"https://pubmed.ncbi.nlm.nih.gov/42169618/\" target=\"_blank\" rel=\"noopener\">Spermidine Mitigates Immune Cell Senescence and Boosts Vaccine Responses in Healthy Older Adults—A Pilot Study</a></p>"
           }
         }
       },
@@ -1497,7 +1497,7 @@
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "title": "Common Questions",
+        "title": "Frequently Asked Questions",
         "title_highlight_1": "solid-color",
         "title_highlight_1_gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
         "title_highlight_1_bg-color": "#F9EFFF",
@@ -1590,60 +1590,60 @@
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "Why choose this exact formula over a large blend?",
+            "heading": "How much do I take each day?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Goodwell gives you a clear, declared 10 mg dose of Spermidine 3HCL in every two-capsule serving. You know exactly what you put into your body each morning without guessing.</p>"
+            "row_content": "<p>You take two capsules a day. That gives you 10 mg of Spermidine 3HCL. Each bottle holds 60 capsules for a full 30 days.</p>"
           }
         },
         "faq_2": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "Is there a human study proving this improves skin?",
+            "heading": "Did the study look at skin changes?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>A pilot trial gave adults over 65 a daily spermidine dose. Researchers saw more recycling action in immune B cells, but they did not test our exact formula or measure skin changes.</p>"
+            "row_content": "<p>No. The pilot test looked at recycling in immune B cells. It did not measure wrinkles, skin changes, or whole body results.</p>"
           }
         },
         "faq_3": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "What exactly is in the capsule?",
+            "heading": "Do I need to take this with food?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>You get exactly 10 mg of Spermidine 3HCL in each two-capsule serving. The only other ingredients are an HPMC capsule and rice flour. We keep the label completely transparent.</p>"
+            "row_content": "<p>You can take the two capsules with a meal or on an empty stomach. Choose the time that works best for you.</p>"
           }
         },
         "faq_4": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "How does this fit with my current skin care routine?",
+            "heading": "What is inside the capsule?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Keep using your normal sunscreen and face creams. You just take two capsules a day with or without food. It is an easy step to add to your morning.</p>"
+            "row_content": "<p>A serving of two capsules delivers 10 mg of Spermidine 3HCL. The only other ingredients are rice flour and the HPMC capsule shell.</p>"
           }
         },
         "faq_5": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "Are there any hidden subscriptions?",
+            "heading": "Is this the exact study formula?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>No. All options you see are simple one-time buys. You only pay for the exact bottles you choose today. We will never sign you up for an automatic refill or bill you again without asking.</p>"
+            "row_content": "<p>No. The pilot test used 6 mg a day from a wheat germ extract. Goodwell uses 10 mg of Spermidine 3HCL instead.</p>"
           }
         },
         "faq_6": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "Does this contain wheat or gluten?",
+            "heading": "Can I take this with my medicine?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>The ingredient list is just Spermidine 3HCL, an HPMC capsule, and rice flour. We cannot guarantee the factory is completely free of wheat or gluten. Please ask your doctor first if you have severe allergies.</p>"
+            "row_content": "<p>Always talk to your doctor before you start a new pill. This is very important if you take prescription medicine or have health issues.</p>"
           }
         }
       },
@@ -1688,7 +1688,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "Make a clear choice today.",
+            "title": "Pick your bundle today.",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -1777,7 +1777,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>Add a researched ingredient to your daily habits. Choose the supply that fits your routine.</p>",
+            "text": "<p>Select a one, three, or five-bottle bundle to start your daily supply.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1853,7 +1853,7 @@
           "type": "button",
           "settings": {
             "visibility": "always-display",
-            "button_label": "Choose Your Supply",
+            "button_label": "Choose a Bundle",
             "button_style_secondary": false,
             "large_font_size": false,
             "enable_custom_color": false,

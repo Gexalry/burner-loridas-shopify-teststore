@@ -486,7 +486,7 @@
                 "swatches_custom_colors_list": "#000000, #FFFFFF",
                 "full_width_dropdowns": false,
                 "breaks_style": "normal",
-                "breaks_headline": "Select Your One-Time Supply",
+                "breaks_headline": "Choose Your Supply",
                 "breaks_prices_layout": "price-first-horizontal",
                 "breaks_display_selected_indicator": true,
                 "breaks_border_radius": 8,
@@ -541,7 +541,7 @@
               "type": "text",
               "settings": {
                 "visibility": "always-display",
-                "text": "<p>Pay once. We do not use hidden auto-billing.</p>",
+                "text": "<p>One-time purchase.</p>",
                 "alignment": "left",
                 "mobile_alignment": "mobile-left",
                 "text_size": 13,
@@ -627,13 +627,13 @@
                 "mobile_text_size": 12,
                 "icon_1": "fact_check",
                 "icon_1_fill": false,
-                "heading_1": "Clear Formula",
+                "heading_1": "Daily Dose",
                 "icon_2": "science",
                 "icon_2_fill": false,
-                "heading_2": "Easy Routine",
+                "heading_2": "Bottle Size",
                 "icon_3": "lock",
                 "icon_3_fill": false,
-                "heading_3": "Secure Checkout",
+                "heading_3": "One-Time Purchase",
                 "margin_top": 15,
                 "margin_bottom": 12
               }
@@ -692,7 +692,7 @@
                 "open_state_content_text": "#121212",
                 "margin_top": 0,
                 "margin_bottom": 0,
-                "content": "<p>10mg Spermidine 3HCL</p><p>2 Capsules</p><p>60 Capsules Per Bottle</p><p>30 Servings Per Bottle</p><p>HPMC Capsule, Rice Flour</p><p>Take two capsules daily; with or without food.</p><p>10mg of Spermidine 3HCL. We skip the hidden blends.</p><p>Take two capsules every single day.</p><p>Buy once. We never force a subscription.</p>"
+                "content": "<p>10mg Spermidine 3HCL</p><p>2 Capsules</p><p>60 Capsules Per Bottle</p><p>30 Servings Per Bottle</p><p>HPMC Capsule, Rice Flour</p><p>Take two capsules daily; with or without food.</p><p>10mg Spermidine 3HCL</p><p>60 Capsules</p><p>One-Time Purchase</p>"
               }
             },
             "routine": {
@@ -700,7 +700,7 @@
               "settings": {
                 "visibility": "always-display",
                 "open": false,
-                "heading": "A Simple Daily Habit",
+                "heading": "Take two capsules daily.",
                 "heading_size": "medium",
                 "icon": "event_repeat",
                 "filled_icon": false,
@@ -738,7 +738,7 @@
                 "open_state_content_text": "#121212",
                 "margin_top": 0,
                 "margin_bottom": 0,
-                "content": "<p>Take two capsules every day with or without food. It takes just seconds to add this clear formula to your morning.</p>"
+                "content": "<p>Swallow two capsules daily with water. Each bottle holds 60 capsules for a 30-day supply.</p>"
               }
             },
             "sticky": {
@@ -746,7 +746,7 @@
               "settings": {
                 "function": "scroll_#variant-selects-id",
                 "display_when": "after_scroll",
-                "button_label": "Get Started",
+                "button_label": "View Options",
                 "enable_custom_btn_color": false,
                 "custom_btn_color": "#dd1d1d",
                 "color_scheme": "background-1",
@@ -842,7 +842,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "Keep the Anticipation Alive",
+            "title": "A quiet moment after the door shuts.",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -931,7 +931,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>You want to catch that look in his eye. Taking a clear, daily formula is a practical step you can take right now.</p>",
+            "text": "<p>The evening slows down when you finally lock hands on the couch. The heat is still there, just waiting for the right look.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1060,7 +1060,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "The Cell Stress Connection",
+            "title": "A compound found in the fluid.",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -1149,7 +1149,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>Spermidine is a compound found naturally in human semen. Researchers are testing how it connects to cell stress and fluid quality.</p>",
+            "text": "<p>Spermidine naturally exists in human semen. Scientists gave spermidine to heat-stressed rams.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1277,7 +1277,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "The Volume Test",
+            "title": "Rams showed higher volume on day 35.",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -1366,7 +1366,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>Animal tests looked at heat-stressed rams. The rams given spermidine in their food had higher fluid volume on day 35.</p>",
+            "text": "<p>The heat-stressed rams ate spermidine for two months. On day 35, the treated animals produced a higher fluid volume than the control group.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1443,7 +1443,7 @@
           "settings": {
             "visibility": "always-display",
             "open": false,
-            "heading": "Read the Research",
+            "heading": "Read the study facts",
             "heading_size": "medium",
             "icon": "biotech",
             "filled_icon": false,
@@ -1481,7 +1481,7 @@
             "open_state_content_text": "#121212",
             "margin_top": 0,
             "margin_bottom": 0,
-            "content": "<p>New animal tests look at this idea. Scientists split 24 heat-stressed rams into three groups. The spermidine group got 5 mg/kg in their food for 60 days. This group had higher fluid volume on day 35. They also had better motility on day 42. This is an early finding in animals. It happened under heat stress. It does not prove that healthy men will see a volume gain.</p><p><a href=\"https://pubmed.ncbi.nlm.nih.gov/42541972/\" target=\"_blank\" rel=\"noopener\">Spermidine and melatonin ameliorate heat stress-induced decline in sheep semen quality</a></p>"
+            "content": "<p>Scientists split 24 heat-stressed Dorper rams into three groups. The spermidine group got 5 mg/kg in their food for 60 days. This group had higher fluid volume on day 35. They also had better sperm motility on day 42. This is an early finding in animals. It happened under heat stress. It does not prove that healthy men will see a volume gain or a stronger finish. The animal dose does not convert directly to human supplements.</p><p><a href=\"https://pubmed.ncbi.nlm.nih.gov/42541972/\" target=\"_blank\" rel=\"noopener\">Spermidine and melatonin ameliorate heat stress-induced decline in sheep semen quality</a></p>"
           }
         }
       },
@@ -1497,7 +1497,7 @@
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "title": "Frequently Asked Questions",
+        "title": "Common Questions",
         "title_highlight_1": "solid-color",
         "title_highlight_1_gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
         "title_highlight_1_bg-color": "#F9EFFF",
@@ -1590,60 +1590,60 @@
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "Will this definitely give me bigger loads?",
+            "heading": "What did the animal study find?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>No human trial proves this pill grows semen volume. Animal tests show it can change fluid volume, but human results are not guaranteed. We provide a clear formula so you know exactly what you take.</p>"
+            "row_content": "<p>Researchers tested heat-stressed rams. The animals that ate spermidine had higher semen volume on day 35. They also had better motility on day 42. This does not prove the capsules increase human semen volume.</p>"
           }
         },
         "faq_2": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "How is this different from taking zinc or lecithin?",
+            "heading": "What exactly is in the capsule?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Zinc is a common mineral, and lecithin is a fat. Spermidine is a compound found naturally in human semen. Scientists are studying its link to cell stress and fluid quality.</p>"
+            "row_content": "<p>You get 10mg Spermidine 3HCL in every two-capsule serving. We pack it into an HPMC capsule shell with rice flour. There are no other ingredients.</p>"
           }
         },
         "faq_3": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "What exactly is in the capsule?",
+            "heading": "How do I take this supplement?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Two capsules give you exactly 10mg of Spermidine 3HCL. The only other ingredients are an HPMC capsule and rice flour. We never use hidden blends or proprietary fillers.</p>"
+            "row_content": "<p>Swallow two capsules every day with a glass of water. You can take them in the morning or at night, with or without a meal.</p>"
           }
         },
         "faq_4": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "Is this a recurring subscription?",
+            "heading": "How long does a bottle last?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>No, it is not. Every choice you see on this page is a simple one-time purchase. You buy it once, and we never force a subscription or bill you later.</p>"
+            "row_content": "<p>Every bottle holds 60 capsules. Since you take two a day, one bottle is an exact 30-day supply. Buying three or five bottles at once saves you money.</p>"
           }
         },
         "faq_5": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "Is Spermidine safe to take every day?",
+            "heading": "Can I take this with my other daily medicines?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Always ask your doctor before you start this or any new supplement. This matters most if you take prescription medicine or have existing health issues.</p>"
+            "row_content": "<p>You should always ask your doctor before you start a new supplement. This is very important if you take prescription drugs or have a health condition.</p>"
           }
         },
         "faq_6": {
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "How long should I take it?",
+            "heading": "Will you charge my card every month?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>There is no proven timeline for human volume results. The label says to take two capsules every day. You can easily take them with or without food.</p>"
+            "row_content": "<p>No. Every order is a simple one-time purchase. We do not use automatic refills or hidden subscriptions. You only pay for the bottles you choose today.</p>"
           }
         }
       },
@@ -1688,7 +1688,7 @@
           "type": "heading",
           "settings": {
             "visibility": "always-display",
-            "title": "Choose a Clear Formula",
+            "title": "Grab your supply today.",
             "heading_size": "custom",
             "custom_desktop_size": 33,
             "custom_mobile_size": 28,
@@ -1777,7 +1777,7 @@
           "type": "text",
           "settings": {
             "visibility": "always-display",
-            "text": "<p>Stop guessing with hidden blends. Get exactly 10mg of Spermidine 3HCL in your two capsules today.</p>",
+            "text": "<p>Pick a single bottle or choose a multi-month bundle to keep your cabinet stocked.</p>",
             "alignment": "left",
             "mobile_alignment": "mobile-left",
             "text_size": 16,
@@ -1853,7 +1853,7 @@
           "type": "button",
           "settings": {
             "visibility": "always-display",
-            "button_label": "Choose Your Supply",
+            "button_label": "Pick Your Bottles",
             "button_style_secondary": false,
             "large_font_size": false,
             "enable_custom_color": false,
